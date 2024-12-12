@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+    <!-- About Information -->
+
+    <packageId>Rick.FCP.UnitedStates</packageId>
+    <author>Rick</author>
+    <name>FCP - United States</name>
+    <description>The Fallout Collaboration Project Presents: United States, a Faction and Armory Mod.</description>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+    <modDependencies>
+        <li>
+            <packageId>Rick.FCP.Core.Tools</packageId>
+            <displayName>FCP - Tools</displayName>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>Rick.FCP.Core.Tools</li>
+    </loadAfter>
+
+</ModMetaData>
