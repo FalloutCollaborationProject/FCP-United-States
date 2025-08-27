@@ -7,9 +7,584 @@
 
     <!--___ Pre-War United States of America ___-->
 
-    <!--__ US Army __-->
+	<!--__ Adults __-->
 
-    <!--_ Infantry _-->
+    <!--_ US Citizens _-->
+
+    <!-- Vault-Tec Accountant -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Citizen_Vault_Tec_Accountant</defName>
+        <identifier>FCP_Backstory_USA_Citizen_Vault_Tec_Accountant</identifier>
+        <slot>Adulthood</slot>
+        <title>Vault-Tec Accountant</title>
+        <titleShort>Accountant</titleShort>
+        <description>Kept the books for Vault-Tec, tracking every cap and credit. Knew the value of a dollar and the secrets behind the company’s mysterious projects.</description>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- RobCo Technician -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Citizen_RobCo_Technician</defName>
+        <identifier>FCP_Backstory_USA_Citizen_RobCo_Technician</identifier>
+        <slot>Adulthood</slot>
+        <title>RobCo Technician</title>
+        <titleShort>Technician</titleShort>
+        <description>Worked the night shift at a RobCo factory, repairing Protectrons and Mister Handys. Knows their way around a circuit board and a coffee machine.</description>
+        <skillGains>
+            <Construction>2</Construction>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Nuka-Cola Salesperson -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Citizen_Nuka_Cola_Salesperson</defName>
+        <identifier>FCP_Backstory_USA_Citizen_Nuka_Cola_Salesperson</identifier>
+        <slot>Adulthood</slot>
+        <title>Nuka-Cola Salesperson</title>
+        <titleShort>Nuka-Cola Rep</titleShort>
+        <description>Sold the world’s favorite soft drink door-to-door, always with a smile and a catchy jingle. Knows every flavor and every secret recipe rumor.</description>
+        <skillGains>
+            <Social>3</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Atomic Age Homemaker -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Citizen_Homemaker</defName>
+        <identifier>FCP_Backstory_USA_Citizen_Homemaker</identifier>
+        <slot>Adulthood</slot>
+        <title>Atomic Age Homemaker</title>
+        <titleShort>Homemaker</titleShort>
+        <description>Kept the house spotless and the family fed, with help from a trusty Mister Handy. Dreamed of winning the annual Nuka-Cola sweepstakes and vacationing in a Vault.</description>
+        <skillGains>
+            <Cooking>3</Cooking>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Vault Lottery Hopeful -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Citizen_Vault_Dweller_Wannabe</defName>
+        <identifier>FCP_Backstory_USA_Citizen_Vault_Dweller_Wannabe</identifier>
+        <slot>Adulthood</slot>
+        <title>Vault Lottery Hopeful</title>
+        <titleShort>Lottery Hopeful</titleShort>
+        <description>Spent years entering the Vault-Tec lottery, hoping for a spot in a shiny new Vault. Read every pamphlet and practiced “duck and cover” drills religiously.</description>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Social>1</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Red Menace Comic Artist -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Citizen_RedMenace_Artist</defName>
+        <identifier>FCP_Backstory_USA_Citizen_RedMenace_Artist</identifier>
+        <slot>Adulthood</slot>
+        <title>Red Menace Comic Artist</title>
+        <titleShort>Comic Artist</titleShort>
+        <description>Drew panels for the Red Menace comic series, dreaming up heroes to fight the Communist threat. Imaginative, patriotic, and always ready with a witty one-liner.</description>
+        <skillGains>
+            <Artistic>4</Artistic>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Police Officer -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Citizen_Police</defName>
+        <identifier>FCP_Backstory_USA_Citizen_Police</identifier>
+        <slot>Adulthood</slot>
+        <title>Police Officer</title>
+        <titleShort>Police</titleShort>
+        <description>Patrolled the streets in a classic cruiser, keeping the peace and watching for Communist spies. Trained in investigation, negotiation, and the art of the baton.</description>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Elementary School Teacher -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Citizen_Teacher</defName>
+        <identifier>FCP_Backstory_USA_Citizen_Teacher</identifier>
+        <slot>Adulthood</slot>
+        <title>Elementary School Teacher</title>
+        <titleShort>Teacher</titleShort>
+        <description>Taught children about the wonders of science and the dangers of Communism. Led “duck and cover” drills and handed out Sugar Bombs as rewards.</description>
+        <skillGains>
+            <Intellectual>3</Intellectual>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Doctor -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Citizen_Doctor</defName>
+        <identifier>FCP_Backstory_USA_Citizen_Doctor</identifier>
+        <slot>Adulthood</slot>
+        <title>Atomic Age Doctor</title>
+        <titleShort>Doctor</titleShort>
+        <description>Practiced medicine in a gleaming prewar hospital, using the latest in Rad-X and stimpaks. Dedicated to keeping families healthy and ready for the future.</description>
+        <skillGains>
+            <Medicine>5</Medicine>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- College Student -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Citizen_College_Student</defName>
+        <identifier>FCP_Backstory_USA_Citizen_College_Student</identifier>
+        <slot>Adulthood</slot>
+        <title>College Student</title>
+        <titleShort>Student</titleShort>
+        <description>Studied engineering and nuclear physics at a prestigious university, hoping to land a job at Vault-Tec or RobCo. Quick to learn, but a little naïve about the world outside the classroom.</description>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Giddyup Buttercup Factory Worker -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Citizen_Giddy_up_Buttercup_Worker</defName>
+        <identifier>FCP_Backstory_USA_Citizen_Giddy_up_Buttercup_Worker</identifier>
+        <slot>Adulthood</slot>
+        <title>Giddyup Buttercup Factory Worker</title>
+        <titleShort>Factory Worker</titleShort>
+        <description>Assembled toy horses at the Giddyup Buttercup factory, dreaming of a brighter future for America’s children. Knows the ins and outs of mass production and the smell of fresh plastic.</description>
+        <skillGains>
+            <Construction>2</Construction>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Silver Shroud Radio Host -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Citizen_Silver_Shroud_Radio_Host</defName>
+        <identifier>FCP_Backstory_USA_Citizen_Silver_Shroud_Radio_Host</identifier>
+        <slot>Adulthood</slot>
+        <title>Silver Shroud Radio Host</title>
+        <titleShort>Radio Host</titleShort>
+        <description>Hosted the Silver Shroud radio show, thrilling listeners with tales of justice and intrigue. Charismatic and quick-witted, always ready with a dramatic monologue.</description>
+        <skillGains>
+            <Social>3</Social>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Red Rocket Attendant -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Citizen_Red_Rocket_Attendant</defName>
+        <identifier>FCP_Backstory_USA_Citizen_Red_Rocket_Attendant</identifier>
+        <slot>Adulthood</slot>
+        <title>Red Rocket Attendant</title>
+        <titleShort>Red Rocket</titleShort>
+        <description>Pumped gas and fixed cars at the local Red Rocket station. Handy with a wrench and always ready to chat about the latest fusion-powered vehicles.</description>
+        <skillGains>
+            <Construction>2</Construction>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Vault-Tec Public Relations Specialist -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Citizen_Vault_Tec_PR_Specialist</defName>
+        <identifier>FCP_Backstory_USA_Citizen_Vault_Tec_PR_Specialist</identifier>
+        <slot>Adulthood</slot>
+        <title>Vault-Tec PR Specialist</title>
+        <titleShort>PR Specialist</titleShort>
+        <description>Crafted cheerful ads and reassuring press releases for Vault-Tec, convincing the public that everything was under control. Master of spin and optimism in uncertain times.</description>
+        <skillGains>
+            <Social>3</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Suburban Gardener -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Citizen_Suburban_Gardener</defName>
+        <identifier>FCP_Backstory_USA_Citizen_Suburban_Gardener</identifier>
+        <slot>Adulthood</slot>
+        <title>Suburban Gardener</title>
+        <titleShort>Gardener</titleShort>
+        <description>Maintained a pristine lawn and vegetable garden in the suburbs, winning local awards for best tomatoes. Knows how to coax life from the soil—even if it’s a little irradiated.</description>
+        <skillGains>
+            <Plants>3</Plants>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Red Rocket Grease Monkey -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Citizen_Red_Rocket_Grease_Monkey</defName>
+        <identifier>FCP_Backstory_USA_Citizen_Red_Rocket_Grease_Monkey</identifier>
+        <slot>Adulthood</slot>
+        <title>Red Rocket Grease Monkey</title>
+        <titleShort>Grease Monkey</titleShort>
+        <description>Spent days tuning up fusion engines and waxing chrome at Red Rocket. Knows every bolt and gasket in a Chryslus Highwayman, and can swap a fusion core blindfolded.</description>
+        <skillGains>
+            <Construction>3</Construction>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Hubris Comics Writer -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Citizen_Hubris_Comics_Writer</defName>
+        <identifier>FCP_Backstory_USA_Citizen_Hubris_Comics_Writer</identifier>
+        <slot>Adulthood</slot>
+        <title>Hubris Comics Writer</title>
+        <titleShort>Comics Writer</titleShort>
+        <description>Penned wild adventures for Grognak the Barbarian and the Unstoppables. Imagination fueled by Sugar Bombs and late-night radio serials.</description>
+        <skillGains>
+            <Artistic>3</Artistic>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Poseidon Energy Technician -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Citizen_Poseidon_Energy_Tech</defName>
+        <identifier>FCP_Backstory_USA_Citizen_Poseidon_Energy_Tech</identifier>
+        <slot>Adulthood</slot>
+        <title>Poseidon Energy Technician</title>
+        <titleShort>Energy Tech</titleShort>
+        <description>Maintained reactors and power grids for Poseidon Energy. Knows how to handle a wrench, a voltmeter, and a surprise radroach infestation.</description>
+        <skillGains>
+            <Construction>2</Construction>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Super Duper Mart Clerk -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Citizen_Super_Duper_Mart_Clerk</defName>
+        <identifier>FCP_Backstory_USA_Citizen_Super_Duper_Mart_Clerk</identifier>
+        <slot>Adulthood</slot>
+        <title>Super Duper Mart Clerk</title>
+        <titleShort>Mart Clerk</titleShort>
+        <description>Rang up groceries and restocked shelves at Super Duper Mart. Knows the price of every snack cake and the secret to surviving a rush of hungry shoppers.</description>
+        <skillGains>
+            <Social>2</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Radio News Anchor -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Citizen_Radio_News_Anchor</defName>
+        <identifier>FCP_Backstory_USA_Citizen_Radio_News_Anchor</identifier>
+        <slot>Adulthood</slot>
+        <title>Radio News Anchor</title>
+        <titleShort>News Anchor</titleShort>
+        <description>Delivered the latest headlines and government bulletins over the airwaves. Calm under pressure, with a voice trusted by millions—at least until the sirens sounded.</description>
+        <skillGains>
+            <Social>3</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Chryslus Motors Assembly Line Worker -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Citizen_Chryslus_Assembly_Worker</defName>
+        <identifier>FCP_Backstory_USA_Citizen_Chryslus_Assembly_Worker</identifier>
+        <slot>Adulthood</slot>
+        <title>Chryslus Motors Assembly Worker</title>
+        <titleShort>Assembly Worker</titleShort>
+        <description>Built fusion-powered cars on the Chryslus assembly line, dreaming of driving a cherry-red Highwayman. Knows the hum of machinery and the pride of American engineering.</description>
+        <skillGains>
+            <Construction>3</Construction>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Red Menace Voice Actor -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Citizen_Red_Menace_Voice_Actor</defName>
+        <identifier>FCP_Backstory_USA_Citizen_Red_Menace_Voice_Actor</identifier>
+        <slot>Adulthood</slot>
+        <title>Red Menace Cartoon Voice Actor</title>
+        <titleShort>Voice Actor</titleShort>
+        <description>Brought heroes and villains to life on the Red Menace cartoon show. Skilled in dramatic delivery, impersonations, and keeping kids glued to their TV sets.</description>
+        <skillGains>
+            <Artistic>2</Artistic>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Red Menace Propaganda Writer -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Citizen_Red_Menace_Propaganda_Writer</defName>
+        <identifier>FCP_Backstory_USA_Citizen_Red_Menace_Propaganda_Writer</identifier>
+        <slot>Adulthood</slot>
+        <title>Red Menace Propaganda Writer</title>
+        <titleShort>Propaganda Writer</titleShort>
+        <description>Wrote stirring speeches and pamphlets warning of the Communist threat. Master of catchy slogans and dramatic flair, always ready to rally the public.</description>
+        <skillGains>
+            <Artistic>2</Artistic>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Nuka-World Entertainer -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Citizen_Nuka_World_Entertainer</defName>
+        <identifier>FCP_Backstory_USA_Citizen_NukaWorld_Entertainer</identifier>
+        <slot>Adulthood</slot>
+        <title>Nuka-World Entertainer</title>
+        <titleShort>Entertainer</titleShort>
+        <description>Performed at Nuka-World, dazzling crowds with magic tricks and song. Knows how to keep an audience smiling—even when the power flickers.</description>
+        <skillGains>
+            <Artistic>3</Artistic>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!-- Suburban Scout Leader -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Citizen_Suburban_Scout_Leader</defName>
+        <identifier>FCP_Backstory_USA_Citizen_Suburban_Scout_Leader</identifier>
+        <slot>Adulthood</slot>
+        <title>Suburban Scout Leader</title>
+        <titleShort>Scout Leader</titleShort>
+        <description>Led neighborhood scout troops in camping, first aid, and atomic safety drills. Knows how to tie knots, pitch tents, and keep kids calm during air raid sirens.</description>
+        <skillGains>
+            <Plants>2</Plants>
+            <Social>2</Social>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Citizen</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+    </BackstoryDef>
+
+    <!--_ US Army _-->
 
     <!-- U.S. Army Infantry -->
 
@@ -103,8 +678,6 @@
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
     </BackstoryDef>
-
-    <!--_ Support _-->
 
     <!-- U.S. Army Infantry Radio Operator -->
 
@@ -245,8 +818,6 @@
         <possessions />
     </BackstoryDef>
 
-    <!--_ Aviation _-->
-
     <!-- U.S. Army Vertibird Pilot -->
 
     <BackstoryDef>
@@ -338,8 +909,6 @@
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
     </BackstoryDef>
-
-    <!--_ Officers _-->
 
     <!-- U.S. Army Lieutenant -->
 
@@ -458,8 +1027,6 @@
         <possessions />
     </BackstoryDef>
 
-    <!--_ Deployed US Army _-->
-
     <!-- U.S. Army Alaskan Winter Warfare Specialist -->
 
     <BackstoryDef>
@@ -507,7 +1074,7 @@
         <possessions />
     </BackstoryDef>
 
-    <!--__ US Marine Corps __-->
+    <!--_ US Marine Corps _-->
 
     <!-- U.S.M.C. Marine Rifleman -->
 
@@ -601,6 +1168,359 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
+    </BackstoryDef>
+
+	<!--__ Children __-->
+
+    <!-- Suburban Scout -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Child_Suburban_Scout</defName>
+        <identifier>FCP_Backstory_USA_Child_Suburban_Scout</identifier>
+        <slot>Childhood</slot>
+        <title>Suburban Scout</title>
+        <titleShort>Scout</titleShort>
+        <description>Spent weekends camping, earning merit badges, and learning atomic safety drills. Knows how to tie knots and build a campfire, even with a Mister Handy’s help.</description>
+        <skillGains>
+            <Plants>2</Plants>
+            <Social>1</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Nuka-Cola Junior Taster -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Child_Nuka_Cola_Junior_Taster</defName>
+        <identifier>FCP_Backstory_USA_Child_Nuka_Cola_Junior_Taster</identifier>
+        <slot>Childhood</slot>
+        <title>Nuka-Cola Junior Taster</title>
+        <titleShort>Junior Taster</titleShort>
+        <description>Dreamed of winning the Nuka-Cola sweepstakes and sampled every flavor at the local soda shop. Developed a keen sense for taste and a love for catchy jingles.</description>
+        <skillGains>
+            <Social>2</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Red Menace Fan -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Child_Red_Menace_Fan</defName>
+        <identifier>FCP_Backstory_USA_Child_Red_Menace_Fan</identifier>
+        <slot>Childhood</slot>
+        <title>Red Menace Fan</title>
+        <titleShort>Comic Fan</titleShort>
+        <description>Collected every issue of Red Menace and practiced heroic poses in the mirror. Imaginative and patriotic, always ready to spot a “Commie” in the neighborhood.</description>
+        <skillGains>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Sugar Bombs Enthusiast -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Child_Sugar_Bombs_Enthusiast</defName>
+        <identifier>FCP_Backstory_USA_Child_Sugar_Bombs_Enthusiast</identifier>
+        <slot>Childhood</slot>
+        <title>Sugar Bombs Enthusiast</title>
+        <titleShort>Sugar Bombs Kid</titleShort>
+        <description>Started every morning with a bowl of Sugar Bombs and a Silver Shroud radio show. Energetic and creative, always ready for adventure.</description>
+        <skillGains>
+            <Social>1</Social>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- RobCo Junior Tinkerer -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Child_RobCo_Junior_Tinkerer</defName>
+        <identifier>FCP_Backstory_USA_Child_RobCo_Junior_Tinkerer</identifier>
+        <slot>Childhood</slot>
+        <title>RobCo Junior Tinkerer</title>
+        <titleShort>Tinkerer</titleShort>
+        <description>Spent afternoons taking apart toys and trying to fix the family’s Mister Handy. Curious and inventive, with a knack for gadgets and gizmos.</description>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Construction>1</Construction>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Vault-Tec Lottery Kid -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Child_Vault_Tec_Lottery_Kid</defName>
+        <identifier>FCP_Backstory_USA_Child_Vault_Tec_Lottery_Kid</identifier>
+        <slot>Childhood</slot>
+        <title>Vault-Tec Lottery Kid</title>
+        <titleShort>Lottery Kid</titleShort>
+        <description>Practiced “duck and cover” drills and dreamed of living in a Vault. Read every Vault-Tec comic and believed every ad.</description>
+        <skillGains>
+            <Intellectual>1</Intellectual>
+            <Social>1</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Suburban Gardener -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Child_Suburban_Gardener</defName>
+        <identifier>FCP_Backstory_USA_Child_Suburban_Gardener</identifier>
+        <slot>Childhood</slot>
+        <title>Suburban Gardener</title>
+        <titleShort>Gardener</titleShort>
+        <description>Helped parents tend the backyard garden, learning the secrets of tomatoes and sunflowers. Developed patience and a green thumb.</description>
+        <skillGains>
+            <Plants>2</Plants>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Silver Shroud Fan -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Child_Silver_Shroud_Fan</defName>
+        <identifier>FCP_Backstory_USA_Child_Silver_Shroud_Fan</identifier>
+        <slot>Childhood</slot>
+        <title>Silver Shroud Fan</title>
+        <titleShort>Shroud Fan</titleShort>
+        <description>Listened to every Silver Shroud radio episode and reenacted heroic battles with friends. Inspired by justice and always ready to help others.</description>
+        <skillGains>
+            <Social>2</Social>
+            <Artistic>1</Artistic>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Super Duper Mart Helper -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Child_Super_Duper_Mart_Helper</defName>
+        <identifier>FCP_Backstory_USA_Child_Super_Duper_Mart_Helper</identifier>
+        <slot>Childhood</slot>
+        <title>Super Duper Mart Helper</title>
+        <titleShort>Mart Helper</titleShort>
+        <description>Spent weekends helping out at the local Super Duper Mart, stocking shelves and greeting customers. Learned the value of hard work and a friendly smile.</description>
+        <skillGains>
+            <Social>2</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Prewar Schoolkid -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Child_Prewar_Schoolkid</defName>
+        <identifier>FCP_Backstory_USA_Child_Prewar_Schoolkid</identifier>
+        <slot>Childhood</slot>
+        <title>Prewar Schoolkid</title>
+        <titleShort>Schoolkid</titleShort>
+        <description>Attended a bustling prewar school, learning about science, history, and atomic safety. Quick to make friends and always eager to learn something new.</description>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+            <Social>1</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Giddyup Buttercup Collector -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Child_Giddyup_Buttercup_Collector</defName>
+        <identifier>FCP_Backstory_USA_Child_Giddyup_Buttercup_Collector</identifier>
+        <slot>Childhood</slot>
+        <title>Giddyup Buttercup Collector</title>
+        <titleShort>Buttercup Kid</titleShort>
+        <description>Collected every model of Giddyup Buttercup, arranging them in elaborate stables and racing them with friends. Developed a love for toys and a knack for creative play.</description>
+        <skillGains>
+            <Artistic>2</Artistic>
+            <Social>1</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Nuka-World Junior Explorer -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Child_NukaWorld_Junior_Explorer</defName>
+        <identifier>FCP_Backstory_USA_Child_NukaWorld_Junior_Explorer</identifier>
+        <slot>Childhood</slot>
+        <title>Nuka-World Junior Explorer</title>
+        <titleShort>Explorer</titleShort>
+        <description>Visited Nuka-World every summer, collecting maps and badges from every zone. Learned to navigate crowds, solve puzzles, and always find the nearest soda fountain.</description>
+        <skillGains>
+            <Intellectual>1</Intellectual>
+            <Social>2</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Hubris Comics Superfan -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Child_Hubris_Comics_Superfan</defName>
+        <identifier>FCP_Backstory_USA_Child_Hubris_Comics_Superfan</identifier>
+        <slot>Childhood</slot>
+        <title>Hubris Comics Superfan</title>
+        <titleShort>Comics Superfan</titleShort>
+        <description>Devoured every issue of Grognak the Barbarian and The Unstoppables, drawing their own comics and trading stories with friends. Imaginative and always ready for adventure.</description>
+        <skillGains>
+            <Artistic>2</Artistic>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Red Rocket Junior Mechanic -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Child_Red_Rocket_Junior_Mechanic</defName>
+        <identifier>FCP_Backstory_USA_Child_Red_Rocket_Junior_Mechanic</identifier>
+        <slot>Childhood</slot>
+        <title>Red Rocket Junior Mechanic</title>
+        <titleShort>Junior Mechanic</titleShort>
+        <description>Spent afternoons in the garage, helping fix bikes and toy cars. Learned the basics of tools, teamwork, and the satisfaction of a job well done.</description>
+        <skillGains>
+            <Construction>2</Construction>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Poseidon Energy Science Fair Kid -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Child_Poseidon_Energy_Science_Fair_Kid</defName>
+        <identifier>FCP_Backstory_USA_Child_Poseidon_Energy_Science_Fair_Kid</identifier>
+        <slot>Childhood</slot>
+        <title>Science Fair Kid</title>
+        <titleShort>Science Kid</titleShort>
+        <description>Entered every science fair with homemade reactors and solar panels, inspired by Poseidon Energy ads. Curious and inventive, always asking “what if?”</description>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Red Menace Cartoon Fan -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Child_Red_Menace_Cartoon_Fan</defName>
+        <identifier>FCP_Backstory_USA_Child_Red_Menace_Cartoon_Fan</identifier>
+        <slot>Childhood</slot>
+        <title>Red Menace Cartoon Fan</title>
+        <titleShort>Cartoon Fan</titleShort>
+        <description>Watched every episode of the Red Menace cartoon, memorizing catchphrases and reenacting battles with friends. Developed a flair for drama and a love of heroes.</description>
+        <skillGains>
+            <Artistic>2</Artistic>
+            <Social>1</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Sugar Bombs Prize Winner -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Child_Sugar_Bombs_Prize_Winner</defName>
+        <identifier>FCP_Backstory_USA_Child_Sugar_Bombs_Prize_Winner</identifier>
+        <slot>Childhood</slot>
+        <title>Sugar Bombs Prize Winner</title>
+        <titleShort>Prize Winner</titleShort>
+        <description>Won a Sugar Bombs contest and received a year’s supply of cereal. Became the envy of the neighborhood and learned the art of sharing (and trading) snacks.</description>
+        <skillGains>
+            <Social>2</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Vault-Tec Science Club Member -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Child_Vault_Tec_Science_Club</defName>
+        <identifier>FCP_Backstory_USA_Child_Vault_Tec_Science_Club</identifier>
+        <slot>Childhood</slot>
+        <title>Vault-Tec Science Club Member</title>
+        <titleShort>Science Club</titleShort>
+        <description>Joined the Vault-Tec Science Club, building model Vaults and learning about atomic energy. Curious and inventive, always eager to experiment.</description>
+        <skillGains>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Nuka-World Arcade Champion -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Child_Nuka_World_Arcade_Champion</defName>
+        <identifier>FCP_Backstory_USA_Child_Nuka_World_Arcade_Champion</identifier>
+        <slot>Childhood</slot>
+        <title>Nuka-World Arcade Champion</title>
+        <titleShort>Arcade Champ</titleShort>
+        <description>Spent hours at the Nuka-World arcade, mastering every game and collecting tickets for prizes. Developed quick reflexes and a competitive spirit.</description>
+        <skillGains>
+            <Intellectual>1</Intellectual>
+            <Social>1</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Child</li>
+        </spawnCategories>
+    </BackstoryDef>
+
+    <!-- Hubris Comics Drawing Contestant -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Child_Hubris_Comics_Drawing_Contestant</defName>
+        <identifier>FCP_Backstory_USA_Child_Hubris_Comics_Drawing_Contestant</identifier>
+        <slot>Childhood</slot>
+        <title>Hubris Comics Drawing Contestant</title>
+        <titleShort>Drawing Contestant</titleShort>
+        <description>Entered the Hubris Comics drawing contest, sending in sketches of superheroes and monsters. Artistic and imaginative, always doodling in the margins of homework.</description>
+        <skillGains>
+            <Artistic>2</Artistic>
+        </skillGains>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Child</li>
+        </spawnCategories>
     </BackstoryDef>
 
 </Defs>
