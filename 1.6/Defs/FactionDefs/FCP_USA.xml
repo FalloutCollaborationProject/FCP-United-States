@@ -33,7 +33,7 @@
         <fixedName>United States of America</fixedName>
         <settlementNameMaker>FCP_Namer_Settlement_USA</settlementNameMaker>
         <allowedCultures>
-            <li>FCP_Culture_USA</li>
+            <li>FCP_Culture_USA_American</li>
         </allowedCultures>
 
         <!--__________ Ideology __________-->

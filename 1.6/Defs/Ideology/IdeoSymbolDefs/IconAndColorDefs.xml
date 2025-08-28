@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <IdeoIconDef>
+        <defName>FCP_Icon_USA</defName>
+        <iconPath>World_Icon/USA_Icon/FCP_USA_World_Icon</iconPath>
+        <cultures>
+            <li>FCP_Culture_USA_American</li>
+        </cultures>
+    </IdeoIconDef>
+
+</Defs>
