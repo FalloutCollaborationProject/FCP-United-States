@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Enlistments with Factions __________-->
+
+    <!--_____ United States of America _____-->
+
+    <FCP.Enlist.FactionEnlistOptionsDef>
+        <defName>FCP_Enlistment_USA</defName>
+        <minGoodwillRequrementToEnlist>10</minGoodwillRequrementToEnlist>
+        <enlistGoodwillGain>5</enlistGoodwillGain>
+
+        <!-- Enlistment Options -->
+
+        <enlistLetterTitleKey>FCP_USA_Enlist_Letter_Title</enlistLetterTitleKey>
+        <enlistLetterLabelKey>FCP_USA_Enlist_Letter_Label</enlistLetterLabelKey>
+        <enlistButtonLabelKey>FCP_USA_Enlist_Button_Label</enlistButtonLabelKey>
+        <enlistButtonDescKey>FCP_USA_Enlist_Button_Desc</enlistButtonDescKey>
+        <enlistRequrementsNotSatisfiedKey>FCP_USA_Enlist_Requrements_Not_Satisfied</enlistRequrementsNotSatisfiedKey>
+        <enlistedToHostileFactionKey>FCP_USA_Enlisted_To_Hostile_Faction</enlistedToHostileFactionKey>
+        <enlistButtonIconTexPath>Things/UI/Enlisted/FCP_USA_Enlist</enlistButtonIconTexPath>
+        <enlistedSoundDef>FCP_Sound_Card_Use</enlistedSoundDef>
+        <enlistedWithKey>FCP_USA_Enlisted_With_Key</enlistedWithKey>
+
+        <!-- Mission Options -->
+
+        <missionsAreEnabled>true</missionsAreEnabled>
+        <missionsLabelKey>FCP_USA_Missions_Label</missionsLabelKey>
+        <missionsDescKey>FCP_USA_Missions_Desc</missionsDescKey>
+        <missionsButtonIconTexPath>Things/UI/Enlisted/FCP_USA_Missions</missionsButtonIconTexPath>
+        <missionsBackgroundMenuTexPath>Things/UI/Enlisted/FCP_USA_Missions</missionsBackgroundMenuTexPath>
+        <missionsMenuAmbientSoundDef>FCP_Sound_RitualSustainer_ILoveYouCalifornia</missionsMenuAmbientSoundDef>
+        <missionsMenuDescriptionKey>FCP_USA_Menu_Missions_Desc</missionsMenuDescriptionKey>
+        <missionsMenuSelectQuestKey>FCP_USA_Menu_Missions_Select_Quest</missionsMenuSelectQuestKey>
+        <missionsMenuStartQuestKey>FCP_USA_Menu_Missions_Start_Quest</missionsMenuStartQuestKey>
+        <missionsQuestCost>50</missionsQuestCost>
+        <missionsMenuStartQuestNoEnoughMoneyKey>FCP_USA_Not_Enough_Money</missionsMenuStartQuestNoEnoughMoneyKey>
+
+        <!-- Salary Options -->
+
+        <salaryIsEnabled>true</salaryIsEnabled>
+        <salaryDef>FCP_Currency_USA_Pre_War_Dollar</salaryDef>
+        <salaryLabelKey>FCP_USA_Salary_Label</salaryLabelKey>
+        <salaryDescKey>FCP_USA_Salary_Desc</salaryDescKey>
+        <salaryButtonIconTexPath>Things/UI/Enlisted/FCP_USA_Salary</salaryButtonIconTexPath>
+        <salaryRange>12000~25000</salaryRange>
+        <salaryPeriodDays>14</salaryPeriodDays>
+
+        <!-- Provision Options -->
+
+        <provisionOptions>
+            <li>
+                <provisionsLabelKey>FCP_USA_Provisions_Label</provisionsLabelKey>
+                <provisionsDescKey>FCP_USA_Provisions_Desc</provisionsDescKey>
+                <provisionsButtonIconTexPath>Things/UI/Enlisted/FCP_USA_Provisions</provisionsButtonIconTexPath>
+                <provisions>
+                    <li>
+                        <thing>FCP_Item_USA_Food_Crate</thing>
+                        <amountRange>6</amountRange>
+                    </li>
+                </provisions>
+                <provisionsRestockInDays>10</provisionsRestockInDays>
+            </li>
+            <li>
+                <provisionsLabelKey>FCP_USA_Provisions_Label_Standard_Issue</provisionsLabelKey>
+                <provisionsDescKey>FCP_USA_Provisions_Desc_Standard_Issue</provisionsDescKey>
+                <provisionsButtonIconTexPath>Things/UI/Enlisted/FCP_USA_Standard_Issue</provisionsButtonIconTexPath>
+                <provisions>
+                    <li>
+                        <thing>FCP_Item_USA_Standard_Weapon_Crate</thing>
+                        <amountRange>2</amountRange>
+                    </li>
+                    <li>
+                        <thing>FCP_Item_USA_Standard_Uniform_Crate</thing>
+                        <amountRange>2</amountRange>
+                    </li>
+                </provisions>
+                <provisionsRestockInDays>30</provisionsRestockInDays>
+            </li>
+        </provisionOptions>
+
+        <!-- Storage Options -->
+
+        <storageIsEnabled>true</storageIsEnabled>
+        <storageLabelKey>FCP_USA_Storage_Label</storageLabelKey>
+        <storageDescKey>FCP_USA_Storage_Desc</storageDescKey>
+        <storageButtonIconTexPath>Things/UI/Enlisted/FCP_USA_Storage</storageButtonIconTexPath>
+
+        <!-- Work Options -->
+
+        <recreationGainPerTick>0.0001</recreationGainPerTick>
+        <workOptions>
+            <li>
+                <workLabelKey>FCP_USA_Hospital_Label</workLabelKey>
+                <workDescKey>FCP_USA_Hospital_Desc</workDescKey>
+                <workButtonIconTexPath>Things/UI/Enlisted/FCP_USA_Hospital</workButtonIconTexPath>
+                <additionalRestFall>0.25</additionalRestFall>
+                <tendCaravanMembersEveryTicks>600</tendCaravanMembersEveryTicks>
+                <medicinesToTend>
+                    <li>MedicineIndustrial</li>
+                </medicinesToTend>
+                <immunityGainSpeedMultiplier>2</immunityGainSpeedMultiplier>
+            </li>
+            <li>
+                <workLabelKey>FCP_USA_Medical_Training_Label</workLabelKey>
+                <workDescKey>FCP_USA_Medical_Training_Desc</workDescKey>
+                <workButtonIconTexPath>Things/UI/Enlisted/FCP_USA_Training_Care</workButtonIconTexPath>
+                <experienceGainsPerHour>
+                    <Medicine>500</Medicine>
+                </experienceGainsPerHour>
+                <additionalRestFall>0.25</additionalRestFall>
+            </li>
+            <li>
+                <workLabelKey>FCP_USA_Shooting_Training_Label</workLabelKey>
+                <workDescKey>FCP_USA_Shooting_Training_Desc</workDescKey>
+                <workButtonIconTexPath>Things/UI/Enlisted/FCP_USA_Training_Combat</workButtonIconTexPath>
+                <experienceGainsPerHour>
+                    <Shooting>500</Shooting>
+                </experienceGainsPerHour>
+                <additionalRestFall>0.3</additionalRestFall>
+            </li>
+            <li>
+                <workLabelKey>FCP_USA_Survival_Training_Label</workLabelKey>
+                <workDescKey>FCP_USA_Survival_Training_Desc</workDescKey>
+                <workButtonIconTexPath>Things/UI/Enlisted/FCP_USA_Survival_Training</workButtonIconTexPath>
+                <experienceGainsPerHour>
+                    <Construction>350</Construction>
+                    <Cooking>350</Cooking>
+                    <Crafting>500</Crafting>
+                    <Plants>450</Plants>
+                </experienceGainsPerHour>
+                <additionalRestFall>0.5</additionalRestFall>
+            </li>
+        </workOptions>
+
+        <!-- Bounty Options -->
+
+        <turnInIsEnabled>true</turnInIsEnabled>
+        <turnInLabelKey>FCP_USA_Turn_In_Label</turnInLabelKey>
+        <turnInDescKey>FCP_USA_Turn_In_Desc</turnInDescKey>
+        <turnInButtonIconTexPath>Things/UI/Enlisted/FCP_Turn_In</turnInButtonIconTexPath>
+        <turnInTraderKind>FCP_Caravan_USACF_Prisoner_Exchange</turnInTraderKind>
+        <turnInThought>FCP_USA_Turned_In_A_Spy</turnInThought>
+        <turnInRefreshSilverInDays>7</turnInRefreshSilverInDays>
+        <turnInTraderNameKey>FCP_USA_Turn_In_Trader_Name</turnInTraderNameKey>
+
+        <!-- Drop Pod Options -->
+
+        <dropPodServiceIsEnabled>false</dropPodServiceIsEnabled>
+
+        <!-- Resign Options -->
+
+        <resignGoodwillGain>-25</resignGoodwillGain>
+        <resignMenuTextKey>FCP_USA_Resign_Menu_Text</resignMenuTextKey>
+        <resignLetterTitleKey>FCP_USA_Resign_Letter_Title</resignLetterTitleKey>
+        <resignLetterLabelKey>FCP_USA_Resign_Letter_Label</resignLetterLabelKey>
+        <resignButtonLabelKey>FCP_USA_Resign_Button_Label</resignButtonLabelKey>
+        <resignButtonDescKey>FCP_USA_Resign_Button_Desc</resignButtonDescKey>
+        <resignButtonIconTexPath>Things/UI/Enlisted/FCP_USA_Resign</resignButtonIconTexPath>
+
+        <!-- Kicked Out Options -->
+
+        <kickOutLetterTitleKey>FCP_USA_Kick_Out_Letter_Title</kickOutLetterTitleKey>
+        <kickOutLetterLabelKey>FCP_USA_Kick_Out_Label_Title</kickOutLetterLabelKey>
+
+        <!-- Reinforcements Options -->
+
+        <reinforcementsAreEnabled>true</reinforcementsAreEnabled>
+        <reinforcementsButtonLabelKey>FCP_USA_Reinforcements_Button_Label</reinforcementsButtonLabelKey>
+        <reinforcementsButtonDescKey>FCP_USA_Reinforcements_Button_Desc</reinforcementsButtonDescKey>
+        <reinforcementsButtonIconTexPath>Things/UI/Enlisted/FCP_USA_Call_Reinforcements</reinforcementsButtonIconTexPath>
+        <reinforcementCallGoodwillCost>-5</reinforcementCallGoodwillCost>
+        <reinforcementCallCooldownTicks>50000</reinforcementCallCooldownTicks>
+        <reinforcementOptions>
+            <li>
+                <relationsRange>75~100</relationsRange>
+                <pointsRange>800~1800</pointsRange>
+            </li>
+            <li>
+                <relationsRange>50~74</relationsRange>
+                <pointsRange>600~850</pointsRange>
+            </li>
+            <li>
+                <relationsRange>26~49</relationsRange>
+                <pointsRange>400~600</pointsRange>
+            </li>
+            <li>
+                <relationsRange>-100~25</relationsRange>
+                <pointsRange>100~200</pointsRange>
+            </li>
+        </reinforcementOptions>
+
+    </FCP.Enlist.FactionEnlistOptionsDef>
+
+</Defs>

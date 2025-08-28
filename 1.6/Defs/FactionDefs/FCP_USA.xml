@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Factions __________-->
+
+    <!-- United States of America -->
+
+    <FactionDef ParentName="FactionBase">
+        <defName>FCP_Faction_USA</defName>
+        <label>United States of America</label>
+        <description>Founded on ideals of freedom, prosperity, and technological progress, America is a nation of gleaming cities, suburban comfort, and boundless optimism. Beneath the surface, however, growing paranoia, corporate influence, and military escalation shaped daily life. Citizens enjoyed advanced conveniences, colorful pop culture, and patriotic pride, even as the shadow of nuclear war looms ever closer.</description>
+        <royalTitleTags>
+            <li>FCP_Title_USA</li>
+        </royalTitleTags>
+        <royalFavorLabel>Service Points</royalFavorLabel>
+        <royalTitleInheritanceWorkerClass>RoyalTitleInheritanceWorker</royalTitleInheritanceWorkerClass>
+        <royalTitleInheritanceRelations>
+        </royalTitleInheritanceRelations>
+        <colorSpectrum>
+            <li>(1, 1, 1)</li>
+        </colorSpectrum>
+        <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+        <pawnSingular>American</pawnSingular>
+        <pawnsPlural>Americans</pawnsPlural>
+        <categoryTag>Outlander</categoryTag>
+        <settlementGenerationWeight>1</settlementGenerationWeight>
+        <requiredCountAtGameStart>1</requiredCountAtGameStart>
+        <canSiege>true</canSiege>
+        <canStageAttacks>true</canStageAttacks>
+        <leaderTitle>President</leaderTitle>
+        <factionIconPath>World_Icon/USA_Icon/FCP_USA_World_Icon</factionIconPath>
+        <techLevel>Industrial</techLevel>
+        <fixedName>United States of America</fixedName>
+        <settlementNameMaker>FCP_Namer_Settlement_USA</settlementNameMaker>
+        <allowedCultures>
+            <li>FCP_Culture_USA</li>
+        </allowedCultures>
+
+        <!--__________ Ideology __________-->
+
+        <fixedIdeo>true</fixedIdeo>
+        <ideoName>The American Dream</ideoName>
+        <ideoDescription>The American Dream is the belief that anyone, regardless of their background, can achieve success and prosperity through hard work and determination. It embodies the ideals of freedom, equality, and opportunity that the United States was founded upon.</ideoDescription>
+        <styles>
+            <li>FCP_Style_American</li>
+            <!--<li MayRequire="Ludeon.RimWorld.Ideology">Morbid</li>-->
+        </styles>
+        <forcedMemes>
+            <!-- Structure -->
+            <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+            <!-- Memes -->
+            <li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_AmericanDream</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_MoneyMovesTheWorld</li>
+        </forcedMemes>
+        <requiredPreceptsOnly>true</requiredPreceptsOnly>
+
+        <!--__________ Biotech __________-->
+
+        <xenotypeSet>
+            <xenotypeChances>
+                <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0</Neanderthal>
+                <Hussar MayRequire="Ludeon.RimWorld.Biotech">0</Hussar>
+                <Pigskin MayRequire="Ludeon.RimWorld.Biotech">0</Pigskin>
+                <Yttakin MayRequire="Ludeon.RimWorld.Biotech">0</Yttakin>
+                <Genie MayRequire="Ludeon.RimWorld.Biotech">0</Genie>
+                <Dirtmole MayRequire="Ludeon.RimWorld.Biotech">0</Dirtmole>
+                <Highmate MayRequire="Ludeon.RimWorld.Biotech">0</Highmate>
+            </xenotypeChances>
+        </xenotypeSet>
+
+        <!--__________ Backstories __________-->
+        
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>FCP_Backstory_USA_Citizen</li>
+                    <li>FCP_Backstory_USA_Army_Infantry</li>
+                    <li>FCP_Backstory_USA_Army_Support</li>
+                    <li>FCP_Backstory_USA_Army_Vertibird_Pilot</li>
+                    <li>FCP_Backstory_USA_Army_Jet_Pilot</li>
+                    <li>FCP_Backstory_USA_Army_Officer</li>
+                    <li>FCP_Backstory_USA_Army_General</li>
+                    <li>FCP_Backstory_USA_Army_Officer</li>
+                    <li>FCP_Backstory_USA_Army_Alaska</li>
+                    <li>FCP_Backstory_USMC_Marine</li>
+                    <li>FCP_Backstory_USMC_Marine_Squad_Leader</li>
+                    <li>FCP_Backstory_USA_Child</li>
+                </categories>
+                <commonality>1</commonality>
+            </li>
+        </backstoryFilters>
+
+        <!--__________ Kinds __________-->
+
+        <!-- Caravan Trader Kinds -->
+        
+        <caravanTraderKinds>
+            <li>FCP_Caravan_USA_Quartermaster</li>
+            <li>FCP_Caravan_USA_Prisoner_Exchange</li>
+            <li>FCP_Caravan_USA_Door_to_Door_Salesman</li>
+        </caravanTraderKinds>
+
+        <!-- Vistor Trader Kinds -->
+        
+        <visitorTraderKinds>
+            <li>FCP_Caravan_USA_Quartermaster</li>
+            <li>FCP_Caravan_USA_Prisoner_Exchange</li>
+            <li>FCP_Caravan_USA_Door_to_Door_Salesman</li>
+        </visitorTraderKinds>
+
+        <!-- Base Trader Kinds -->
+        
+        <baseTraderKinds>
+            <li>FCP_Caravan_USA_Quartermaster</li>
+            <li>FCP_Caravan_USA_Prisoner_Exchange</li>
+            <li>FCP_Caravan_USA_Door_to_Door_Salesman</li>
+        </baseTraderKinds>
+
+        <!-- Trader Kind Arrival Options -->
+        
+        <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+        <raidLootMaker>FCP_USARaidLootMaker</raidLootMaker>
+        <maxPawnCostPerTotalPointsCurve>
+            <points>
+                <li>(0,35)</li>
+                <li>(70, 50)</li>
+                <li>(700, 100)</li>
+                <li>(1300, 150)</li>
+                <li>(100000, 10000)</li>
+            </points>
+        </maxPawnCostPerTotalPointsCurve>
+
+        <!--__________ Group Makers __________-->
+        
+        <pawnGroupMakers>
+
+            <!-- USA Army Squad -->
+
+            <li>
+                <!-- Normal fights, standard troopers -->
+                <kindDef>Combat</kindDef>
+                <disallowedStrategies>
+                    <li>EmergeFromWater</li>
+                </disallowedStrategies>
+                <options>
+
+                </options>
+            </li>
+
+            <!-- USA Marine Squad -->
+
+            <li>
+                <!-- Normal fights, standard marines -->
+                <kindDef>Combat</kindDef>
+                <disallowedStrategies>
+                    <li>EmergeFromWater</li>
+                </disallowedStrategies>
+                <options>
+
+                </options>
+            </li>
+
+            <!-- USA Alaskan Squad -->
+
+            <li>
+                <!-- Distance fights, Alaskan troopers -->
+                <kindDef>Combat</kindDef>
+                <disallowedStrategies>
+                    <li>EmergeFromWater</li>
+                </disallowedStrategies>
+                <options>
+
+                </options>
+            </li>
+
+            <!-- USA Army T-51 Power Armor Squad -->
+
+            <li>
+                <!-- Normal fights, T-51 Power armor troopers -->
+                <kindDef>Combat</kindDef>
+                <disallowedStrategies>
+                    <li>EmergeFromWater</li>
+                </disallowedStrategies>
+                <options>
+
+                </options>
+            </li>
+
+            <!-- USA T-60 Power Armor Squad -->
+
+            <li>
+                <!-- Normal fights, T-60 Power armor troopers -->
+                <kindDef>Combat</kindDef>
+                <disallowedStrategies>
+                    <li>EmergeFromWater</li>
+                </disallowedStrategies>
+                <options>
+
+                    <FCP_Pawnkind_USA_General>1</FCP_Pawnkind_USA_General>
+                </options>
+            </li>
+
+            <!-- USA Peaceful -->
+
+            <li Class="FCP.Core.GroupMakerWithCustomChar">
+                <kindDef>Peaceful</kindDef>
+                <options>
+
+                </options>
+                <characterDefs>
+                    <li>FCP_Character_USA_Crocker</li>
+                </characterDefs>
+                <characterChance>0.35</characterChance>
+            </li>
+
+            <!--__________ USA Traders __________-->
+
+            <!-- USA Quartermaster -->
+
+            <li Class="FCP.Core.GroupMakerWithTraderKind">
+                <kindDef>Trader</kindDef>
+                <traderKinds>
+                    <li>FCP_Caravan_USA_Quartermaster</li>
+                </traderKinds>
+                <traders>
+                    <FCP_Pawnkind_USA_Quartermaster>1</FCP_Pawnkind_USA_Quartermaster>
+                </traders>
+                <carriers>
+
+                </carriers>
+                <guards>
+
+                </guards>
+            </li>
+
+            <!-- USA Prisoner Caravan -->
+
+            <li Class="FCP.Core.GroupMakerWithTraderKind">
+                <kindDef>Trader</kindDef>
+                <traderKinds>
+                    <li>FCP_Caravan_USA_Prisoner_Exchange</li>
+                </traderKinds>
+                <traders>
+
+                </traders>
+                <carriers>
+
+                </carriers>
+                <guards>
+
+                </guards>
+
+            </li>
+
+            <!-- Special: Tax Collector -->
+
+            <li>
+                <!-- Tax Collection -->
+                <kindDef>FCP_PawnGroupKind_TaxCollector</kindDef>
+                <traders>
+                    <FCP_Pawnkind_USA_Tax_Collector>1</FCP_Pawnkind_USA_Tax_Collector>
+                </traders>
+                <carriers>
+
+                </carriers>
+                <guards>
+
+                </guards>
+            </li>
+
+            <!-- USA Settlement -->
+
+            <li>
+                <kindDef>Settlement</kindDef>
+                <options>
+
+                </options>
+            </li>
+        </pawnGroupMakers>
+        <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+        <modExtensions Inherit="False">
+            <!-- USA Dollars -->
+            <li Class="FCP.Currencies.CurrencyReplacement">
+                <currency>FCP_Currency_USA_Pre_War_Dollar</currency>
+            </li>
+            <!-- Make them hostile to the legion -->
+            <li Class="FCP.Core.ModExtension_FactionPermanentlyHostileTo">
+                <hostileFactionDefs>
+                    <li MayRequire="Rick.FCP.Legion">FCP_Faction_Peoples_Republic_of_China</li>
+                </hostileFactionDefs>
+            </li>
+            <!-- Make them unable to use drop pods -->
+            <li Class="FCP.Core.ModExtension_FactionBannedArrivalModes">
+                <arrivalModes>
+                    <li>EdgeDrop</li>
+                    <li>EdgeDropGroups</li>
+                    <li>CenterDrop</li>
+                    <li>RandomDrop</li>
+                </arrivalModes>
+            </li>
+            <!-- Ideology stuff -->
+            <li Class="FCP.Core.ModExtension_FixedIdeo">
+                <ideoIconDef>FCP_Icon_USA</ideoIconDef>
+                <ideoColorDef>LightGrey</ideoColorDef>
+                <memberName>American</memberName>
+                <adjective>American</adjective>
+                <roleOverrides>
+                    <li>
+                        <preceptDef>IdeoRole_Leader</preceptDef>
+                        <disableApparelRequirements>true</disableApparelRequirements>
+                    </li>
+                    <li>
+                        <preceptDef>IdeoRole_Moralist</preceptDef>
+                        <newName>Representative</newName>
+                        <disableApparelRequirements>true</disableApparelRequirements>
+                        <!--<apparelRequirementsOverride></apparelRequirementsOverride>-->
+                    </li>
+                </roleOverrides>
+            </li>
+            <!-- Enlistment stuff -->
+            <li Class="FCP.Enlist.FactionEnlistOptions">
+                <enlistOptionsDefs>
+                    <li>FCP_Enlistment_USA</li>
+                </enlistOptionsDefs>
+                <ignoreAutoAssignedDefs>true</ignoreAutoAssignedDefs>
+            </li>
+            <!-- Shuttles -->
+            <li Class="FCP_Shuttles.FactionModExtension">
+                <transportShipDef>FCP_Shuttle_USA_Vertibird</transportShipDef>
+                <minDistanceBetweenShuttles>10</minDistanceBetweenShuttles>
+                <maxPawnCountInOneShuttle>6</maxPawnCountInOneShuttle>
+            </li>
+            <!-- Territory stuff -->
+            <!-- <li class="FCP.Core.ModExtension_FactionTerritory">
+                <territoryColor>(222, 49, 41)</territoryColor>
+                <territoryBorderColor>(116, 22, 42)</territoryBorderColor>
+                <factionLabelColor>(0.9, 0.9, 0.8, 1.0)</factionLabelColor>
+                <initialTerritoryRadius>10</initialTerritoryRadius>
+                <renderTerritoryOverWater>false</renderTerritoryOverWater>
+            </li> -->
+        </modExtensions>
+    </FactionDef>
+
+    <ThingSetMakerDef>
+        <defName>FCP_USARaidLootMaker</defName>
+        <root Class="ThingSetMaker_MarketValue">
+            <fixedParams>
+                <filter>
+                    <thingDefs>
+                        <li>Silver</li>
+                        <li>MedicineIndustrial</li>
+                        <li>ComponentIndustrial</li>
+                        <li>MealSurvivalPack</li>
+                        <li>Neutroamine</li>
+                    </thingDefs>
+                </filter>
+            </fixedParams>
+        </root>
+    </ThingSetMakerDef>
+
+</Defs>

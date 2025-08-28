@@ -765,7 +765,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_USA_Army_Cook</li>
+            <li>FCP_Backstory_USA_Army_Support</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -857,7 +857,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_USA_Army_Aviation_Mechanic</li>
+            <li>FCP_Backstory_USA_Army_Support</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -903,7 +903,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>None</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_USA_Army_Bomber_Pilot</li>
+            <li>FCP_Backstory_USA_Army_Jet_Pilot</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -1044,7 +1044,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_USA_Army_Alaska_Winter_Warfare</li>
+            <li>FCP_Backstory_USA_Army_Alaska</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -1067,7 +1067,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_USA_Army_Alaska_Scout</li>
+            <li>FCP_Backstory_USA_Army_Alaska</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
