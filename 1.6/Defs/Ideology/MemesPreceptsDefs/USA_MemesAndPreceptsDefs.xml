@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <!--__________ Memes __________-->
+
+    <!-- The American Dream -->
+
+    <MemeDef>
+        <defName>FCP_Meme_TheAmericanDream</defName>
+        <label>The American Dream</label>
+        <description>A shining promise of prosperity, freedom, and boundless opportunity, the American Dream fuels the hopes of millions across the nation. In these years, it is a vision of white-picket fences, two-car garages, and a future powered by atomic energy. Families gather around glowing televisions, confident that hard work and patriotism secure their place in a world of endless progress. Optimism runs high, and the Dream endures as a beacon of what America can achieve—an unwavering belief in a brighter tomorrow. Yet beneath the optimism, cracks form—corporate greed, resource shortages, and the shadow of war. Still, the Dream endures, a beacon of what America is meant to be, even as the world teeters on the edge of oblivion</description>
+        <iconPath>World_Icon/USA_Icon/FCP_USA_World_Icon</iconPath>
+        <groupDef>Misc</groupDef>
+        <impact>2</impact>
+        <randomizationSelectionWeightFactor>0</randomizationSelectionWeightFactor>
+        <hiddenInChooseMemes>true</hiddenInChooseMemes>
+        <requireOne>
+            <li><li>Cannibalism_Abhorrent</li></li>
+            <li><li>NutrientPasteEating_Disgusting</li></li>
+            <li><li>Corpses_Ugly</li></li>
+            <li><li>InsectMeatEating_Despised_Classic</li></li>
+            <li><li>Lovin_Free</li></li>
+            <li><li>MarriageName_UsuallyMans</li></li>
+            <li><li>SpouseCount_Male_MaxOne</li></li>
+            <li><li>SpouseCount_Female_MaxOne</li></li>
+            <li><li>Charity_Worthwhile</li></li>
+            <li><li>DrugUse_MedicalOrSocial</li></li>
+            <li><li>FungusEating_Despised</li></li>
+            <li><li>IdeoDiversity_Standard</li></li>
+            <li><li>Nudity_Male_UncoveredGroinDisapproved</li></li>
+            <li><li>Nudity_Female_UncoveredGroinOrChestDisapproved</li></li>
+            <li><li>OrganUse_HorribleSellOK</li></li>
+            <li><li>Execution_HorribleIfInnocent</li></li>
+            <li><li>Research_Normal</li></li>
+            <li><li>Skullspike_Disapproved</li></li>
+            <li><li>Slavery_Disapproved</li></li>
+            <li><li>Blinding_Horrible</li></li>
+            <li><li>Scarification_Horrible</li></li>
+        </requireOne>
+        <requiredRituals>
+            <li>
+                <precept>LeaderSpeech</precept>
+                <pattern>LeaderSpeech</pattern>
+                <building>FCP_USA_Building_Anchorage_Memorial</building>
+            </li>
+        </requiredRituals>
+    </MemeDef>
+
+    <!--__________ Precepts __________-->
+
+    <!-- United States Governor -->
+
+    <PreceptDef ParentName="PreceptRoleMultiBase">
+        <defName>FCP_IdeoRole_Governor</defName>
+        <label>U.S. Governor</label>
+        <description>The Governor is the elected leader of the colony, embodying the ideals of prosperity, freedom, and progress. Responsible for guiding citizens, upholding American values, and ensuring a brighter future for all.</description>
+        <iconPath>World_Icon/USA_Icon/FCP_USA_World_Icon</iconPath>
+        <roleRequirements>
+            <li Class="RoleRequirement_MinSkillAny">
+                <skills>
+                    <Social>8</Social>
+                    <Construction>6</Construction>
+                </skills>
+            </li>
+        </roleRequirements>
+        <roleRequiredWorkTags>
+            <li>Social</li>
+            <li>Construction</li>
+            <li>Intellectual</li>
+        </roleRequiredWorkTags>
+        <roleTags>
+            <li>Leader</li>
+            <li>Builder</li>
+            <li>Citizen</li>
+        </roleTags>
+        <requiredMemes>
+            <li>FCP_Meme_TheAmericanDream</li>
+        </requiredMemes>
+        <roleEffects>
+            <li Class="RoleEffect_PawnStatOffset">
+                <statDef>GlobalWorkSpeed</statDef>
+                <modifier>0.1</modifier>
+            </li>
+            <li Class="RoleEffect_PawnStatOffset">
+                <statDef>SocialImpact</statDef>
+                <modifier>0.2</modifier>
+            </li>
+        </roleEffects>
+        <displayOrderInImpact>1</displayOrderInImpact>
+        <roleDisabledWorkTags>
+            <li>Slavery</li>
+            <li>Scarification</li>
+            <li>Execution</li>
+        </roleDisabledWorkTags>
+        <roleApparelRequirements>
+            <li>
+                <requirement>
+                    <bodyPartGroupsMatchAny>
+                        <li>Torso</li>
+                    </bodyPartGroupsMatchAny>
+                    <requiredDefs>
+                        <li>FCP_Apparel_USA_Suit</li>
+                    </requiredDefs>
+                </requirement>
+            </li>
+        </roleApparelRequirements>
+    </PreceptDef>
+
+</Defs>

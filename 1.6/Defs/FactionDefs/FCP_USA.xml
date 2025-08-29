@@ -50,7 +50,6 @@
             <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
             <!-- Memes -->
             <li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_AmericanDream</li>
-            <li MayRequire="Ludeon.RimWorld.Ideology">FCP_Meme_MoneyMovesTheWorld</li>
         </forcedMemes>
         <requiredPreceptsOnly>true</requiredPreceptsOnly>
 
@@ -313,6 +312,12 @@
                         <preceptDef>IdeoRole_Moralist</preceptDef>
                         <newName>Representative</newName>
                         <disableApparelRequirements>true</disableApparelRequirements>
+                        <!--<apparelRequirementsOverride></apparelRequirementsOverride>-->
+                    </li>
+                    <li>
+                        <preceptDef>FCP_IdeoRole_Governor</preceptDef>
+                        <newName>Governor</newName>
+                        <disableApparelRequirements>false</disableApparelRequirements>
                         <!--<apparelRequirementsOverride></apparelRequirementsOverride>-->
                     </li>
                 </roleOverrides>
