@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <IncidentDef ParentName="FCP_CaravanArrivalTaxCollectorBase">
+        <defName>FCP_CaravanArrivalTaxCollector_USA</defName>
+        <label>US tax collector caravan arrival</label>
+        <letterLabel>US Tax Collectors</letterLabel>
+        <letterText>A tax collector from the US is approaching.\n\nThey will accept tax in US dollars; you can also hand in prisoners. The one who gives over the tax will receive Service Points for doing their civic duty.\n\nYou can expect a tax collector to arrive roughly twice per year as long as you are not enemies with the US.\n\n&lt;color="#808080"&gt;</letterText>
+        <modExtensions>
+            <li Class="FCP.Core.ModExtension_FactionTaxCollectors">
+                <factionDef>FCP_Faction_USA</factionDef>
+                <traderKindDef>FCP_Trader_USATaxCollector</traderKindDef>
+            </li>
+        </modExtensions>
+    </IncidentDef>
+
+    <TraderKindDef>
+        <defName>FCP_Trader_USATaxCollector</defName>
+        <label>US tax collector</label>
+        <requestable>False</requestable>
+        <commonality>1</commonality>
+        <category>TributeCollector</category>
+        <tradeCurrency>Favor</tradeCurrency>
+        <faction>FCP_Faction_USA</faction>
+        <hideThingsNotWillingToTrade>False</hideThingsNotWillingToTrade>
+        <stockGenerators>
+            <!-- Buying -->
+            <li Class="StockGenerator_BuySingleDef">
+                <thingDef>FCP_Currency_Caps</thingDef>
+            </li>
+            <li Class="StockGenerator_BuySingleDef">
+                <thingDef>FCP_Currency_USA_Dollar</thingDef>
+            </li>
+        </stockGenerators>
+        <modExtensions>
+            <!-- Just so USA dollars show up -->
+            <li Class="FCP.Currencies.CurrencyReplacement">
+                <currency>WoodLog</currency>
+            </li>
+        </modExtensions>
+    </TraderKindDef>
+
+</Defs>
