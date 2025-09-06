@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Ideology Buildings __________-->
+
+    <!--_____ USA _____-->
+
+    <!--___ Altars ___-->
+
+    <!-- Grand Altar -->
+
+    <ThingDef ParentName="AltarBase">
+        <defName>FCP_USA_Building_Anchorage_Memorial</defName>
+        <label>Anchorage</label>
+        <description>This grand memorial commemorates the pivotal battle in Anchorage, where our brave US forces, led by General Constantine Chase, overcame the invading Chinese army commanded by General Jingwei. It stands as a tribute to the courage and sacrifice of those who defended our homeland and marks the turning point that secured our freedom.</description>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Things/Building/Misc/Ideo/FCP_USA_Anchorage_Memorial</texPath>
+            <drawSize>(3,3)</drawSize>
+            <drawRotated>false</drawRotated>
+            <shadowData>
+                <volume>(2.4, 1, 2.4)</volume>
+            </shadowData>
+        </graphicData>
+        <size>(3,3)</size>
+        <castEdgeShadows>true</castEdgeShadows>
+        <statBases>
+            <MaxHitPoints>350</MaxHitPoints>
+            <WorkToBuild>30000</WorkToBuild>
+            <Beauty>50</Beauty>
+            <StyleDominance>50</StyleDominance>
+        </statBases>
+        <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+        <interactionCellOffset>(0,0, -3)</interactionCellOffset>
+        <costList>
+            <BlocksMarble>800</BlocksMarble>
+        </costList>
+        <defaultStuff>BlocksMarble</defaultStuff>
+        <building>
+            <allowAutoroof>false</allowAutoroof>
+            <buildingTags>
+                <li>RitualFocus</li>
+            </buildingTags>
+            <relatedBuildCommands Inherit="False" />
+            <paintable>false</paintable>
+        </building>
+    </ThingDef>
+
+</Defs>
