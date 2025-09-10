@@ -91,7 +91,7 @@
                 <weightedDrops>
                     <li>
                         <thingDef>FCP_Food_US_MRE</thingDef>
-                        <countRange>3</countRange>
+                        <countRange>3~5</countRange>
                     </li>
                 </weightedDrops>
             </li>
@@ -144,10 +144,6 @@
                         <thingDef>FCP_Gun_US_Assault_Rifle</thingDef>
                         <countRange>2~4</countRange>
                     </li>
-                    <li>
-                        <thingDef>FCP_Gun_US_10mm_SMG</thingDef>
-                        <countRange>0~2</countRange>
-                    </li>
                 </weightedDrops>
             </li>
             <li Class="CompProperties_UseEffectDestroySelf"/>
@@ -196,40 +192,77 @@
                 </guaranteedDrops>
                 <weightedDrops>
                     <li>
-                        <thingDef>FCP_Apparel_NCR_Trooper_Mantle_Armor</thingDef>
-                        <countRange>-1~1</countRange>
-                    </li>
-                    <li>
-                        <thingDef>FCP_Apparel_NCR_Trooper_Vest</thingDef>
-                        <countRange>-1~5</countRange>
-                    </li>
-                    <li>
-                        <thingDef>FCP_Apparel_NCR_Trooper_Bandoleer_Armor</thingDef>
-                        <countRange>-1~2</countRange>
-                    </li>
-                    <li>
-                        <thingDef>FCP_Apparel_NCR_Trooper_Armor</thingDef>
+                        <thingDef>FCP_Apparel_Army_Uniform</thingDef>
                         <countRange>-1~3</countRange>
                     </li>
                     <li>
-                        <thingDef>FCP_Apparel_NCR_Beret</thingDef>
-                        <countRange>-1~1</countRange>
-                    </li>
-                    <li>
-                        <thingDef>FCP_Apparel_NCR_Face_Wrap_Goggles_Helmet</thingDef>
-                        <countRange>-1~1</countRange>
-                    </li>
-                    <li>
-                        <thingDef>FCP_Apparel_NCR_Face_Wrap_Helmet</thingDef>
-                        <countRange>-1~1</countRange>
-                    </li>
-                    <li>
-                        <thingDef>FCP_Apparel_NCR_Goggles_Helmet</thingDef>
+                        <thingDef>FCP_Apparel_Military_Fatigues</thingDef>
                         <countRange>-1~2</countRange>
                     </li>
                     <li>
-                        <thingDef>FCP_Apparel_NCR_Trooper_Helmet</thingDef>
-                        <countRange>-1~4</countRange>
+                        <thingDef>FCP_Apparel_Army_Helmet</thingDef>
+                        <countRange>-1~3</countRange>
+                    </li>
+                </weightedDrops>
+            </li>
+            <li Class="CompProperties_UseEffectDestroySelf"/>
+        </comps>
+    </ThingDef>
+
+    <!-- Army Armor Crate -->
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>FCP_Item_USA_Standard_Armor_Crate</defName>
+        <label>US Army Armor Supply Crate</label>
+        <description>A crate of armor from the United States Army, standard issue.</description>
+        <graphicData>
+            <texPath>Things/Items/USA_Crates/USA_Uniform_Crate/FCP_USA_Uniform_Crate</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>2</drawSize>
+        </graphicData>
+        <size>(2,2)</size>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <soundInteract>Metal_Drop</soundInteract>
+        <soundDrop>Metal_Drop</soundDrop>
+        <stackLimit>1</stackLimit>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+            <MarketValue>100</MarketValue>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Mass>2</Mass>
+            <Flammability>0.2</Flammability>
+        </statBases>
+        <thingCategories>
+            <li>ItemsMisc</li>
+        </thingCategories>
+        <drawGUIOverlay>false</drawGUIOverlay>
+        <tradeability>Sellable</tradeability>
+        <techLevel>Industrial</techLevel>
+        <comps>
+            <li Class="CompProperties_Usable">
+                <useJob>UseItem</useJob>
+                <useLabel>Open {0}</useLabel>
+            </li>
+            <li Class="FCP.Core.CompProperties_UseEffectItemBox">
+                <numWeightedDrops>6</numWeightedDrops>
+                <guaranteedDrops>
+                </guaranteedDrops>
+                <weightedDrops>
+                    <li>
+                        <thingDef>FCP_Apparel_USA_Combat_Armor</thingDef>
+                        <countRange>-1~3</countRange>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Apparel_USA_Combat_Helmet</thingDef>
+                        <countRange>-1~3</countRange>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Apparel_USA_Combat_Armor_Sturdy</thingDef>
+                        <countRange>-1~2</countRange>
+                    </li>
+                    <li>
+                        <thingDef>FCP_Apparel_Combat_Armor_Helmet</thingDef>
+                        <countRange>-1~2</countRange>
                     </li>
                 </weightedDrops>
             </li>
