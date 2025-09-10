@@ -352,7 +352,7 @@
             <fixedParams>
                 <filter>
                     <thingDefs>
-                        <li>Silver</li>
+                        <li>FCP_Currency_USA_Pre_War_Dollar</li>
                         <li>MedicineIndustrial</li>
                         <li>ComponentIndustrial</li>
                         <li>MealSurvivalPack</li>

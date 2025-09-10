@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Scenarios __________-->
+
+    <!--_____ USA _____-->
+
+    <ScenarioDef ParentName="ScenarioBase">
+        <defName>FCP_Scenario_USA_Lost_Squad</defName>
+        <label>Infantry Platoon</label>
+        <description>Stranded behind enemy lines after a failed operation, your infantry platoon must rely on teamwork and resourcefulness to survive. Cut off from support and surrounded by hostile forces, you must navigate dangerous territory, manage scarce supplies, and find a way to safety.</description>
+        <scenario>
+            <summary></summary>
+            <playerFaction>
+                <def>PlayerFaction</def>
+                <factionDef>PlayerColony</factionDef>
+            </playerFaction>
+            <parts>
+
+                <!-- Config pages -->
+                <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
+                    <def>ConfigurePawnsKindDefs</def>
+                    <pawnChoiceCount>8</pawnChoiceCount>
+                    <leftBehindPawnKind>FCP_Pawnkind_US_Marine_Officer</leftBehindPawnKind>
+                    <kindCounts>
+                        <li>
+                            <kindDef>FCP_Pawnkind_US_Army_Officer</kindDef>
+                            <count>2</count>
+                            <requiredAtStart>true</requiredAtStart>
+                        </li>
+                        <li>
+                            <kindDef>FCP_Pawnkind_US_Marine</kindDef>
+                            <count>2</count>
+                            <requiredAtStart>false</requiredAtStart>
+                        </li>
+                        <li>
+                            <kindDef>FCP_Pawnkind_US_Soldier</kindDef>
+                            <count>6</count>
+                            <requiredAtStart>false</requiredAtStart>
+                        </li>
+                    </kindCounts>
+                </li>
+
+                <!-- Player starting stuff spawn method-->
+                <li Class="ScenPart_PlayerPawnsArriveMethod">
+                    <def>PlayerPawnsArriveMethod</def>
+                    <method>Standing</method>
+                </li>
+
+                <!-- Player pawns modifiers -->
+                <li Class="ScenPart_ForcedHediff">
+                    <def>ForcedHediff</def>
+                    <visible>false</visible>
+                    <context>PlayerStarter</context>
+                    <chance>0.5</chance>
+                    <hediff>Malnutrition</hediff>
+                    <severityRange>0.2~0.4</severityRange>
+                </li>
+                <li Class="ScenPart_SetNeedLevel">
+                    <def>SetNeedLevel</def>
+                    <visible>false</visible>
+                    <context>PlayerStarter</context>
+                    <chance>1.0</chance>
+                    <need>Food</need>
+                    <levelRange>0~0.1</levelRange>
+                </li>
+
+                <!-- Player starting things -->
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>FCP_Currency_USA_Pre_War_Dollar</thingDef>
+                    <count>2000</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>FCP_Item_USA_Food_Crate</thingDef>
+                    <count>2</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>FCP_Item_USA_Standard_Weapon_Crate</thingDef>
+                    <count>1</count>
+                </li>
+
+                <!-- Game start dialog -->
+                <li Class="ScenPart_GameStartDialog">
+                    <def>GameStartDialog</def>
+                    <text>Stranded behind enemy lines after a failed operation, your infantry platoon must rely on teamwork and resourcefulness to survive. Cut off from support and surrounded by hostile forces, you must navigate dangerous territory, manage scarce supplies, and find a way to safety.</text>
+                    <closeSound>FCP_Sound_War_Never_Changes</closeSound>
+                </li>
+
+            </parts>
+        </scenario>
+    </ScenarioDef>
+
+</Defs>
