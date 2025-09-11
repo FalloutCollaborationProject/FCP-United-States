@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--__________ Currencies __________-->
+
+	<!-- US Pre-War Dollars -->
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>FCP_Currency_USA_Pre_War_Dollar</defName>
+		<label>U.S. Dollar</label>
+		<description></description>
+		<graphicData>
+			<texPath>Things/Items/Currencies/FCP_USA_Dollar_Currency</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<resourceReadoutPriority>First</resourceReadoutPriority>
+		<soundInteract>Silver_Drop</soundInteract>
+		<soundDrop>Silver_Drop</soundDrop>
+		<useHitPoints>false</useHitPoints>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+		<statBases>
+			<RoyalFavorValue>0.0008</RoyalFavorValue>
+			<MarketValue>0.15</MarketValue>
+			<Mass>0.002</Mass>
+		</statBases>
+		<thingCategories>
+			<li>FCP_Currencies_USA</li>
+		</thingCategories>
+		<stackLimit>10000</stackLimit>
+		<smallVolume>true</smallVolume>
+		<allowedArchonexusCount>1000</allowedArchonexusCount>
+		<possessionCount>40</possessionCount>
+	</ThingDef>
+
+</Defs>
