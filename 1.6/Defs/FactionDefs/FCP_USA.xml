@@ -282,10 +282,10 @@
             <li Class="FCP.Currencies.CurrencyReplacement">
                 <currency>FCP_Currency_USA_Pre_War_Dollar</currency>
             </li>
-            <!-- Make them hostile to the legion -->
+            <!-- Make them hostile to the PRC -->
             <li Class="FCP.Core.ModExtension_FactionPermanentlyHostileTo">
                 <hostileFactionDefs>
-                    <li MayRequire="Rick.FCP.Legion">FCP_Faction_Peoples_Republic_of_China</li>
+                    <li MayRequire="Rick.FCP.PRC">FCP_Faction_Peoples_Republic_of_China</li>
                 </hostileFactionDefs>
             </li>
             <!-- Make them unable to use drop pods -->
