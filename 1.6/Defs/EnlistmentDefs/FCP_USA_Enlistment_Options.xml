@@ -139,7 +139,7 @@
         <turnInLabelKey>FCP_USA_Turn_In_Label</turnInLabelKey>
         <turnInDescKey>FCP_USA_Turn_In_Desc</turnInDescKey>
         <turnInButtonIconTexPath>Things/UI/Enlisted/FCP_Turn_In</turnInButtonIconTexPath>
-        <turnInTraderKind>FCP_Caravan_USACF_Prisoner_Exchange</turnInTraderKind>
+        <turnInTraderKind>FCP_Caravan_USA_Prisoner_Exchange</turnInTraderKind>
         <turnInThought>FCP_USA_Turned_In_A_Spy</turnInThought>
         <turnInRefreshSilverInDays>7</turnInRefreshSilverInDays>
         <turnInTraderNameKey>FCP_USA_Turn_In_Trader_Name</turnInTraderNameKey>
