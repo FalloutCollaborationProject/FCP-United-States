@@ -59,18 +59,16 @@
             <li Class="RoleRequirement_MinSkillAny">
                 <skills>
                     <Social>8</Social>
-                    <Construction>6</Construction>
+                    <Intellectual>6</Intellectual>
                 </skills>
             </li>
         </roleRequirements>
         <roleRequiredWorkTags>
             <li>Social</li>
-            <li>Construction</li>
             <li>Intellectual</li>
         </roleRequiredWorkTags>
         <roleTags>
             <li>Leader</li>
-            <li>Builder</li>
             <li>Citizen</li>
         </roleTags>
         <requiredMemes>
