@@ -42,7 +42,7 @@
                     <!--The faction def that will be guarding-->
                     <factionDefs>
                         <li>PirateWaster</li>
-                        <li MayRequire="Rick.FCP.Legion">FCP_Faction_China</li>
+                        <li MayRequire="Rick.FCP.PRC">FCP_Faction_PRC</li>
                     </factionDefs>
                 </li>
                 <li Class="FCP_RadiantQuests.QuestNode_GetFactionFromList">
@@ -190,7 +190,7 @@
                     <!--The faction def that will be guarding-->
                     <factionDefs>
                         <li>PirateWaster</li>
-                        <li MayRequire="Rick.FCP.Legion">FCP_Faction_China</li>
+                        <li MayRequire="Rick.FCP.PRC">FCP_Faction_PRC</li>
                     </factionDefs>
                 </li>
                 <li Class="FCP_RadiantQuests.QuestNode_GetFactionFromList">
