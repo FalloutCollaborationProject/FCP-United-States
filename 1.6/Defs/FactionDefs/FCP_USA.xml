@@ -73,6 +73,9 @@
             <li>
                 <categories>
                     <li>FCP_Backstory_USA_Citizen</li>
+                    <li>FCP_Backstory_USA_Salesman</li>
+                    <li>FCP_Backstory_USA_Tax_Collector</li>
+                    <li>FCP_Backstory_Quartermaster</li>
                     <li>FCP_Backstory_USA_Army_Infantry</li>
                     <li>FCP_Backstory_USA_Army_Support</li>
                     <li>FCP_Backstory_USA_Army_Vertibird_Pilot</li>
