@@ -25,6 +25,92 @@
             <tags>
                 <li>FCP_USA_Army_Armor</li>
             </tags>
+            <defaultOutfitTags inherit="false">
+                <li>FCP_USA_Combat_Armor</li>
+            </defaultOutfitTags>
+        </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!--_____ Marine Armor _____-->
+
+    <!-- Marine Armor Base -->
+
+    <ThingDef Name="FCP_Apparel_USA_Marine_Armor_Base" Abstract="True" ParentName="ApparelBase">
+        <smeltable>false</smeltable>
+        <thingCategories>
+            <li>ApparelArmor</li>
+        </thingCategories>
+        <recipeMaker Inherit= "false">
+            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+        <researchPrerequisite>FCP_Research_USA_Marine_Corps_Equipment</researchPrerequisite>
+            <recipeUsers>
+                <li>FCP_Production_Tailoring_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <costList>
+            <Cloth>25</Cloth>
+            <Steel>60</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+        <statBases>
+            <MaxHitPoints>250</MaxHitPoints>
+            <MarketValue>950</MarketValue>
+            <Mass>5.0</Mass>
+			<ArmorRating_Sharp>1.45</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.20</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.80</ArmorRating_Heat>
+            <Insulation_Cold>5</Insulation_Cold>
+            <Insulation_Heat>3</Insulation_Heat>
+            <EquipDelay>1.2</EquipDelay>
+        </statBases>
+        <apparel>
+            <bodyPartGroups>
+                <li>Neck</li>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Middle</li>
+            </layers>
+            <defaultOutfitTags>
+                <li>FCP_USA_Marine_Armor</li>
+            </defaultOutfitTags>
+        </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Marine Armor -->
+
+    <ThingDef ParentName="FCP_Apparel_USA_Marine_Armor_Base">
+        <defName>FCP_Apparel_USA_Marine_Armor</defName>
+        <description></description>
+        <label>US Marine Armor</label>
+        <graphicData>
+            <texPath>Things/Apparel/US_Marine_Armor/FCP_US_Marine_Armor</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/US_Marine_Armor/FCP_US_Marine_Armor</wornGraphicPath>
+            <tags>
+                <li>FCP_USA_Marine_Armor</li>
+            </tags>
+            <defaultOutfitTags inherit="false">
+                <li>FCP_USA_Marine_Armor</li>
+            </defaultOutfitTags>
         </apparel>
         <comps>
             <li Class="FCP.Core.CompProperties_LabelColored">
