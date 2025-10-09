@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Pawnkinds __________-->
+
+    <!--_____ United States Pawnkinds _____-->
+
+    <!--___ Characters ___-->
+
+    <!-- Character Military Base -->
+
+    <PawnKindDef Name="FCP_USA_CharacterkindBase" ParentName="FCP_USAkindBase" Abstract="true">
+        <apparelMoney>9999</apparelMoney>
+        <gearHealthRange>10</gearHealthRange>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <weaponMoney>9999</weaponMoney>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>19~30</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_USA_Child</li>
+                </categoriesChildhood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+        <weaponMoney>9999</weaponMoney>
+    </PawnKindDef>
+
+    <!-- President Richardson -->
+
+    <PawnKindDef ParentName="FCP_USAkindBase">
+        <defName>FCP_Pawnkind_USA_President_Richardson</defName>
+        <label>President</label>
+        <factionLeader>true</factionLeader>
+        <combatPower>50</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_USA_Presidents_Suit</li>
+        </apparelRequired>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>19~30</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_USA_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_USA_President_Richardson</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+        <weaponTags>
+            <li>FCP_USA_Weapon_Alloy_Steel_10mm_Pistol</li>
+        </weaponTags>
+    </PawnKindDef>
+
+    <!-- Secretary of Agriculture Thomas Eckhart -->
+
+    <PawnKindDef ParentName="FCP_USAkindBase">
+        <defName>FCP_Pawnkind_USA_Secretary_Eckhart</defName>
+        <label>Secretary of Agriculture</label>
+        <combatPower>50</combatPower>
+        <apparelMoney>400~600</apparelMoney>
+        <apparelTags>
+            <li>FCP_USA_Suit</li>
+        </apparelTags>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>10~17</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_USA_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_USA_Secretary_Eckhart</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+        <weaponTags>
+            <li>FCP_USA_Weapon_Alloy_Steel_10mm_Pistol</li>
+        </weaponTags>
+    </PawnKindDef>
+
+    <!-- General Constantine Chase -->
+
+    <PawnKindDef ParentName="FCP_USAkindBase">
+        <defName>FCP_Pawnkind_USA_General_Chase</defName>
+        <label>General</label>
+        <combatPower>50</combatPower>
+        <apparelMoney>400~600</apparelMoney>
+        <apparelTags>
+            <li>FCP_USA_General</li>
+        </apparelTags>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>10~17</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_USA_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_USA_General_Chase</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+        <weaponTags>
+            <li>FCP_USA_Weapon_Alloy_Steel_10mm_Pistol</li>
+        </weaponTags>
+    </PawnKindDef>
+
+    <!-- General Braxton -->
+
+    <PawnKindDef ParentName="FCP_USAkindBase">
+        <defName>FCP_Pawnkind_USA_General_Braxton</defName>
+        <label>General</label>
+        <combatPower>50</combatPower>
+        <apparelMoney>400~600</apparelMoney>
+        <apparelTags>
+            <li>FCP_USA_General</li>
+        </apparelTags>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>10~17</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_USA_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_USA_General_Braxton</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+        <weaponTags>
+            <li>FCP_USA_Weapon_Alloy_Steel_10mm_Pistol</li>
+        </weaponTags>
+    </PawnKindDef>
+
+    <!-- General Rawlings -->
+
+    <PawnKindDef ParentName="FCP_USAkindBase">
+        <defName>FCP_Pawnkind_USA_General_Rawlings</defName>
+        <label>General</label>
+        <combatPower>50</combatPower>
+        <apparelMoney>400~600</apparelMoney>
+        <apparelTags>
+            <li>FCP_USA_General</li>
+        </apparelTags>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>10~17</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_USA_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_USA_General_Rawlings</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+        <weaponTags>
+            <li>FCP_USA_Weapon_Alloy_Steel_10mm_Pistol</li>
+        </weaponTags>
+    </PawnKindDef>
+
+    <!-- General Ellen Blackwell -->
+
+    <PawnKindDef ParentName="FCP_USAkindBase">
+        <defName>FCP_Pawnkind_USA_General_Blackwell</defName>
+        <label>General</label>
+        <combatPower>50</combatPower>
+        <apparelMoney>400~600</apparelMoney>
+        <apparelTags>
+            <li>FCP_USA_General</li>
+        </apparelTags>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>10~17</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_USA_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_USA_General_Blackwell</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+        <weaponTags>
+            <li>FCP_USA_Weapon_Alloy_Steel_10mm_Pistol</li>
+        </weaponTags>
+    </PawnKindDef>
+
+    <!-- General Baker -->
+
+    <PawnKindDef ParentName="FCP_USAkindBase">
+        <defName>FCP_Pawnkind_USA_General_Baker</defName>
+        <label>General</label>
+        <combatPower>50</combatPower>
+        <apparelMoney>400~600</apparelMoney>
+        <apparelTags>
+            <li>FCP_USA_General</li>
+        </apparelTags>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>10~17</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_USA_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_USA_General_Baker</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+        <weaponTags>
+            <li>FCP_USA_Weapon_Alloy_Steel_10mm_Pistol</li>
+        </weaponTags>
+    </PawnKindDef>
+
+    <!-- General Williams -->
+
+    <PawnKindDef ParentName="FCP_USAkindBase">
+        <defName>FCP_Pawnkind_USA_General_Williams</defName>
+        <label>General</label>
+        <combatPower>50</combatPower>
+        <apparelMoney>400~600</apparelMoney>
+        <apparelTags>
+            <li>FCP_USA_General</li>
+        </apparelTags>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>10~17</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_USA_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_USA_General_Williams</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+        <weaponTags>
+            <li>FCP_USA_Weapon_Alloy_Steel_10mm_Pistol</li>
+        </weaponTags>
+    </PawnKindDef>
+
+    <!-- General Kelly -->
+
+    <PawnKindDef ParentName="FCP_USAkindBase">
+        <defName>FCP_Pawnkind_USA_General_Kelly</defName>
+        <label>General</label>
+        <combatPower>50</combatPower>
+        <apparelMoney>400~600</apparelMoney>
+        <apparelTags>
+            <li>FCP_USA_General</li>
+        </apparelTags>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>10~17</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_USA_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_USA_General_Kelly</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+        <weaponTags>
+            <li>FCP_USA_Weapon_Alloy_Steel_10mm_Pistol</li>
+        </weaponTags>
+    </PawnKindDef>
+
+    <!-- General McGowan -->
+
+    <PawnKindDef ParentName="FCP_USAkindBase">
+        <defName>FCP_Pawnkind_USA_General_McGowan</defName>
+        <label>General</label>
+        <combatPower>50</combatPower>
+        <apparelMoney>400~600</apparelMoney>
+        <apparelTags>
+            <li>FCP_USA_General</li>
+        </apparelTags>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>10~17</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_USA_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_USA_General_McGowan</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+        <weaponTags>
+            <li>FCP_USA_Weapon_Alloy_Steel_10mm_Pistol</li>
+        </weaponTags>
+    </PawnKindDef>
+
+    <!-- General Staggs -->
+
+    <PawnKindDef ParentName="FCP_USAkindBase">
+        <defName>FCP_Pawnkind_USA_General_Staggs</defName>
+        <label>General</label>
+        <combatPower>50</combatPower>
+        <apparelMoney>400~600</apparelMoney>
+        <apparelTags>
+            <li>FCP_USA_General</li>
+        </apparelTags>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>10~17</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_USA_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_USA_General_Staggs</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+        <weaponTags>
+            <li>FCP_USA_Weapon_Alloy_Steel_10mm_Pistol</li>
+        </weaponTags>
+    </PawnKindDef>
+
+    <!-- General Wood -->
+
+    <PawnKindDef ParentName="FCP_USAkindBase">
+        <defName>FCP_Pawnkind_USA_General_Wood</defName>
+        <label>General</label>
+        <combatPower>50</combatPower>
+        <apparelMoney>400~600</apparelMoney>
+        <apparelTags>
+            <li>FCP_USA_General</li>
+        </apparelTags>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>10~17</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_USA_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_USA_General_Wood</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+        <weaponTags>
+            <li>FCP_USA_Weapon_Alloy_Steel_10mm_Pistol</li>
+        </weaponTags>
+    </PawnKindDef>
+
+    <!-- Colonel Ellen Santiago -->
+
+    <PawnKindDef ParentName="FCP_USAkindBase">
+        <defName>FCP_Pawnkind_USA_Colonel_Santiago</defName>
+        <label>Colonel</label>
+        <combatPower>50</combatPower>
+        <apparelMoney>400~600</apparelMoney>
+        <apparelTags>
+            <li>FCP_USA_Officer</li>
+        </apparelTags>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>10~17</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_USA_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_USA_Colonel_Santiago</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+        <weaponTags>
+            <li>FCP_USA_Weapon_Alloy_Steel_10mm_Pistol</li>
+        </weaponTags>
+    </PawnKindDef>
+
+    <!-- Major Darion Jones -->
+
+    <PawnKindDef ParentName="FCP_USAkindBase">
+        <defName>FCP_Pawnkind_USA_Major_Jones</defName>
+        <label>Major</label>
+        <combatPower>50</combatPower>
+        <apparelMoney>400~600</apparelMoney>
+        <apparelTags>
+            <li>FCP_USA_General</li>
+        </apparelTags>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>10~17</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_USA_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_USA_Major_Jones</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+        <weaponTags>
+            <li>FCP_USA_Weapon_Alloy_Steel_10mm_Pistol</li>
+        </weaponTags>
+    </PawnKindDef>
+
+    <!-- Captain Roger Maxon -->
+
+    <PawnKindDef ParentName="FCP_USAkindBase">
+        <defName>FCP_Pawnkind_USA_Captain_Maxon</defName>
+        <label>Captain</label>
+        <combatPower>50</combatPower>
+        <apparelMoney>400~600</apparelMoney>
+        <apparelTags>
+            <li>FCP_USA_General</li>
+        </apparelTags>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>10~17</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_USA_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_USA_Captain_Maxon</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+        <weaponTags>
+            <li>FCP_USA_Weapon_Alloy_Steel_Assault_Rifle</li>
+        </weaponTags>
+    </PawnKindDef>
+
+    <!--___ Civilians ___-->
+
+    <!-- Engineer -->
+
+    <PawnKindDef ParentName="FCP_USAkindBase">
+        <defName>FCP_Pawnkind_USA_Engineer</defName>
+        <label>US Army Engineer</label>
+        <combatPower>25</combatPower>
+        <itemQuality>Poor</itemQuality>
+        <gearHealthRange>0.5~1.8</gearHealthRange>
+        <apparelRequired>
+            <li>FCP_Apparel_USA_Engineer_Jumpsuit</li>
+        </apparelRequired>
+        <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <techHediffsChance>0.15</techHediffsChance>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>10~17</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_USA_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_USA_Engineer</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+        <weaponTags>
+            <li>FCP_USA_Weapon_Alloy_Steel_10mm_Pistol</li>
+        </weaponTags>
+    </PawnKindDef>
+
+    <!-- USA Citizen -->
+
+    <PawnKindDef ParentName="FCP_USAkindBase">
+        <defName>FCP_Pawnkind_USA_Citizen</defName>
+        <label>US Citizen</label>
+        <combatPower>55</combatPower>
+        <itemQuality>Poor</itemQuality>
+        <gearHealthRange>0.5~1.8</gearHealthRange>
+        <apparelMoney>400~600</apparelMoney>
+        <apparelTags>
+            <li>FCP_Wastelander_Apparel</li>
+        </apparelTags>
+        <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <techHediffsChance>0.15</techHediffsChance>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>10~17</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_USA_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_USA_Citizen</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shotgun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Pistol</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Revolver</li>
+        </weaponTags>
+    </PawnKindDef>
+
+    <!-- Chinese POW -->
+
+    <PawnKindDef MayRequire="Rick.FCP.China" ParentName="FCP_PRCkindBase">
+        <defName>FCP_Pawnkind_USA_POW</defName>
+        <label>Chinese POW</label>
+        <combatPower>25</combatPower>
+        <itemQuality>Poor</itemQuality>
+        <gearHealthRange>0.5~1.8</gearHealthRange>
+        <apparelMoney>400~600</apparelMoney>
+        <apparelTags>
+            <li>FCP_USA_POW_Uniform</li>
+        </apparelTags>
+        <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <techHediffsChance>0.15</techHediffsChance>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>10~17</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_PRC_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_PRC_Citizen</li>
+                    <li>FCP_Backstory_PRC_Army</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <modExtensions>
+            <li Class=" FCP.Core.ModExtension_PawnKindProperties">
+                <purchasableFromTrader>True</purchasableFromTrader>
+            </li>
+        </modExtensions>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!--___ Traders ___-->
+
+    <!-- USA Quartermaster -->
+
+    <PawnKindDef ParentName="FCP_USAkindBase">
+        <defName>FCP_Pawnkind_USA_Quartermaster</defName>
+        <label>US Quartermaster</label>
+        <trader>true</trader>
+        <combatPower>65</combatPower>
+        <apparelMoney>9999</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>FCP_USA_Trooper</li>
+        </apparelTags>
+        <weaponMoney>9999</weaponMoney>
+        <weaponTags>
+            <li>FCP_USA_Weapon_Alloy_Steel_Assault_Rifle</li>
+        </weaponTags>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>15~24</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_USA_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_USA_Quartermaster</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- USA Warden -->
+
+    <PawnKindDef ParentName="FCP_USAkindBase">
+        <defName>FCP_Pawnkind_USA_USA_Warden</defName>
+        <label>US Warden</label>
+        <trader>true</trader>
+        <combatPower>90</combatPower>
+        <itemQuality>Poor</itemQuality>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelRequired>
+            <li>FCP_Apparel_Army_Uniform</li>
+        </apparelRequired>
+        <weaponMoney>9999</weaponMoney>
+        <weaponTags>
+            <li>FCP_USA_Weapon_Alloy_Steel_10mm_Pistol</li>
+        </weaponTags>
+        <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <techHediffsChance>0.15</techHediffsChance>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>10~17</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_USA_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_USA_Army_Infantry</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!--___ Politicians ___-->
+
+    <!-- Tax Collector -->
+
+    <PawnKindDef ParentName="FCP_USAkindBase">
+        <defName>FCP_Pawnkind_USA_Tax_Collector</defName>
+        <label>US Tax Collector</label>
+        <trader>true</trader>
+        <combatPower>30</combatPower>
+        <apparelMoney>400~600</apparelMoney>
+        <apparelTags>
+            <li>FCP_USA_Ambassador</li>
+        </apparelTags>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>10~17</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_USA_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_USA_Tax_Collector</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- President -->
+
+    <!-- <PawnKindDef ParentName="FCP_USAkindBase">
+        <defName>FCP_USA_President</defName>
+        <label>US President</label>
+        <factionLeader>true</factionLeader>
+        <combatPower>100</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_USA_Presidents_Suit</li>
+        </apparelRequired>
+        <weaponMoney>1000~1001</weaponMoney>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>19~30</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_USA_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_USA_Ambassador</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef> -->
+
+    <!--___ Military ___-->
+
+    <!-- US Infantry -->
+
+    <PawnKindDef ParentName="FCP_USAkindBase">
+        <defName>FCP_Pawnkind_USA_Army_Infantry</defName>
+        <label>US Army Infantry</label>
+        <combatPower>65</combatPower>
+        <itemQuality>Poor</itemQuality>
+        <gearHealthRange>0.5~1.8</gearHealthRange>
+        <apparelMoney>9999</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>FCP_USA_Army_Armor</li>
+        </apparelTags>
+        <weaponMoney>9999</weaponMoney>
+        <weaponTags>
+            <li>FCP_USA_Weapon_Alloy_Steel_Assault_Rifle</li>
+        </weaponTags>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <techHediffsChance>0.03</techHediffsChance>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>15~24</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_USA_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_USA_Army_Infantry</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- US Army Support -->
+
+    <PawnKindDef ParentName="FCP_USAkindBase">
+        <defName>FCP_Pawnkind_USA_Army_Support</defName>
+        <label>US Army Support</label>
+        <combatPower>65</combatPower>
+        <itemQuality>Poor</itemQuality>
+        <gearHealthRange>0.5~1.8</gearHealthRange>
+        <apparelMoney>9999</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>FCP_USA_Army_Uniform</li>
+        </apparelTags>
+        <weaponMoney>9999</weaponMoney>
+        <weaponTags>
+            <li>FCP_USA_Weapon_Alloy_Steel_Assault_Rifle</li>
+        </weaponTags>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <techHediffsChance>0.03</techHediffsChance>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>15~24</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_USA_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_USA_Army_Support</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- US Army Mechanized Infantry -->
+
+    <PawnKindDef ParentName="FCP_USAkindBase">
+        <defName>FCP_Pawnkind_USA_Army_Mechanized_Infantry</defName>
+        <label>US Army Mechanized Infantry</label>
+        <combatPower>90</combatPower>
+        <gearHealthRange>0.5~1.8</gearHealthRange>
+        <apparelMoney>9999</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>FCP_USA_Power_Armor</li>
+        </apparelTags>
+        <weaponMoney>9999</weaponMoney>
+        <weaponTags>
+            <li>FCP_USA_Weapon_Alloy_Steel_Assault_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Heavy_Weapon</li>
+        </weaponTags>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <techHediffsChance>0.03</techHediffsChance>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>17~25</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_USA_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_USA_Army_Mechanized_Infantry</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- US Army Pilot -->
+
+    <PawnKindDef ParentName="FCP_USAkindBase">
+        <defName>FCP_Pawnkind_USA_Army_Pilot</defName>
+        <label>US Army Pilot</label>
+        <combatPower>75</combatPower>
+        <itemQuality>Poor</itemQuality>
+        <gearHealthRange>0.5~1.8</gearHealthRange>
+        <apparelMoney>9999</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>FCP_USA_Army_Uniform</li>
+        </apparelTags>
+        <weaponMoney>9999</weaponMoney>
+        <weaponTags>
+            <li>FCP_USA_Weapon_Alloy_Steel_Assault_Rifle</li>
+        </weaponTags>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <techHediffsChance>0.03</techHediffsChance>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>15~24</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_USA_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_USA_Army_Vertibird_Pilot</li>
+                    <li>FCP_Backstory_USA_Army_Jet_Pilot</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- US Army Officer -->
+
+    <PawnKindDef ParentName="FCP_USAkindBase">
+        <defName>FCP_Pawnkind_USA_Army_Officer</defName>
+        <label>US Army Officer</label>
+        <combatPower>95</combatPower>
+        <gearHealthRange>0.5~1.8</gearHealthRange>
+        <apparelMoney>400~600</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>FCP_USA_Officer</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>FCP_Apparel_USA_Beret</li>
+        </apparelRequired>
+        <weaponMoney>9999</weaponMoney>
+        <weaponTags>
+            <li>FCP_USA_Weapon_Alloy_Steel_10mm_Pistol</li>
+        </weaponTags>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <techHediffsChance>0.03</techHediffsChance>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>17~25</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_USA_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_USA_Army_Officer</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- US Army General -->
+
+    <PawnKindDef ParentName="FCP_USAkindBase">
+        <defName>FCP_Pawnkind_USA_Army_General</defName>
+        <label>US Army General</label>
+        <combatPower>190</combatPower>
+        <apparelMoney>9999</apparelMoney>
+        <factionLeader>true</factionLeader>
+        <apparelTags>
+            <li>FCP_USA_General</li>
+        </apparelTags>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <weaponMoney>9999</weaponMoney>
+        <weaponTags>
+            <li>FCP_USA_Weapon_Alloy_Steel_10mm_Pistol</li>
+        </weaponTags>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>19~30</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_USA_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_USA_Army_General</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- US Marine Infantry -->
+
+    <PawnKindDef ParentName="FCP_USAkindBase">
+        <defName>FCP_Pawnkind_USA_Marine_Infantry</defName>
+        <label>US Marine Infantry</label>
+        <combatPower>75</combatPower>
+        <gearHealthRange>0.5~1.8</gearHealthRange>
+        <apparelTags>
+            <li>FCP_USA_Marine_Armor</li>
+        </apparelTags>
+        <apparelMoney>9999</apparelMoney>
+        <weaponMoney>9999</weaponMoney>
+        <weaponTags>
+            <li>FCP_USA_Weapon_Alloy_Steel_Assault_Rifle</li>
+        </weaponTags>   
+        <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <techHediffsChance>0.15</techHediffsChance>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>10~17</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_USA_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_USMC_Marine</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- US Marine Squad Leader -->
+
+    <PawnKindDef ParentName="FCP_USAkindBase">
+        <defName>FCP_Pawnkind_USA_Marine_Squad_Leader</defName>
+        <label>US Marine Squad Leader</label>
+        <combatPower>80</combatPower>
+        <gearHealthRange>0.5~1.8</gearHealthRange>
+        <apparelMoney>9999</apparelMoney>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelTags>
+            <li>FCP_USA_Ranger_Patrol</li>
+        </apparelTags>
+        <weaponMoney>9999</weaponMoney>
+        <weaponTags>
+            <li>FCP_USA_Weapon_Alloy_Steel_Assault_Rifle</li>
+        </weaponTags>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <techHediffsChance>0.03</techHediffsChance>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>17~25</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_USA_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_USMC_Marine_Squad_Leader</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+    <!-- US Army Alaskan Campaign Trooper -->
+
+    <PawnKindDef ParentName="FCP_USAkindBase">
+        <defName>FCP_Pawnkind_USA_Army_Alaskan_Campaign_Trooper</defName>
+        <label>US Army Alaskan Campaign Trooper</label>
+        <combatPower>85</combatPower>
+        <gearHealthRange>0.5~1.8</gearHealthRange>
+        <apparelMoney>1</apparelMoney>
+        <apparelRequired>
+            <li>FCP_Apparel_USA_Winterized_Combat_Armor</li>
+            <li>FCP_Apparel_USA_Winterized_Combat_Armor_Helmet</li>
+        </apparelRequired>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <weaponMoney>9999</weaponMoney>
+        <weaponTags>
+            <li>FCP_USA_Weapon_Alloy_Steel_Assault_Rifle</li>
+        </weaponTags>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <techHediffsMoney>50~50</techHediffsMoney>
+        <techHediffsTags>
+            <li>Poor</li>
+        </techHediffsTags>
+        <techHediffsChance>0.03</techHediffsChance>
+        <initialWillRange>1~3</initialWillRange>
+        <initialResistanceRange>17~25</initialResistanceRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_USA_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_USA_Ranger</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
+    </PawnKindDef>
+
+</Defs>
