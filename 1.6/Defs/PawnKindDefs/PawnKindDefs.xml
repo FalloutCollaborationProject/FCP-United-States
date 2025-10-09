@@ -57,7 +57,7 @@
         </backstoryFiltersOverride>
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
         <weaponTags>
-            <li>FCP_USA_Weapon_Alloy_Steel_10mm_Pistol</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_10mm_Pistol</li>
         </weaponTags>
     </PawnKindDef>
 
@@ -85,7 +85,7 @@
         </backstoryFiltersOverride>
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
         <weaponTags>
-            <li>FCP_USA_Weapon_Alloy_Steel_10mm_Pistol</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_10mm_Pistol</li>
         </weaponTags>
     </PawnKindDef>
 
@@ -113,7 +113,7 @@
         </backstoryFiltersOverride>
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
         <weaponTags>
-            <li>FCP_USA_Weapon_Alloy_Steel_10mm_Pistol</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_10mm_Pistol</li>
         </weaponTags>
     </PawnKindDef>
 
@@ -141,7 +141,7 @@
         </backstoryFiltersOverride>
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
         <weaponTags>
-            <li>FCP_USA_Weapon_Alloy_Steel_10mm_Pistol</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_10mm_Pistol</li>
         </weaponTags>
     </PawnKindDef>
 
@@ -169,7 +169,7 @@
         </backstoryFiltersOverride>
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
         <weaponTags>
-            <li>FCP_USA_Weapon_Alloy_Steel_10mm_Pistol</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_10mm_Pistol</li>
         </weaponTags>
     </PawnKindDef>
 
@@ -197,7 +197,7 @@
         </backstoryFiltersOverride>
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
         <weaponTags>
-            <li>FCP_USA_Weapon_Alloy_Steel_10mm_Pistol</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_10mm_Pistol</li>
         </weaponTags>
     </PawnKindDef>
 
@@ -225,7 +225,7 @@
         </backstoryFiltersOverride>
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
         <weaponTags>
-            <li>FCP_USA_Weapon_Alloy_Steel_10mm_Pistol</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_10mm_Pistol</li>
         </weaponTags>
     </PawnKindDef>
 
@@ -253,7 +253,7 @@
         </backstoryFiltersOverride>
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
         <weaponTags>
-            <li>FCP_USA_Weapon_Alloy_Steel_10mm_Pistol</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_10mm_Pistol</li>
         </weaponTags>
     </PawnKindDef>
 
@@ -281,7 +281,7 @@
         </backstoryFiltersOverride>
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
         <weaponTags>
-            <li>FCP_USA_Weapon_Alloy_Steel_10mm_Pistol</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_10mm_Pistol</li>
         </weaponTags>
     </PawnKindDef>
 
@@ -309,7 +309,7 @@
         </backstoryFiltersOverride>
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
         <weaponTags>
-            <li>FCP_USA_Weapon_Alloy_Steel_10mm_Pistol</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_10mm_Pistol</li>
         </weaponTags>
     </PawnKindDef>
 
@@ -337,7 +337,7 @@
         </backstoryFiltersOverride>
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
         <weaponTags>
-            <li>FCP_USA_Weapon_Alloy_Steel_10mm_Pistol</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_10mm_Pistol</li>
         </weaponTags>
     </PawnKindDef>
 
@@ -365,7 +365,7 @@
         </backstoryFiltersOverride>
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
         <weaponTags>
-            <li>FCP_USA_Weapon_Alloy_Steel_10mm_Pistol</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_10mm_Pistol</li>
         </weaponTags>
     </PawnKindDef>
 
@@ -393,7 +393,7 @@
         </backstoryFiltersOverride>
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
         <weaponTags>
-            <li>FCP_USA_Weapon_Alloy_Steel_10mm_Pistol</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_10mm_Pistol</li>
         </weaponTags>
     </PawnKindDef>
 
@@ -421,7 +421,7 @@
         </backstoryFiltersOverride>
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
         <weaponTags>
-            <li>FCP_USA_Weapon_Alloy_Steel_10mm_Pistol</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_10mm_Pistol</li>
         </weaponTags>
     </PawnKindDef>
 
@@ -449,7 +449,7 @@
         </backstoryFiltersOverride>
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
         <weaponTags>
-            <li>FCP_USA_Weapon_Alloy_Steel_Assault_Rifle</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_Assault_Rifle</li>
         </weaponTags>
     </PawnKindDef>
 
@@ -485,7 +485,7 @@
         </backstoryFiltersOverride>
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
         <weaponTags>
-            <li>FCP_USA_Weapon_Alloy_Steel_10mm_Pistol</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_10mm_Pistol</li>
         </weaponTags>
     </PawnKindDef>
 
@@ -581,7 +581,7 @@
         </apparelTags>
         <weaponMoney>9999</weaponMoney>
         <weaponTags>
-            <li>FCP_USA_Weapon_Alloy_Steel_Assault_Rifle</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_Assault_Rifle</li>
         </weaponTags>
         <disallowedTraits>
             <li>Brawler</li>
@@ -618,7 +618,7 @@
         </apparelRequired>
         <weaponMoney>9999</weaponMoney>
         <weaponTags>
-            <li>FCP_USA_Weapon_Alloy_Steel_10mm_Pistol</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_10mm_Pistol</li>
         </weaponTags>
         <techHediffsMoney>50~50</techHediffsMoney>
         <techHediffsTags>
@@ -711,7 +711,7 @@
         </apparelTags>
         <weaponMoney>9999</weaponMoney>
         <weaponTags>
-            <li>FCP_USA_Weapon_Alloy_Steel_Assault_Rifle</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_Assault_Rifle</li>
         </weaponTags>
         <disallowedTraits>
             <li>Brawler</li>
@@ -754,7 +754,7 @@
         </apparelTags>
         <weaponMoney>9999</weaponMoney>
         <weaponTags>
-            <li>FCP_USA_Weapon_Alloy_Steel_Assault_Rifle</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_Assault_Rifle</li>
         </weaponTags>
         <disallowedTraits>
             <li>Brawler</li>
@@ -796,7 +796,7 @@
         </apparelTags>
         <weaponMoney>9999</weaponMoney>
         <weaponTags>
-            <li>FCP_USA_Weapon_Alloy_Steel_Assault_Rifle</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_Assault_Rifle</li>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Heavy_Weapon</li>
         </weaponTags>
         <disallowedTraits>
@@ -840,7 +840,7 @@
         </apparelTags>
         <weaponMoney>9999</weaponMoney>
         <weaponTags>
-            <li>FCP_USA_Weapon_Alloy_Steel_Assault_Rifle</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_Assault_Rifle</li>
         </weaponTags>
         <disallowedTraits>
             <li>Brawler</li>
@@ -886,7 +886,7 @@
         </apparelRequired>
         <weaponMoney>9999</weaponMoney>
         <weaponTags>
-            <li>FCP_USA_Weapon_Alloy_Steel_10mm_Pistol</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_10mm_Pistol</li>
         </weaponTags>
         <disallowedTraits>
             <li>Brawler</li>
@@ -931,7 +931,7 @@
         </requiredWorkTags>
         <weaponMoney>9999</weaponMoney>
         <weaponTags>
-            <li>FCP_USA_Weapon_Alloy_Steel_10mm_Pistol</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_10mm_Pistol</li>
         </weaponTags>
         <initialWillRange>3~5</initialWillRange>
         <initialResistanceRange>19~30</initialResistanceRange>
@@ -961,7 +961,7 @@
         <apparelMoney>9999</apparelMoney>
         <weaponMoney>9999</weaponMoney>
         <weaponTags>
-            <li>FCP_USA_Weapon_Alloy_Steel_Assault_Rifle</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_Assault_Rifle</li>
         </weaponTags>   
         <techHediffsMoney>50~50</techHediffsMoney>
         <techHediffsTags>
@@ -997,7 +997,7 @@
         </apparelTags>
         <weaponMoney>9999</weaponMoney>
         <weaponTags>
-            <li>FCP_USA_Weapon_Alloy_Steel_Assault_Rifle</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_Assault_Rifle</li>
         </weaponTags>
         <disallowedTraits>
             <li>Brawler</li>
@@ -1040,7 +1040,7 @@
         <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
         <weaponMoney>9999</weaponMoney>
         <weaponTags>
-            <li>FCP_USA_Weapon_Alloy_Steel_Assault_Rifle</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_Assault_Rifle</li>
         </weaponTags>
         <disallowedTraits>
             <li>Brawler</li>
