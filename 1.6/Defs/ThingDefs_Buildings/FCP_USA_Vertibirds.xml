@@ -9,7 +9,7 @@
 
     <TransportShipDef>
         <defName>FCP_Shuttle_USA_Vertibird</defName>
-        <label>U.S. vertibird</label>
+        <label>US vertibird</label>
         <shipThing>FCP_Shuttle_USA_Vertibird</shipThing>
         <arrivingSkyfaller>FCP_Shuttle_USA_VertibirdIncoming</arrivingSkyfaller>
         <leavingSkyfaller>FCP_Shuttle_USA_VertibirdLeaving</leavingSkyfaller>
@@ -23,7 +23,7 @@
 
     <ThingDef ParentName="BuildingBase">
         <defName>FCP_Shuttle_USA_Vertibird</defName>
-        <label>U.S. vertibird</label>
+        <label>US vertibird</label>
         <description>Vertibird is a designation for a series of vertical take-off and landing (VTOL) aircraft. These multipurpose tiltrotor aircraft were developed by the United States military and rapidly became a primary gunship and transport aircraft.</description>
         <altitudeLayer>Building</altitudeLayer>
         <pathCost>50</pathCost>
@@ -114,7 +114,7 @@
 
     <WorldObjectDef>
         <defName>FCP_Shuttle_USA_TravelingVertibird</defName>
-        <label>U.S. Vertibird</label>
+        <label>US Vertibird</label>
         <description>A US vertibird in flight.</description>
         <worldObjectClass>TravellingTransporters</worldObjectClass>
         <texture>World/WorldObjects/Caravan</texture>
