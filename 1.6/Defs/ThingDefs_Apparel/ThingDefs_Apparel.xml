@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ United States of America __________-->
+
+    <!--_____ US Clothing _____-->
+
+    <!--___ Military ___-->
+
+    <!-- Combat Armor -->
+
+    <ThingDef ParentName="FCP_Apparel_Combat_Armor_Base">
+        <defName>FCP_Apparel_USA_Army_Combat_Armor</defName>
+        <description>A short-sleeved armor with pauldrons and chest plates covering the torso.</description>
+        <label>US Army Combat Armor</label>
+       <recipeMaker>
+        <researchPrerequisite>FCP_Research_USA_Standard_Infantry_Gear</researchPrerequisite>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Things/Apparel/US_Army_Combat_Armor/FCP_US_Army_Combat_Armor</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/US_Army_Combat_Armor/FCP_US_Army_Combat_Armor</wornGraphicPath>
+            <tags>
+                <li>FCP_USA_Army_Armor</li>
+            </tags>
+        </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

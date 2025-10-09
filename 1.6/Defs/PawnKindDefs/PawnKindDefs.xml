@@ -499,7 +499,7 @@
         <gearHealthRange>0.5~1.8</gearHealthRange>
         <apparelMoney>400~600</apparelMoney>
         <apparelTags>
-            <li>FCP_Wastelander_Apparel</li>
+            <li>FCP_Pre_War_Apparel</li>
         </apparelTags>
         <techHediffsMoney>50~50</techHediffsMoney>
         <techHediffsTags>
@@ -749,9 +749,9 @@
         <gearHealthRange>0.5~1.8</gearHealthRange>
         <apparelMoney>9999</apparelMoney>
         <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
-        <apparelTags>
-            <li>FCP_USA_Army_Uniform</li>
-        </apparelTags>
+        <apparelRequired>
+            <li>FCP_Apparel_Army_Uniform</li>
+        </apparelRequired>
         <weaponMoney>9999</weaponMoney>
         <weaponTags>
             <li>FCP_Weapon_USA_Alloy_Steel_Assault_Rifle</li>
@@ -835,9 +835,9 @@
         <gearHealthRange>0.5~1.8</gearHealthRange>
         <apparelMoney>9999</apparelMoney>
         <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
-        <apparelTags>
-            <li>FCP_USA_Army_Uniform</li>
-        </apparelTags>
+        <apparelRequired>
+            <li>FCP_Apparel_Army_Uniform</li>
+        </apparelRequired>
         <weaponMoney>9999</weaponMoney>
         <weaponTags>
             <li>FCP_Weapon_USA_Alloy_Steel_Assault_Rifle</li>
@@ -881,9 +881,6 @@
         <apparelTags>
             <li>FCP_USA_Officer</li>
         </apparelTags>
-        <apparelRequired>
-            <li>FCP_Apparel_USA_Beret</li>
-        </apparelRequired>
         <weaponMoney>9999</weaponMoney>
         <weaponTags>
             <li>FCP_Weapon_USA_Alloy_Steel_10mm_Pistol</li>
