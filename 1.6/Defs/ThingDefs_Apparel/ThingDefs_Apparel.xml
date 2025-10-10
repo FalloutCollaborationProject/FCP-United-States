@@ -232,9 +232,11 @@
             </layers>
             <tags>
                 <li>FCP_USA_General</li>
+                <li>FCP_USA_Officer</li>
             </tags>
             <defaultOutfitTags>
                 <li>FCP_USA_General</li>
+                <li>FCP_USA_Officer</li>
             </defaultOutfitTags>
         </apparel>
         <comps>
