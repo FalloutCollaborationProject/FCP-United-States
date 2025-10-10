@@ -52,7 +52,7 @@
         <description>The winterized variant of the US Army Combat Armor of 2077, featuring advanced composite plating, modular design, and enhanced insulation for extreme cold. Outfitted with weatherproof materials and environmental seals, it offers robust protection against ballistic and energy threats while ensuring soldier mobility and warmth in harsh winter conditions.</description>
         <label>Winterized US Army Combat Armor</label>
         <recipeMaker>
-            <researchPrerequisite>FCP_Research_USA_Standard_Infantry_Gear</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_USA_Infantry_Variations</researchPrerequisite>
         </recipeMaker>
         <statBases>
             <Insulation_Cold>5.0</Insulation_Cold>

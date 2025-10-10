@@ -52,7 +52,7 @@
             <texPath>Things/Apparel/US_Army_Winterized_Combat_Armor/FCP_Winterized_US_Army_Combat_Helmet</texPath>
         </graphicData>
         <recipeMaker>
-            <researchPrerequisite>FCP_Research_USA_Standard_Infantry_Gear</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_USA_Infantry_Variations</researchPrerequisite>
         </recipeMaker>
         <costList>
             <Steel>40</Steel>
