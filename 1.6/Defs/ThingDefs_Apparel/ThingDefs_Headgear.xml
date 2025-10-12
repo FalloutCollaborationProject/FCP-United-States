@@ -49,7 +49,7 @@
         <label>Winterized US Army Combat Helmet</label>
         <description>The winterized variant of the US Army Combat Helmet, issued in 2077 for operations in extreme cold environments. Enhanced with advanced thermal insulation, weatherproofing, and an integrated facial protection system, it maintains the robust protection and sophisticated features of the standard model while ensuring comfort and operational effectiveness in harsh winter conditions. The built-in thermal faceguard offers superior coverage against wind and frostbite, while integrated environmental seals and communication interfaces remain standard, making this helmet essential for cold-weather deployments.</description>
         <graphicData>
-            <texPath>Things/Apparel/US_Army_Winterized_Combat_Armor/FCP_Winterized_US_Army_Combat_Helmet</texPath>
+            <texPath>Things/Apparel/US_Army_Winterized_Combat_Armor/FCP_Winterized_Combat_Helmet</texPath>
         </graphicData>
         <recipeMaker>
             <researchPrerequisite>FCP_Research_USA_Infantry_Variations</researchPrerequisite>
@@ -64,7 +64,7 @@
             <Insulation_Heat>-0.5</Insulation_Heat>
         </statBases>
         <apparel>
-            <wornGraphicPath>Things/Apparel/US_Army_Winterized_Combat_Armor/FCP_Winterized_US_Army_Combat_Helmet</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/US_Army_Winterized_Combat_Armor/FCP_Winterized_Combat_Helmet</wornGraphicPath>
             <tags>
                 <li>FCP_USA_Combat_Armor_Winterized</li>
             </tags>
@@ -90,7 +90,7 @@
             <researchPrerequisite>FCP_Research_USA_Officer_Corps</researchPrerequisite>
         </recipeMaker>
         <graphicData>
-            <texPath>Apparel/US_Army_Generals_Outfit/FCP_US_Army_General_Hat</texPath>
+            <texPath>Things/Apparel/US_Army_Generals_Outfit/FCP_US_Army_General_Hat</texPath>
         </graphicData>
         <equippedStatOffsets>
             <ShootingAccuracyPawn>0.50</ShootingAccuracyPawn>            <!-- +1 Perception -->
@@ -121,13 +121,13 @@
             <researchPrerequisite>FCP_Research_USA_Officer_Corps</researchPrerequisite>
         </recipeMaker>
         <graphicData>
-            <texPath>Apparel/US_Army_Winter_Generals_Outfit/FCP_US_Army_General_Hat</texPath>
+            <texPath>Things/Apparel/US_Army_Winter_Generals_Outfit/FCP_US_Army_General_Hat_Winter</texPath>
         </graphicData>
         <equippedStatOffsets>
             <ShootingAccuracyPawn>0.50</ShootingAccuracyPawn>            <!-- +1 Perception -->
         </equippedStatOffsets>
         <apparel>
-            <wornGraphicPath>Apparel/US_Army_Winter_Generals_Outfit/FCP_US_Army_General_Hat</wornGraphicPath>
+            <wornGraphicPath>Apparel/US_Army_Winter_Generals_Outfit/FCP_US_Army_General_Hat_Winter</wornGraphicPath>
             <tags>
                 <li>FCP_USA_General</li>
                 <li>FCP_USA_Officer</li>

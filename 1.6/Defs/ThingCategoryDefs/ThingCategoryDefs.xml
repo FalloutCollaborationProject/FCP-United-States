@@ -9,7 +9,7 @@
 		<defName>FCP_Currencies_USA</defName>
 		<label>currencies USA</label>
 		<parent>Manufactured</parent>
-		<iconPath>Things/Items/Currencies/FCP_USA_Dollar_Currency/FCP_USA_Pre_War_Dollar_Currency_c</iconPath>
+		<iconPath>Things/Items/Currencies/FCP_USA_Dollar_Currency/FCP_USA_Dollar_Currency_c</iconPath>
 		<resourceReadoutRoot>true</resourceReadoutRoot>
 	</ThingCategoryDef>
 

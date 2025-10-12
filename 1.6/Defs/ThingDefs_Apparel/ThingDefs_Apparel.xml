@@ -196,7 +196,7 @@
             </recipeUsers>
         </recipeMaker>
         <graphicData>
-            <texPath>Apparel/US_Army_Generals_Outfit/FCP_US_Army_Generals_Outfit</texPath>
+            <texPath>Things/Apparel/US_Army_Generals_Outfit/FCP_US_Army_General_Outfit</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
@@ -225,7 +225,7 @@
                 <li>Arms</li>
                 <li>Legs</li>
             </bodyPartGroups>
-            <wornGraphicPath>Apparel/US_Army_Generals_Outfit/FCP_US_Army_Generals_Outfit</wornGraphicPath>
+            <wornGraphicPath>Apparel/US_Army_Generals_Outfit/FCP_US_Army_General_Outfit</wornGraphicPath>
             <layers>
                 <li>OnSkin</li>
                 <li>Middle</li>
@@ -268,7 +268,7 @@
             </recipeUsers>
         </recipeMaker>
         <graphicData>
-            <texPath>Apparel/US_Army_Winter_Generals_Outfit/FCP_US_Army_Winter_Generals_Outfit</texPath>
+            <texPath>Things/Apparel/US_Army_Winter_Generals_Outfit/FCP_US_Army_Winter_General_Outfit</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
@@ -297,7 +297,7 @@
                 <li>Arms</li>
                 <li>Legs</li>
             </bodyPartGroups>
-            <wornGraphicPath>Apparel/US_Army_Winter_Generals_Outfit/FCP_US_Army_Winter_Generals_Outfit</wornGraphicPath>
+            <wornGraphicPath>Apparel/US_Army_Winter_Generals_Outfit/FCP_US_Army_Winter_General_Outfit</wornGraphicPath>
             <layers>
                 <li>OnSkin</li>
                 <li>Middle</li>
