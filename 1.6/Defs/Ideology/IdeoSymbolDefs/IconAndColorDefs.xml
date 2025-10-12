@@ -3,7 +3,7 @@
 
     <IdeoIconDef>
         <defName>FCP_Icon_USA</defName>
-        <iconPath>World_Icon/USA_Icon/FCP_USA_World_Icon</iconPath>
+        <iconPath>World_Icon/USA_Icon/FCP_United_States_World_Icon</iconPath>
         <cultures>
             <li>FCP_Culture_USA_American</li>
         </cultures>
