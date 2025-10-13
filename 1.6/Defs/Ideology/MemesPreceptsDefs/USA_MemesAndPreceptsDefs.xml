@@ -33,7 +33,6 @@
             <li><li>Execution_HorribleIfInnocent</li></li>
             <li><li>Research_Normal</li></li>
             <li><li>Skullspike_Disapproved</li></li>
-            <li><li>Slavery_Disapproved</li></li>
             <li><li>Blinding_Horrible</li></li>
             <li><li>Scarification_Horrible</li></li>
         </requireOne>
@@ -86,9 +85,7 @@
         </roleEffects>
         <displayOrderInImpact>1</displayOrderInImpact>
         <roleDisabledWorkTags>
-            <li>Slavery</li>
-            <li>Scarification</li>
-            <li>Execution</li>
+            <li>Cleaning</li>
         </roleDisabledWorkTags>
         <roleApparelRequirements>
             <li>

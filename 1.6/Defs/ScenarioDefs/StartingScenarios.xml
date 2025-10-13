@@ -20,22 +20,27 @@
                 <!-- Config pages -->
                 <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
                     <def>ConfigurePawnsKindDefs</def>
-                    <pawnChoiceCount>8</pawnChoiceCount>
+                    <pawnChoiceCount>10</pawnChoiceCount>
                     <leftBehindPawnKind>FCP_Pawnkind_US_Marine_Officer</leftBehindPawnKind>
                     <kindCounts>
                         <li>
-                            <kindDef>FCP_Pawnkind_US_Army_Officer</kindDef>
-                            <count>2</count>
-                            <requiredAtStart>true</requiredAtStart>
-                        </li>
-                        <li>
-                            <kindDef>FCP_Pawnkind_US_Marine</kindDef>
+                            <kindDef>FCP_Pawnkind_USA_Army_Officer</kindDef>
                             <count>2</count>
                             <requiredAtStart>false</requiredAtStart>
                         </li>
                         <li>
-                            <kindDef>FCP_Pawnkind_US_Soldier</kindDef>
-                            <count>6</count>
+                            <kindDef>FCP_Pawnkind_USA_Marine_Infantry</kindDef>
+                            <count>2</count>
+                            <requiredAtStart>false</requiredAtStart>
+                        </li>
+                        <li>
+                            <kindDef>FCP_Pawnkind_USA_Army_Infantry</kindDef>
+                            <count>2</count>
+                            <requiredAtStart>false</requiredAtStart>
+                        </li>
+                        <li>
+                            <kindDef>FCP_Pawnkind_USA_Army_Support</kindDef>
+                            <count>4</count>
                             <requiredAtStart>false</requiredAtStart>
                         </li>
                     </kindCounts>

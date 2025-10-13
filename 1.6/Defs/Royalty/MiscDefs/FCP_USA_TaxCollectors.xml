@@ -29,7 +29,7 @@
                 <thingDef>FCP_Currency_Caps</thingDef>
             </li>
             <li Class="StockGenerator_BuySingleDef">
-                <thingDef>FCP_Currency_USA_Dollar</thingDef>
+                <thingDef>FCP_Currency_USA_Pre_War_Dollar</thingDef>
             </li>
         </stockGenerators>
         <modExtensions>

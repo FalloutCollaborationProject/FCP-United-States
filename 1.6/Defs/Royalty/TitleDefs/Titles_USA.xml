@@ -10,7 +10,7 @@
     <!-- US Private -->
 
     <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
-        <defName>FCP_Title_USA_PVT</defName>
+        <defName>FCP_Title_USA_Army_PVT</defName>
         <label>US Army Private</label>
         <description>The lowest rank within the United States Army. There isn't a lot of respect in this role, nor is the pay well.</description>
         <tags>
@@ -27,7 +27,7 @@
     <!-- US Sergeant -->
 
     <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
-        <defName>FCP_Title_USA_SGT</defName>
+        <defName>FCP_Title_USA_Army_SGT</defName>
         <label>US Army Sergeant</label>
         <description>The first rank within the United States' non commissioned officer corps. This is the first step in a professional military carrer with reaL power and responsibilities.</description>
         <tags>
@@ -45,7 +45,7 @@
     <!-- USA Lieutenant -->
 
     <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
-        <defName>FCP_Title_USA_LT</defName>
+        <defName>FCP_Title_USA_Army_LT</defName>
         <label>US Army Lieutenant</label>
         <description>The first rank within the United States Army's commissioned officer corps. This is the lowest command position with the ability to call in reinforcements and supplies much faster and with greater quality and quantity.</description>
         <tags>
@@ -74,7 +74,7 @@
     <!-- USA Colonel -->
 
     <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
-        <defName>FCP_Title_USA_COL</defName>
+        <defName>FCP_Title_USA_Army_COL</defName>
         <label>US Army Colonel</label>
         <description>The highest rank that achievable in the United States Army without a political ally. This is one of the highest command positions with the ability to call in reinforcements at the company level and higher including special forces.</description>
         <tags>
@@ -101,6 +101,23 @@
     </RoyalTitleDef>
 
     <!--___ US Marine Titles ___-->
+
+    <!-- US Private -->
+
+    <RoyalTitleDef ParentName="FCP_Base_Empire_Titles">
+        <defName>FCP_Title_USA_Marine_PVT</defName>
+        <label>US Marine Private</label>
+        <description>The lowest rank within the United States Marine Corps. There isn't a lot of respect in this role, nor is the pay well.</description>
+        <tags>
+            <li>FCP_Title_USA</li>
+        </tags>
+        <seniority>0</seniority>
+        <favorCost>1</favorCost>
+        <changeHeirQuestPoints>1000</changeHeirQuestPoints>
+        <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
+        <awardWorkerClass>RoyalTitleAwardWorker_Instant</awardWorkerClass>
+        <permitPointsAwarded>1</permitPointsAwarded>
+    </RoyalTitleDef>
 
     <!-- US Marine Sergeant -->
 

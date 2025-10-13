@@ -126,7 +126,7 @@
 		<permitPointCost>1</permitPointCost>
 		<prerequisite>FCP_Permit_USA_Marine_Supply_Drop_Uniforms</prerequisite>
 		<cooldownDays>30</cooldownDays>
-		<minTitle>FCP_Title_USA_Marine_SGT</minTitle>
+		<minTitle>FCP_Title_USA_Marine_Sergeant</minTitle>
 		<uiPosition>(2,2)</uiPosition>
 		<royalAid>
 			<itemsToDrop>

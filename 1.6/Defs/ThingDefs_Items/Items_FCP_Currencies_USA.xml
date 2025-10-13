@@ -8,7 +8,7 @@
 	<ThingDef ParentName="ResourceBase">
 		<defName>FCP_Currency_USA_Pre_War_Dollar</defName>
 		<label>U.S. Dollar</label>
-		<description></description>
+		<description>U.S. Dollar bill, standard currency in America. Used for everyday transactions and trade.</description>
 		<graphicData>
 			<texPath>Things/Items/Currencies/FCP_USA_Dollar_Currency</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>

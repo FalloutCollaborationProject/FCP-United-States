@@ -1031,8 +1031,8 @@
         <gearHealthRange>0.5~1.8</gearHealthRange>
         <apparelMoney>1</apparelMoney>
         <apparelRequired>
-            <li>FCP_Apparel_USA_Winterized_Combat_Armor</li>
-            <li>FCP_Apparel_USA_Winterized_Combat_Armor_Helmet</li>
+            <li>FCP_Apparel_USA_Winterized_Army_Combat_Armor</li>
+            <li>FCP_Apparel_USA_Winterized_Army_Combat_Helmet</li>
         </apparelRequired>
         <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
         <weaponMoney>9999</weaponMoney>
