@@ -111,7 +111,7 @@
 		</royalAid>
 		<modExtensions>
 			<li Class="FCP.Factions.MaxTitlePermitExtension">
-				<maxTitle>FCP_Title_USA_Marine_COL</maxTitle>
+				<maxTitle>FCP_Title_USA_Marine_Colonel</maxTitle>
 			</li>
 		</modExtensions>
 	</RoyalTitlePermitDef>
@@ -136,7 +136,7 @@
 		</royalAid>
 		<modExtensions>
 			<li Class="FCP.Factions.MaxTitlePermitExtension">
-				<maxTitle>FCP_Title_USA_Marine_COL</maxTitle>
+				<maxTitle>FCP_Title_USA_Marine_Colonel</maxTitle>
 			</li>
 		</modExtensions>
 	</RoyalTitlePermitDef>
