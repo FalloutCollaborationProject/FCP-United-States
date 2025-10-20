@@ -69,8 +69,8 @@
 
     <ResearchProjectDef ParentName="FCP_Pre_War_Military_Research_Base">
         <defName>FCP_Research_USA_Standard_Infantry_Gear</defName>
-        <label>Holotape File: Standard Infantry Outfitting</label>
-        <description>Equip the United States Army with regulation uniforms and gear, ensuring every soldier is prepared for service at home and abroad in defense of American interests.</description>
+        <label>Holotape File: Standard Infantry Gear</label>
+        <description>Equip the United States Army with regulation uniforms gear and weapons, ensuring every soldier is prepared for service at home and abroad in defense of American interests.</description>
         <baseCost>1000</baseCost>
         <researchViewX>3</researchViewX>
         <researchViewY>2</researchViewY>
