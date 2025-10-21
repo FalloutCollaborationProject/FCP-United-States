@@ -42,7 +42,6 @@
         </statBases>
         <weaponTags>
             <li>FCP_USA_Alloy_Steel_Assault_Rifle</li>
-            <li>FCP_Assault_Rifle</li>
         </weaponTags>
         <costList>
             <Steel>65</Steel>
@@ -90,14 +89,254 @@
 
     <!--_____ SMG _____-->
 
+    <!-- Alloy Steel 10mm SMG -->
 
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FFCP_Gun_USA_Alloy_Steel_10mm_SMG</defName>
+        <label>Alloy Steel 10mm SMG</label>
+        <description>Constructed from hardened alloy steel and precision‑machined components, this compact 10mm SMG combines a high rate of fire with enhanced durability and improved armor penetration compared to field‑grade designs. Ideal for close‑quarters combat, it remains rugged under sustained use but sacrifices accuracy at longer ranges.</description>
+        <graphicData>
+            <texPath>Weapons/Submachine_Guns/FCP_Alloy_Steel_10mm_SMG</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_SMG</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_USA_Standard_Infantry_Gear</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>7</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <WorkToMake>30000</WorkToMake>
+            <Mass>1.9</Mass>
+            <AccuracyTouch>0.75</AccuracyTouch>
+            <AccuracyShort>0.65</AccuracyShort>
+            <AccuracyMedium>0.50</AccuracyMedium>
+            <AccuracyLong>0.35</AccuracyLong>
+            <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_Alloy_Steel_10mm_SMG</li>
+        </weaponTags>
+        <costList>
+            <Steel>45</Steel>
+            <ComponentIndustrial>4</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_10mm</defaultProjectile>
+                <warmupTime>0.4</warmupTime>
+                <range>20</range>
+                <burstShotCount>6</burstShotCount>
+                <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_10mm_SMG</soundCast>
+                <soundCastTail>GunTail_Light</soundCastTail>
+                <muzzleFlashScale>5</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>6</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>6</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
 
     <!--_____ Shotguns _____-->
 
+    <!-- Alloy Steel Combat Shotgun -->
 
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_Alloy_Steel_Combat_Shotgun</defName>
+        <label>Alloy Steel Combat Shotgun</label>
+        <description>Constructed from hardened alloy steel and precision‑machined components, this semi-automatic, magazine-fed combat shotgun delivers exceptional durability and reliable performance in close-quarters engagements. Built for military and law-enforcement use, it pairs a high rate of fire with improved armor penetration and ruggedness favored by hardened units.</description>
+        <graphicData>
+            <texPath>Weapons/Shotguns/FCP_Alloy_Steel_Combat_Shotgun</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Shotgun</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_USA_Standard_Infantry_Gear</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>9</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <WorkToMake>40000</WorkToMake>
+            <Mass>3.0</Mass>
+            <AccuracyTouch>0.95</AccuracyTouch>
+            <AccuracyShort>0.68</AccuracyShort>
+            <AccuracyMedium>0.32</AccuracyMedium>
+            <AccuracyLong>0.1</AccuracyLong>
+            <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_Alloy_Steel_Combat_Shotgun</li>
+        </weaponTags>
+        <costList>
+            <Steel>60</Steel>
+            <ComponentIndustrial>5</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_12Gauge_Shell</defaultProjectile>
+                <warmupTime>0.3</warmupTime>
+                <range>17</range>
+                <burstShotCount>1</burstShotCount>
+                <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_Combat_Shotgun</soundCast>
+                <soundCastTail>GunTail_Light</soundCastTail>
+                <muzzleFlashScale>5</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>7</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>7</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+        <modExtensions>
+            <li Class="IgnoreConfigErrors.Ignore_ForcedMissRadius" />
+        </modExtensions>
+    </ThingDef>
 
     <!--_____ Pistols _____-->
 
+    <!-- Alloy Steel 10mm Pistol -->
 
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_Alloy_Steel_10mm_Pistol</defName>
+        <label>Alloy Steel 10mm Pistol</label>
+        <description>Constructed from hardened alloy steel and precision-machined components, this 10mm pistol combines reliability and enhanced stopping power with improved durability and armor penetration compared to field-grade sidearms. Favored by security forces.</description>
+        <graphicData>
+            <texPath>Weapons/Pistols/FCP_Alloy_Steel_10mm_Pistol</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Autopistol</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_USA_Standard_Infantry_Gear</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <WorkToMake>12000</WorkToMake>
+            <Mass>1.0</Mass>
+            <AccuracyTouch>0.90</AccuracyTouch>
+            <AccuracyShort>0.75</AccuracyShort>
+            <AccuracyMedium>0.50</AccuracyMedium>
+            <AccuracyLong>0.20</AccuracyLong>
+            <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_Alloy_Steel_10mm_Pistol</li>
+        </weaponTags>
+        <costList>
+            <Steel>28</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_10mm</defaultProjectile>
+                <warmupTime>0.2</warmupTime>
+                <range>20</range>
+                <burstShotCount>1</burstShotCount>
+                <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_10mm_Pistol</soundCast>
+                <soundCastTail>GunTail_Light</soundCastTail>
+                <muzzleFlashScale>2.5</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>4</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>4</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
 
 </Defs>
