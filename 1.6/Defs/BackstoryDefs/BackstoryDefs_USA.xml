@@ -593,7 +593,7 @@
         <identifier>FCP_Backstory_USA_Army_Infantry</identifier>
         <slot>Adulthood</slot>
         <title>U.S. Army Infantry</title>
-        <titleShort>Infantry</titleShort>
+        <titleShort>U.S. Infantry</titleShort>
         <description>Served as a foot soldier in the United States Army before the Great War. Trained in marksmanship, tactics, and survival, this soldier saw action in several major conflicts and learned the value of discipline, teamwork, and perseverance under fire.</description>
         <skillGains>
             <Shooting>5</Shooting>
@@ -616,7 +616,7 @@
         <identifier>FCP_Backstory_USA_Army_Infantry_Veteran</identifier>
         <slot>Adulthood</slot>
         <title>U.S. Army Infantry Veteran</title>
-        <titleShort>Veteran</titleShort>
+        <titleShort>U.S. Veteran</titleShort>
         <description>Having survived multiple tours of duty, this veteran infantryman is hardened by years of combat. Their experience in urban warfare and trench fighting has made them resourceful and resilient, with a deep understanding of battlefield tactics.</description>
         <skillGains>
             <Shooting>6</Shooting>
@@ -640,7 +640,7 @@
         <identifier>FCP_Backstory_USA_Army_Infantry_Conscriptee</identifier>
         <slot>Adulthood</slot>
         <title>U.S. Army Conscriptee</title>
-        <titleShort>Conscriptee</titleShort>
+        <titleShort>U.S. Conscriptee</titleShort>
         <description>Drafted into service during the final years before the bombs fell, this conscriptee received only basic training before being sent to the front lines. Their experience is marked by confusion, fear, and a desperate will to survive.</description>
         <skillGains>
             <Shooting>3</Shooting>
@@ -663,7 +663,7 @@
         <identifier>FCP_Backstory_USA_Army_Infantry_Scout</identifier>
         <slot>Adulthood</slot>
         <title>U.S. Army Scout</title>
-        <titleShort>Scout</titleShort>
+        <titleShort>U.S. Scout</titleShort>
         <description>Specialized in reconnaissance and stealth, this scout operated ahead of the main force, gathering intelligence and reporting enemy positions. Their training focused on survival, navigation, and observation.</description>
         <skillGains>
             <Shooting>4</Shooting>
@@ -686,7 +686,7 @@
         <identifier>FCP_Backstory_USA_Army_Infantry_Radio_Operator</identifier>
         <slot>Adulthood</slot>
         <title>U.S. Army Radio Operator</title>
-        <titleShort>Radio Operator</titleShort>
+        <titleShort>U.S. Radio Operator</titleShort>
         <description>Responsible for maintaining communications on the battlefield, this radio operator relayed orders and called for support under fire. Their technical skills and quick thinking often made the difference between victory and defeat.</description>
         <skillGains>
             <Intellectual>3</Intellectual>
@@ -709,8 +709,8 @@
         <defName>FCP_Backstory_USA_Army_Logistics_Specialist</defName>
         <identifier>FCP_Backstory_USA_Army_Logistics_Specialist</identifier>
         <slot>Adulthood</slot>
-        <title>Army Logistics Specialist</title>
-        <titleShort>Logistics</titleShort>
+        <title>U.S. Army Logistics Specialist</title>
+        <titleShort>U.S. Logistician</titleShort>
         <description>Managed the supply lines and resources that kept the army moving. Skilled in organization, inventory, and problem-solving, this specialist ensured troops had the equipment and provisions needed for survival and victory.</description>
         <skillGains>
             <Intellectual>3</Intellectual>
@@ -732,8 +732,8 @@
         <defName>FCP_Backstory_USA_Army_Mechanic</defName>
         <identifier>FCP_Backstory_USA_Army_Mechanic</identifier>
         <slot>Adulthood</slot>
-        <title>Army Vehicle Mechanic</title>
-        <titleShort>Mechanic</titleShort>
+        <title>U.S. Army Vehicle Mechanic</title>
+        <titleShort>U.S. Mechanic</titleShort>
         <description>Kept the army’s vehicles running in the harshest conditions. Trained in repair and maintenance, this mechanic could fix anything from jeeps to tanks, often under fire or in the field.</description>
         <skillGains>
             <Construction>4</Construction>
@@ -755,8 +755,8 @@
         <defName>FCP_Backstory_USA_Army_Cook</defName>
         <identifier>FCP_Backstory_USA_Army_Cook</identifier>
         <slot>Adulthood</slot>
-        <title>Army Field Cook</title>
-        <titleShort>Cook</titleShort>
+        <title>U.S. Army Field Cook</title>
+        <titleShort>U.S. Cook</titleShort>
         <description>Prepared meals for soldiers in camps and on the front lines. Adapted recipes to limited supplies and kept morale high with hot food, even in the worst conditions.</description>
         <skillGains>
             <Cooking>5</Cooking>
@@ -778,8 +778,8 @@
         <defName>FCP_Backstory_USA_Army_Medic</defName>
         <identifier>FCP_Backstory_USA_Army_Medic</identifier>
         <slot>Adulthood</slot>
-        <title>Army Medic</title>
-        <titleShort>Medic</titleShort>
+        <title>U.S. Army Medic</title>
+        <titleShort>U.S. Medic</titleShort>
         <description>Provided medical care and triage for wounded soldiers. Trained in emergency medicine and battlefield first aid, this medic saved lives under fire and in field hospitals.</description>
         <skillGains>
             <Medicine>5</Medicine>
@@ -801,8 +801,8 @@
         <defName>FCP_Backstory_USA_Army_Communications_Tech</defName>
         <identifier>FCP_Backstory_USA_Army_Communications_Tech</identifier>
         <slot>Adulthood</slot>
-        <title>Army Communications Technician</title>
-        <titleShort>Comms Tech</titleShort>
+        <title>U.S. Army Communications Technician</title>
+        <titleShort>U.S. Comms Tech</titleShort>
         <description>Maintained and operated the radios and electronic equipment that kept units connected. Skilled in troubleshooting, repair, and encryption, this technician was vital for coordination and intelligence.</description>
         <skillGains>
             <Intellectual>4</Intellectual>
@@ -824,8 +824,8 @@
         <defName>FCP_Backstory_USA_Army_Vertibird_Pilot</defName>
         <identifier>FCP_Backstory_USA_Army_Vertibird_Pilot</identifier>
         <slot>Adulthood</slot>
-        <title>Vertibird Pilot</title>
-        <titleShort>Vertibird Pilot</titleShort>
+        <title>U.S. Vertibird Pilot</title>
+        <titleShort>U.S. Vertibird Pilot</titleShort>
         <description>Trained to fly the advanced Vertibird transport and gunship, this pilot mastered both troop deployment and aerial combat. Their quick reflexes and nerves of steel made them invaluable in high-risk missions.</description>
         <skillGains>
             <Intellectual>3</Intellectual>
@@ -847,8 +847,8 @@
         <defName>FCP_Backstory_USA_Army_Aviation_Mechanic</defName>
         <identifier>FCP_Backstory_USA_Army_Aviation_Mechanic</identifier>
         <slot>Adulthood</slot>
-        <title>Aviation Mechanic</title>
-        <titleShort>Aviation Mechanic</titleShort>
+        <title>U.S. Aviation Mechanic</title>
+        <titleShort>U.S. Aviation Mechanic</titleShort>
         <description>Responsible for maintaining and repairing military aircraft, this mechanic kept Vertibirds, jets, and bombers in top condition. Their technical expertise ensured safe flights and mission success.</description>
         <skillGains>
             <Construction>4</Construction>
@@ -870,8 +870,8 @@
         <defName>FCP_Backstory_USA_Army_Jet_Pilot</defName>
         <identifier>FCP_Backstory_USA_Army_Jet_Pilot</identifier>
         <slot>Adulthood</slot>
-        <title>Jet Fighter Pilot</title>
-        <titleShort>Jet Pilot</titleShort>
+        <title>U.S. Jet Fighter Pilot</title>
+        <titleShort>U.S. Jet Pilot</titleShort>
         <description>Flew high-speed jet fighters in defense of the United States. Skilled in aerial dogfighting, navigation, and rapid decision-making, this pilot was a master of the skies.</description>
         <skillGains>
             <Shooting>2</Shooting>
@@ -893,8 +893,8 @@
         <defName>FCP_Backstory_USA_Army_Bomber_Pilot</defName>
         <identifier>FCP_Backstory_USA_Army_Bomber_Pilot</identifier>
         <slot>Adulthood</slot>
-        <title>Bomber Pilot</title>
-        <titleShort>Bomber Pilot</titleShort>
+        <title>U.S. Bomber Pilot</title>
+        <titleShort>U.S. Bomber Pilot</titleShort>
         <description>Piloted heavy bombers on strategic missions, delivering devastating payloads deep behind enemy lines. Their calm under pressure and teamwork with their crew were essential for survival and success.</description>
         <skillGains>
             <Intellectual>3</Intellectual>
@@ -917,7 +917,7 @@
         <identifier>FCP_Backstory_USA_Army_Lieutenant</identifier>
         <slot>Adulthood</slot>
         <title>U.S. Army Lieutenant</title>
-        <titleShort>Lieutenant</titleShort>
+        <titleShort>U.S. Lieutenant</titleShort>
         <description>Commissioned as a junior officer, this lieutenant led a platoon through the chaos of the pre-war years. Responsible for the welfare and discipline of their soldiers, they learned leadership under fire and the importance of quick decision-making.</description>
         <skillGains>
             <Social>2</Social>
@@ -941,7 +941,7 @@
         <identifier>FCP_Backstory_USA_Army_Captain</identifier>
         <slot>Adulthood</slot>
         <title>U.S. Army Captain</title>
-        <titleShort>Captain</titleShort>
+        <titleShort>U.S. Captain</titleShort>
         <description>As a company commander, this captain managed logistics, training, and combat operations for dozens of soldiers. Their experience in both administration and battle forged a strong, adaptable leader.</description>
         <skillGains>
             <Social>3</Social>
@@ -965,7 +965,7 @@
         <identifier>FCP_Backstory_USA_Army_Major</identifier>
         <slot>Adulthood</slot>
         <title>U.S. Army Major</title>
-        <titleShort>Major</titleShort>
+        <titleShort>U.S. Major</titleShort>
         <description>Tasked with overseeing battalion-level operations, this major coordinated complex missions and managed both officers and enlisted personnel. Their strategic thinking and organizational skills were vital in the pre-war military machine.</description>
         <skillGains>
             <Social>3</Social>
@@ -988,7 +988,7 @@
         <identifier>FCP_Backstory_USA_Army_Colonel</identifier>
         <slot>Adulthood</slot>
         <title>U.S. Army Colonel</title>
-        <titleShort>Colonel</titleShort>
+        <titleShort>U.S. Colonel</titleShort>
         <description>Commanding a regiment, this colonel was responsible for hundreds of soldiers and the execution of large-scale operations. Their leadership and tactical acumen shaped the course of battles and the fate of their men.</description>
         <skillGains>
             <Social>4</Social>
@@ -1011,7 +1011,7 @@
         <identifier>FCP_Backstory_USA_Army_General</identifier>
         <slot>Adulthood</slot>
         <title>U.S. Army General</title>
-        <titleShort>General</titleShort>
+        <titleShort>U.S. General</titleShort>
         <description>One of the highest-ranking officers in the pre-war U.S. Army, this general directed entire divisions and shaped military policy. Their strategic vision and command presence were legendary, influencing the outcome of the nation's greatest conflicts.</description>
         <skillGains>
             <Social>5</Social>
@@ -1033,8 +1033,8 @@
         <defName>FCP_Backstory_USA_Army_Alaska_Winter_Warfare_Specialist</defName>
         <identifier>FCP_Backstory_USA_Army_Alaska_Winter_Warfare_Specialist</identifier>
         <slot>Adulthood</slot>
-        <title>Alaska Winter Warfare Specialist</title>
-        <titleShort>Alaska Specialist</titleShort>
+        <title>U.S. Winter Warfare Specialist</title>
+        <titleShort>U.S. WW Specialist</titleShort>
         <description>Trained and deployed in the harsh Alaskan wilderness, this soldier specialized in winter warfare, survival, and reconnaissance. Endured freezing temperatures and blizzards while defending the frontier against enemy incursions.</description>
         <skillGains>
             <Shooting>4</Shooting>
@@ -1057,8 +1057,8 @@
         <defName>FCP_Backstory_USA_Army_Alaska_Scout</defName>
         <identifier>FCP_Backstory_USA_Army_Alaska_Scout</identifier>
         <slot>Adulthood</slot>
-        <title>Alaska Recon Scout</title>
-        <titleShort>Alaska Scout</titleShort>
+        <title>U.S. Recon Scout</title>
+        <titleShort>U.S. Scout</titleShort>
         <description>Served as a scout in Alaska, navigating treacherous terrain and gathering intelligence on enemy movements. Skilled in stealth, navigation, and survival in extreme cold.</description>
         <skillGains>
             <Shooting>3</Shooting>
@@ -1082,8 +1082,8 @@
         <defName>FCP_Backstory_USMC_Marine_Rifleman</defName>
         <identifier>FCP_Backstory_USMC_Marine_Rifleman</identifier>
         <slot>Adulthood</slot>
-        <title>Marine Rifleman</title>
-        <titleShort>Rifleman</titleShort>
+        <title>U.S. Marine Rifleman</title>
+        <titleShort>U.S. Marine</titleShort>
         <description>Served as a rifleman in the United States Marine Corps, trained in amphibious assaults and close-quarters combat. Known for discipline, adaptability, and courage under fire.</description>
         <skillGains>
             <Shooting>5</Shooting>
@@ -1106,7 +1106,7 @@
         <identifier>FCP_Backstory_USMC_Marine_USS_Democracy</identifier>
         <slot>Adulthood</slot>
         <title>USS Democracy Marine</title>
-        <titleShort>US Marine</titleShort>
+        <titleShort>U.S. Marine</titleShort>
         <description>Issued an experimental prototype of submersible Marine armor aboard the USS Democracy, this Marine kept watch within the boat’s tight corridors and led boarding and security operations below the waves. Hardened by claustrophobic sea duty and brutal close-quarters combat, they relied on the armor’s plating and specialized systems to repel raiders, lead boarding parties, and carry out dangerous missions along irradiated coastal and underwater sites.</description>
         <skillGains>
             <Shooting>3</Shooting>
@@ -1116,7 +1116,7 @@
         <workDisables>None</workDisables>
         <requiredWorkTags>Violent</requiredWorkTags>
         <spawnCategories>
-            <li>FCP_Backstory_USMC_Marine_Squad_Leader</li>
+            <li>FCP_Backstory_USMC_Marine_USS_Democracy</li>
         </spawnCategories>
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
@@ -1129,8 +1129,8 @@
         <defName>FCP_Backstory_USMC_Marine_Demolitions</defName>
         <identifier>FCP_Backstory_USMC_Marine_Demolitions</identifier>
         <slot>Adulthood</slot>
-        <title>Marine Demolitions Specialist</title>
-        <titleShort>Demolitions</titleShort>
+        <title>U.S. Marine Demolitions Specialist</title>
+        <titleShort>U.S. Marine Demolitions</titleShort>
         <description>Expert in explosives and breaching operations, this Marine was responsible for clearing obstacles and sabotaging enemy positions. Their technical skills and nerves of steel were vital in high-risk missions.</description>
         <skillGains>
             <Construction>3</Construction>
@@ -1153,8 +1153,8 @@
         <defName>FCP_Backstory_US_Navy_Marine_Corpsman</defName>
         <identifier>FCP_Backstory_US_Navy_Marine_Corpsman</identifier>
         <slot>Adulthood</slot>
-        <title>Navy Corpsman</title>
-        <titleShort>Corpsman</titleShort>
+        <title>U.S. Navy Corpsman</title>
+        <titleShort>U.S. Corpsman</titleShort>
         <description>Provided emergency medical care to wounded Marines on the battlefield. Trained in triage, first aid, and battlefield medicine, this corpsman saved lives under fire.</description>
         <skillGains>
             <Medicine>5</Medicine>
