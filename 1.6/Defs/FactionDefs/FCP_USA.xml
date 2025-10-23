@@ -85,7 +85,7 @@
                     <li>FCP_Backstory_USA_Army_Mechanized_Infantry</li>
                     <li>FCP_Backstory_USA_Army_Alaska</li>
                     <li>FCP_Backstory_USMC_Marine</li>
-                    <li>FCP_Backstory_USMC_Marine_Squad_Leader</li>
+                    <li>FCP_Backstory_USMC_Marine_USS_Democracy</li>
                     <li>FCP_Backstory_USA_Child</li>
                 </categories>
                 <commonality>1</commonality>
@@ -149,16 +149,14 @@
                 </options>
             </li>
 
-            <!-- USA Marine Squad -->
+            <!-- USA Marine Squad "USS Democracy" -->
 
             <li>
                 <!-- Normal fights, standard marines -->
                 <kindDef>Combat</kindDef>
-                <disallowedStrategies>
-                    <li>EmergeFromWater</li>
-                </disallowedStrategies>
+                <disallowedStrategies />
                 <options>
-
+                    <FCP_Pawnkind_USA_Marine_USS_Democracy_Combat_Armor>10</FCP_Pawnkind_USA_Marine_USS_Democracy_Combat_Armor>
                 </options>
             </li>
 

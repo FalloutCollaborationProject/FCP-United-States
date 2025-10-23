@@ -1099,15 +1099,15 @@
         <possessions />
     </BackstoryDef>
 
-    <!-- U.S.M.C. Marine Squad Leader -->
+    <!-- U.S.M.C. Marine USS Democracy -->
 
     <BackstoryDef>
-        <defName>FCP_Backstory_USMC_Marine_Squad_Leader</defName>
-        <identifier>FCP_Backstory_USMC_Marine_Squad_Leader</identifier>
+        <defName>FCP_Backstory_USMC_Marine_USS_Democracy</defName>
+        <identifier>FCP_Backstory_USMC_Marine_USS_Democracy</identifier>
         <slot>Adulthood</slot>
-        <title>Marine Squad Leader</title>
-        <titleShort>Squad Leader</titleShort>
-        <description>Led a squad of Marines through intense combat operations. Responsible for tactical decisions, morale, and the safety of their team in hostile environments.</description>
+        <title>USS Democracy Marine</title>
+        <titleShort>US Marine</titleShort>
+        <description>Issued an experimental prototype of submersible Marine armor aboard the USS Democracy, this Marine kept watch within the boat’s tight corridors and led boarding and security operations below the waves. Hardened by claustrophobic sea duty and brutal close-quarters combat, they relied on the armor’s plating and specialized systems to repel raiders, lead boarding parties, and carry out dangerous missions along irradiated coastal and underwater sites.</description>
         <skillGains>
             <Shooting>3</Shooting>
             <Social>2</Social>

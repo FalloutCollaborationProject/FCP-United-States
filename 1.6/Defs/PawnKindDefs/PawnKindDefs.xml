@@ -980,11 +980,11 @@
         <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
     </PawnKindDef>
 
-    <!-- US Marine Squad Leader -->
+    <!-- US Marine USS Democracy -->
 
     <PawnKindDef ParentName="FCP_USAkindBase">
-        <defName>FCP_Pawnkind_USA_Marine_Squad_Leader</defName>
-        <label>US Marine Squad Leader</label>
+        <defName>FCP_Pawnkind_USA_Marine_USS_Democracy_Combat_Armor</defName>
+        <label>US Marine</label>
         <combatPower>80</combatPower>
         <gearHealthRange>0.5~1.8</gearHealthRange>
         <apparelMoney>9999</apparelMoney>
@@ -1015,7 +1015,7 @@
                     <li>FCP_Backstory_USA_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>FCP_Backstory_USMC_Marine_Squad_Leader</li>
+                    <li>FCP_Backstory_USMC_Marine_USS_Democracy</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
