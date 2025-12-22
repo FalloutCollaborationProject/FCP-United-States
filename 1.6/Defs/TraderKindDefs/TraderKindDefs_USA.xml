@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ Traders __________-->
+
+    <!--_____ USA Traders _____-->
+
+    <!--___ USA Quartermaster ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Caravan_USA_Quartermaster</defName>
+        <label>USA Quartermaster</label>
+        <category>Visitor</category>
+        <stockGenerators>
+
+            <!--__ USA Military Apparel __-->
+
+            <!-- Combat Armor -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_USA_Army_Combat_Armor</thingDef>
+                <countRange>2~4</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_USA_Army_Combat_Helmet</thingDef>
+                <countRange>2~4</countRange>
+            </li>
+
+            <!-- Winterized Combat Armor -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_USA_Winterized_Army_Combat_Armor</thingDef>
+                <countRange>1~3</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_USA_Winterized_Army_Combat_Helmet</thingDef>
+                <countRange>1~3</countRange>
+            </li>
+
+            <!-- Marine Armor -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_USA_Marine_Armor</thingDef>
+                <countRange>1~2</countRange>
+            </li>
+
+            <!-- General Uniforms -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_US_Generals_Uniform</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_USA_Army_General_Cap</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+
+            <!-- Winterized General Uniforms -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_US_Winterized_Generals_Uniform</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Apparel_USA_Winterized_Army_General_Cap</thingDef>
+                <countRange>0~1</countRange>
+            </li>
+
+            <!--__ USA Weapons __-->
+
+            <!-- Assault Rifle -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Gun_USA_Alloy_Steel_Assault_Rifle</thingDef>
+                <countRange>1~3</countRange>
+            </li>
+
+            <!-- SMG -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FFCP_Gun_USA_Alloy_Steel_10mm_SMG</thingDef>
+                <countRange>2~4</countRange>
+            </li>
+
+            <!-- Combat Shotgun -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Gun_Alloy_Steel_Combat_Shotgun</thingDef>
+                <countRange>1~3</countRange>
+            </li>
+
+            <!-- Pistol -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Gun_Alloy_Steel_10mm_Pistol</thingDef>
+                <countRange>2~5</countRange>
+            </li>
+
+            <!--__ Currency __-->
+
+            <!-- US Dollars -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_USA_Pre_War_Dollar</thingDef>
+                <countRange>500~1000</countRange>
+            </li>
+
+        </stockGenerators>
+        <buyFilters>
+            <thingFilter>
+                <categories>
+                    <li>Manufactured</li>
+                    <li>Weapons</li>
+                    <li>Techprints</li>
+                </categories>
+                <thingDefs>
+                    <li>ComponentIndustrial</li>
+                    <li>ComponentSpacer</li>
+                    <li>Plasteel</li>
+                    <li>Steel</li>
+                    <!-- USA Weapons -->
+                    <li>FCP_Gun_USA_Alloy_Steel_Assault_Rifle</li>
+                    <li>FFCP_Gun_USA_Alloy_Steel_10mm_SMG</li>
+                    <li>FCP_Gun_Alloy_Steel_Combat_Shotgun</li>
+                    <li>FCP_Gun_Alloy_Steel_10mm_Pistol</li>
+                    <!-- USA Apparel -->
+                    <li>FCP_Apparel_USA_Army_Combat_Armor</li>
+                    <li>FCP_Apparel_USA_Army_Combat_Helmet</li>
+                    <li>FCP_Apparel_USA_Winterized_Army_Combat_Armor</li>
+                    <li>FCP_Apparel_USA_Winterized_Army_Combat_Helmet</li>
+                    <li>FCP_Apparel_USA_Marine_Armor</li>
+                    <li>FCP_Apparel_US_Generals_Uniform</li>
+                    <li>FCP_Apparel_USA_Army_General_Cap</li>
+                    <li>FCP_Apparel_US_Winterized_Generals_Uniform</li>
+                    <li>FCP_Apparel_USA_Winterized_Army_General_Cap</li>
+                </thingDefs>
+            </thingFilter>
+        </buyFilters>
+    </TraderKindDef>
+
+    <!--___ USA Prisoner Exchange ___-->
+
+    <TraderKindDef>
+        <defName>FCP_Caravan_USA_Prisoner_Exchange</defName>
+        <label>USA Prisoner Exchange</label>
+        <category>Slaver</category>
+        <stockGenerators>
+
+            <!--__ Prisoners __-->
+
+            <li Class="FCP.Core.StockGenerator_PawnsWithXenotype">
+                <ignoreIdeoRequirements>true</ignoreIdeoRequirements>
+                <respectPopulationIntent>false</respectPopulationIntent>
+                <countRange>2~5</countRange>
+                <slaveKindDef>FCP_Pawnkind_USA_POW</slaveKindDef>
+            </li>
+
+            <!--__ Currency __-->
+
+            <!-- US Dollars -->
+
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>FCP_Currency_USA_Pre_War_Dollar</thingDef>
+                <countRange>750~1200</countRange>
+            </li>
+
+        </stockGenerators>
+    </TraderKindDef>
+
+</Defs>
