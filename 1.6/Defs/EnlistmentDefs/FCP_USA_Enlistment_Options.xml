@@ -29,7 +29,7 @@
         <missionsDescKey>FCP_USA_Missions_Desc</missionsDescKey>
         <missionsButtonIconTexPath>Things/UI/Enlisted/FCP_USA_Missions</missionsButtonIconTexPath>
         <missionsBackgroundMenuTexPath>Things/UI/Enlisted/FCP_USA_Missions</missionsBackgroundMenuTexPath>
-        <missionsMenuAmbientSoundDef>FCP_Sound_RitualSustainer_ILoveYouCalifornia</missionsMenuAmbientSoundDef>
+        <missionsMenuAmbientSoundDef>FCP_Sound_RitualSustainer_YankeeDoodle</missionsMenuAmbientSoundDef>
         <missionsMenuDescriptionKey>FCP_USA_Menu_Missions_Desc</missionsMenuDescriptionKey>
         <missionsMenuSelectQuestKey>FCP_USA_Menu_Missions_Select_Quest</missionsMenuSelectQuestKey>
         <missionsMenuStartQuestKey>FCP_USA_Menu_Missions_Start_Quest</missionsMenuStartQuestKey>
@@ -140,7 +140,6 @@
         <turnInDescKey>FCP_USA_Turn_In_Desc</turnInDescKey>
         <turnInButtonIconTexPath>Things/UI/Enlisted/FCP_Turn_In</turnInButtonIconTexPath>
         <turnInTraderKind>FCP_Caravan_USA_Prisoner_Exchange</turnInTraderKind>
-        <turnInThought>FCP_USA_Turned_In_A_Spy</turnInThought>
         <turnInRefreshSilverInDays>7</turnInRefreshSilverInDays>
         <turnInTraderNameKey>FCP_USA_Turn_In_Trader_Name</turnInTraderNameKey>
 

@@ -99,7 +99,6 @@
         <caravanTraderKinds>
             <li>FCP_Caravan_USA_Quartermaster</li>
             <li>FCP_Caravan_USA_Prisoner_Exchange</li>
-            <li>FCP_Caravan_USA_Door_to_Door_Salesman</li>
         </caravanTraderKinds>
 
         <!-- Vistor Trader Kinds -->
@@ -107,7 +106,6 @@
         <visitorTraderKinds>
             <li>FCP_Caravan_USA_Quartermaster</li>
             <li>FCP_Caravan_USA_Prisoner_Exchange</li>
-            <li>FCP_Caravan_USA_Door_to_Door_Salesman</li>
         </visitorTraderKinds>
 
         <!-- Base Trader Kinds -->
@@ -115,7 +113,6 @@
         <baseTraderKinds>
             <li>FCP_Caravan_USA_Quartermaster</li>
             <li>FCP_Caravan_USA_Prisoner_Exchange</li>
-            <li>FCP_Caravan_USA_Door_to_Door_Salesman</li>
         </baseTraderKinds>
 
         <!-- Trader Kind Arrival Options -->
@@ -208,7 +205,6 @@
 
                 </options>
                 <characterDefs>
-                    <li>FCP_Character_USA_Crocker</li>
                 </characterDefs>
                 <characterChance>0.35</characterChance>
             </li>

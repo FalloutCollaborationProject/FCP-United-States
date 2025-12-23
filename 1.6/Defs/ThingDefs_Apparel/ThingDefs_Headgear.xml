@@ -76,6 +76,105 @@
         </comps>
     </ThingDef>
 
+    <!--__ US Marine Combat Helmet __-->
+
+    <!--_ Standard _-->
+
+    <!-- US Marine Combat Helmet -->
+
+    <ThingDef ParentName="FCP_Apparel_Combat_Helmet_Base">
+        <defName>FCP_Apparel_USA_Marine_Combat_Helmet</defName>
+        <label>US Marine Combat Helmet</label>
+        <description>The standard-issue US Marine Corps Combat Helmet of 2077, engineered specifically for the elite Marine Corps with enhanced ballistic protection and amphibious operation capabilities. Features advanced composite materials, integrated communication systems, environmental seals, and a built-in atmospheric filtration system that provides protection against chemical agents, toxic gases, and environmental hazards. This helmet represents the pinnacle of Marine Corps tactical headgear technology.</description>
+        <graphicData>
+            <texPath>Things/Apparel/US_Marine_Armor/FCP_US_Marine_Helmet</texPath>
+        </graphicData>
+        <costList>
+            <Steel>40</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+        <statBases>
+            <MaxHitPoints>180</MaxHitPoints>
+            <MarketValue>650</MarketValue>
+            <Mass>2.5</Mass>
+            <ArmorRating_Sharp>1.80</ArmorRating_Sharp>
+            <ArmorRating_Blunt>1.60</ArmorRating_Blunt>
+            <ArmorRating_Heat>1.20</ArmorRating_Heat>
+            <Insulation_Cold>4</Insulation_Cold>
+            <Insulation_Heat>2</Insulation_Heat>
+            <EquipDelay>1.0</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <ToxicResistance>0.75</ToxicResistance>
+        </equippedStatOffsets>
+        <apparel>
+            <tags>
+                <li>FCP_USA_Marine_Armor</li>
+            </tags>
+        </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!--__ US Marine Diving Helmet __-->
+
+    <!--_ Standard _-->
+
+    <!-- US Marine Diving Helmet -->
+
+    <ThingDef ParentName="ApparelBase">
+        <defName>FCP_Apparel_USA_Marine_Diving_Helmet</defName>
+        <label>US Marine Diving Helmet</label>
+        <description>A specialized diving helmet used by United States Marine Corps combat divers and underwater demolition teams. Features an integrated breathing system, reinforced visor, and communication equipment designed for underwater operations. Provides excellent protection against environmental hazards while maintaining clear vision and communication capabilities during amphibious assaults.</description>
+        <smeltable>false</smeltable>
+        <thingCategories>
+            <li>Apparel</li>
+        </thingCategories>
+        <graphicData>
+            <texPath>Things/Apparel/US_Marine_Wetsuit/FCP_Marine_Wetsuit_Helmet</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <techLevel>Industrial</techLevel>
+        <statBases>
+            <MaxHitPoints>80</MaxHitPoints>
+            <MarketValue>180</MarketValue>
+            <Mass>1.8</Mass>
+            <ArmorRating_Sharp>0.45</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.55</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.35</ArmorRating_Heat>
+            <Insulation_Cold>3</Insulation_Cold>
+            <Insulation_Heat>2</Insulation_Heat>
+            <EquipDelay>1.0</EquipDelay>
+        </statBases>
+        <apparel>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+                <li>FullHead</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Apparel/US_Marine_Armor/FCP_Marine_Wetsuit_Helmet</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>FCP_USA_Marine_Wetsuit</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>FCP_USA_Marine_Wetsuit</li>
+            </defaultOutfitTags>
+        </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+        <tradeTags>
+            <li>FCP_Trade_Tag_USA_Apparel</li>
+        </tradeTags>
+    </ThingDef>
+
     <!--__ US Officers Cap __-->
 
     <!--_ Standard _-->

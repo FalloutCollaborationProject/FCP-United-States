@@ -108,15 +108,15 @@
             <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
         <statBases>
-            <MaxHitPoints>250</MaxHitPoints>
-            <MarketValue>950</MarketValue>
-            <Mass>5.0</Mass>
-            <ArmorRating_Sharp>1.45</ArmorRating_Sharp>
-            <ArmorRating_Blunt>1.20</ArmorRating_Blunt>
-            <ArmorRating_Heat>0.80</ArmorRating_Heat>
-            <Insulation_Cold>5</Insulation_Cold>
-            <Insulation_Heat>3</Insulation_Heat>
-            <EquipDelay>1.2</EquipDelay>
+            <MaxHitPoints>400</MaxHitPoints>
+            <MarketValue>1800</MarketValue>
+            <Mass>8.0</Mass>
+            <ArmorRating_Sharp>2.10</ArmorRating_Sharp>
+            <ArmorRating_Blunt>1.85</ArmorRating_Blunt>
+            <ArmorRating_Heat>1.40</ArmorRating_Heat>
+            <Insulation_Cold>8</Insulation_Cold>
+            <Insulation_Heat>5</Insulation_Heat>
+            <EquipDelay>1.8</EquipDelay>
         </statBases>
         <apparel>
             <bodyPartGroups>
@@ -147,7 +147,7 @@
 
     <ThingDef ParentName="FCP_Apparel_USA_Marine_Armor_Base">
         <defName>FCP_Apparel_USA_Marine_Armor</defName>
-        <description></description>
+        <description>Heavy armor worn by United States Marine Corps personnel. Provides excellent protection against ballistic threats.</description>
         <label>US Marine Armor</label>
         <graphicData>
             <texPath>Things/Apparel/US_Marine_Armor/FCP_US_Marine_Armor</texPath>
@@ -167,6 +167,60 @@
                 <rarity>Rare</rarity>
             </li>
         </comps>
+    </ThingDef>
+
+    <!-- US Marine Wetsuit -->
+
+    <ThingDef ParentName="ApparelBase">
+        <defName>FCP_Apparel_USA_Marine_Wetsuit</defName>
+        <description>A specialized wetsuit worn by United States Marine Corps divers and amphibious assault teams. Made from advanced neoprene composite, it provides thermal insulation and environmental protection while maintaining flexibility for underwater operations. Designed to be worn under marine armor during amphibious missions.</description>
+        <label>US Marine Wetsuit</label>
+        <smeltable>false</smeltable>
+        <thingCategories>
+            <li>Apparel</li>
+        </thingCategories>
+        <graphicData>
+            <texPath>Things/Apparel/US_Marine_Wetsuit/FCP_Marine_Wetsuit</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <techLevel>Industrial</techLevel>
+        <statBases>
+            <MaxHitPoints>120</MaxHitPoints>
+            <MarketValue>280</MarketValue>
+            <Mass>1.2</Mass>
+            <ArmorRating_Sharp>0.15</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.25</ArmorRating_Heat>
+            <Insulation_Cold>8</Insulation_Cold>
+            <Insulation_Heat>-2</Insulation_Heat>
+            <EquipDelay>0.8</EquipDelay>
+        </statBases>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <layers>
+                <li>OnSkin</li>
+            </layers>
+            <tags>
+                <li>FCP_USA_Marine_Wetsuit</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>FCP_USA_Marine_Wetsuit</li>
+            </defaultOutfitTags>
+        </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+        <tradeTags>
+            <li>FCP_Trade_Tag_USA_Apparel</li>
+        </tradeTags>
     </ThingDef>
 
     <!--_ Standard _-->
@@ -312,6 +366,86 @@
         <comps>
             <li Class="FCP.Core.CompProperties_LabelColored">
                 <rarity>Rare</rarity>
+            </li>
+        </comps>
+        <tradeTags>
+            <li>FCP_Trade_Tag_USA_Apparel</li>
+        </tradeTags>
+    </ThingDef>
+
+    <!--_____ US Civilian Clothing _____-->
+
+    <!--___ Presidential ___-->
+
+    <!-- Presidents Suit -->
+
+    <ThingDef ParentName="ApparelMakeableBase">
+        <defName>FCP_Apparel_USA_Presidents_Suit</defName>
+        <label>President's suit</label>
+        <description>An elegant formal suit worn by the President of the United States. Made from the finest materials with exquisite tailoring, it represents the dignity and authority of the highest office in the nation. The suit is both comfortable and imposing, suitable for state functions and diplomatic meetings.</description>
+        <recipeMaker>
+            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+            <researchPrerequisite>ComplexClothing</researchPrerequisite>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+            <recipeUsers Inherit="False">
+                <li>ElectricTailoringBench</li>
+                <li>HandTailoringBench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Things/Apparel/US_Presidents_Suit/FCP_USA_Presidents_Suit</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <costStuffCount>80</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+        </stuffCategories>
+        <thingCategories>
+            <li>Apparel</li>
+        </thingCategories>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <WorkToMake>16000</WorkToMake>
+            <Mass>0.4</Mass>
+            <Flammability>1.0</Flammability>
+            <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.0</ArmorRating_Heat>
+            <Insulation_Cold>12</Insulation_Cold>
+            <Insulation_Heat>8</Insulation_Heat>
+            <EquipDelay>3</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <SocialImpact>0.50</SocialImpact>
+            <TradePriceImprovement>0.15</TradePriceImprovement>
+            <NegotiationAbility>0.25</NegotiationAbility>
+        </equippedStatOffsets>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Neck</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Legs</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Apparel/US_Presidential/FCP_US_Presidents_Suit</wornGraphicPath>
+            <layers>
+                <li>OnSkin</li>
+            </layers>
+            <tags>
+                <li>FCP_USA_Presidential</li>
+                <li>FCP_USA_Civilian</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>FCP_USA_Formal</li>
+            </defaultOutfitTags>
+            <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+        </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Unique</rarity>
             </li>
         </comps>
         <tradeTags>

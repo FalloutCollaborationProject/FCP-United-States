@@ -16,7 +16,7 @@
         <ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoAstropolitan</ideoNameMaker>
         <deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerDeityAstropolitan</deityNameMaker>
         <deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerAstropolitan</deityTypeMaker>
-        <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">FCP_LeaderTitleMaker_NCR</leaderTitleMaker>
+        <leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">FCP_LeaderTitleMaker_USA</leaderTitleMaker>
         <festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalAstropolitan</festivalNameMaker>
         <allowedPlaceTags>
             <li>OriginSpacer</li>

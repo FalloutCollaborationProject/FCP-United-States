@@ -91,8 +91,8 @@
 
     <!-- Alloy Steel 10mm SMG -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
-        <defName>FFCP_Gun_USA_Alloy_Steel_10mm_SMG</defName>
+    <!-- <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_USA_Alloy_Steel_10mm_SMG</defName>
         <label>Alloy Steel 10mm SMG</label>
         <description>Constructed from hardened alloy steel and precision‑machined components, this compact 10mm SMG combines a high rate of fire with enhanced durability and improved armor penetration compared to field‑grade designs. Ideal for close‑quarters combat, it remains rugged under sustained use but sacrifices accuracy at longer ranges.</description>
         <graphicData>
@@ -168,13 +168,13 @@
                 <rarity>Rare</rarity>
             </li>
         </comps>
-    </ThingDef>
+    </ThingDef> -->
 
     <!--_____ Shotguns _____-->
 
     <!-- Alloy Steel Combat Shotgun -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <!-- <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>FCP_Gun_Alloy_Steel_Combat_Shotgun</defName>
         <label>Alloy Steel Combat Shotgun</label>
         <description>Constructed from hardened alloy steel and precision‑machined components, this semi-automatic, magazine-fed combat shotgun delivers exceptional durability and reliable performance in close-quarters engagements. Built for military and law-enforcement use, it pairs a high rate of fire with improved armor penetration and ruggedness favored by hardened units.</description>
@@ -254,7 +254,7 @@
         <modExtensions>
             <li Class="IgnoreConfigErrors.Ignore_ForcedMissRadius" />
         </modExtensions>
-    </ThingDef>
+    </ThingDef> -->
 
     <!--_____ Pistols _____-->
 

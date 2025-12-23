@@ -105,7 +105,7 @@
 		<uiPosition>(1,2)</uiPosition>
 		<royalAid>
 			<itemsToDrop>
-				<FCP_Item_USA_Uniform_Ranger_Crate>1</FCP_Item_USA_Uniform_Ranger_Crate>
+				<FCP_Item_USA_Uniform_Marine_Crate>1</FCP_Item_USA_Uniform_Marine_Crate>
 			</itemsToDrop>
 			<favorCost>6</favorCost>
 		</royalAid>
@@ -130,7 +130,7 @@
 		<uiPosition>(2,2)</uiPosition>
 		<royalAid>
 			<itemsToDrop>
-				<FCP_Item_USA_Uniform_Ranger_Patrol_Armor_Crate>1</FCP_Item_USA_Uniform_Ranger_Patrol_Armor_Crate>
+				<FCP_Item_USA_Uniform_Marine_Armor_Crate>1</FCP_Item_USA_Uniform_Marine_Armor_Crate>
 			</itemsToDrop>
 			<favorCost>6</favorCost>
 		</royalAid>

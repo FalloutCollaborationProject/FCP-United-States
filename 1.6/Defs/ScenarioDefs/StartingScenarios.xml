@@ -21,7 +21,7 @@
                 <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
                     <def>ConfigurePawnsKindDefs</def>
                     <pawnChoiceCount>10</pawnChoiceCount>
-                    <leftBehindPawnKind>FCP_Pawnkind_US_Marine_Officer</leftBehindPawnKind>
+                    <leftBehindPawnKind>FCP_Pawnkind_USA_Army_Officer</leftBehindPawnKind>
                     <kindCounts>
                         <li>
                             <kindDef>FCP_Pawnkind_USA_Army_Officer</kindDef>

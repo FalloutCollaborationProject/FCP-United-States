@@ -464,7 +464,7 @@
         <itemQuality>Poor</itemQuality>
         <gearHealthRange>0.5~1.8</gearHealthRange>
         <apparelRequired>
-            <li>FCP_Apparel_USA_Engineer_Jumpsuit</li>
+            <li>FCP_Apparel_USA_Army_Combat_Armor</li>
         </apparelRequired>
         <techHediffsMoney>50~50</techHediffsMoney>
         <techHediffsTags>
@@ -491,7 +491,7 @@
 
     <!-- USA Citizen -->
 
-    <PawnKindDef ParentName="FCP_USAkindBase">
+    <PawnKindDef MayRequire="Rick.FCP.Wastelanders" ParentName="FCP_USAkindBase">
         <defName>FCP_Pawnkind_USA_Citizen</defName>
         <label>US Citizen</label>
         <combatPower>55</combatPower>
@@ -614,7 +614,7 @@
         <itemQuality>Poor</itemQuality>
         <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
         <apparelRequired>
-            <li>FCP_Apparel_Army_Uniform</li>
+            <li MayRequire="Rick.FCP.Wastelanders">FCP_Apparel_Army_Uniform</li>
         </apparelRequired>
         <weaponMoney>9999</weaponMoney>
         <weaponTags>
@@ -750,7 +750,7 @@
         <apparelMoney>9999</apparelMoney>
         <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
         <apparelRequired>
-            <li>FCP_Apparel_Army_Uniform</li>
+            <li MayRequire="Rick.FCP.Wastelanders">FCP_Apparel_Army_Uniform</li>
         </apparelRequired>
         <weaponMoney>9999</weaponMoney>
         <weaponTags>
@@ -836,7 +836,7 @@
         <apparelMoney>9999</apparelMoney>
         <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
         <apparelRequired>
-            <li>FCP_Apparel_Army_Uniform</li>
+            <li MayRequire="Rick.FCP.Wastelanders">FCP_Apparel_Army_Uniform</li>
         </apparelRequired>
         <weaponMoney>9999</weaponMoney>
         <weaponTags>
@@ -988,10 +988,12 @@
         <combatPower>80</combatPower>
         <gearHealthRange>0.5~1.8</gearHealthRange>
         <apparelMoney>9999</apparelMoney>
+        <apparelRequired>
+            <li>FCP_Apparel_USA_Marine_Wetsuit</li>
+            <li>FCP_Apparel_USA_Marine_Armor</li>
+            <li>FCP_Apparel_USA_Marine_Combat_Helmet</li>
+        </apparelRequired>
         <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
-        <apparelTags>
-            <li>FCP_USA_Ranger_Patrol</li>
-        </apparelTags>
         <weaponMoney>9999</weaponMoney>
         <weaponTags>
             <li>FCP_Weapon_USA_Alloy_Steel_Assault_Rifle</li>

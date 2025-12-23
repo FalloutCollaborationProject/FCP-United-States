@@ -75,7 +75,7 @@
         </requiredMemes>
         <roleEffects>
             <li Class="RoleEffect_PawnStatOffset">
-                <statDef>GlobalWorkSpeed</statDef>
+                <statDef>WorkSpeedGlobal</statDef>
                 <modifier>0.1</modifier>
             </li>
             <li Class="RoleEffect_PawnStatOffset">
@@ -94,7 +94,7 @@
                         <li>Torso</li>
                     </bodyPartGroupsMatchAny>
                     <requiredDefs>
-                        <li>FCP_Apparel_USA_Suit</li>
+                        <li>FCP_Apparel_USA_Army_Combat_Armor</li>
                     </requiredDefs>
                 </requirement>
             </li>
