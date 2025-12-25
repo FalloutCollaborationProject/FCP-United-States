@@ -21,7 +21,7 @@
         <allowedPlaceTags>
             <li>OriginSpacer</li>
         </allowedPlaceTags>
-        <iconPath>World_Icon/USA_Icon/FCP_United_States_World_Icon</iconPath>
+        <iconPath>World_Icon/United_States_Icon/FCP_United_States_World_Icon</iconPath>
         <styleItemTags>
             <li>
                 <tag>Urban</tag>
@@ -66,7 +66,7 @@
     <StyleCategoryDef>
         <defName>FCP_Style_American</defName>
         <label>American</label>
-        <iconPath>World_Icon/USA_Icon/FCP_United_States_World_Icon</iconPath>
+        <iconPath>World_Icon/United_States_Icon/FCP_United_States_World_Icon</iconPath>
         <soundOngoingRitual>FCP_Sound_RitualSustainer_YankeeDoodle</soundOngoingRitual>
         <ritualVisualEffectDef>Rustic</ritualVisualEffectDef>
         <thingDefStyles>
