@@ -84,7 +84,7 @@
                 <bladeGraphicsData>
                     <li>
                         <bladeGraphic>
-                            <texPath>Things/Vehicles/FCP_Vertibird_Gunship_Propeller_a</texPath>
+                            <texPath>Things/Vehicles/FCP_Vertibird_Light_Propeller</texPath>
                             <graphicClass>Graphic_Single</graphicClass>
                             <drawSize>(6,6)</drawSize>
                         </bladeGraphic>
@@ -93,7 +93,7 @@
                     </li>
                     <li>
                         <bladeGraphic>
-                            <texPath>Things/Vehicles/FCP_Vertibird_Gunship_Propeller_b</texPath>
+                            <texPath>Things/Vehicles/FCP_Vertibird_Light_Propeller</texPath>
                             <graphicClass>Graphic_Single</graphicClass>
                             <drawSize>(6,6)</drawSize>
                         </bladeGraphic>
@@ -153,7 +153,7 @@
                 <bladeGraphicsData>
                     <li>
                         <bladeGraphic>
-                            <texPath>Things/Vehicles/FCP_Vertibird_Gunship_Propeller_a</texPath>
+                            <texPath>Things/Vehicles/FCP_Vertibird_Light_Propeller</texPath>
                             <graphicClass>Graphic_Single</graphicClass>
                             <drawSize>(6,6)</drawSize>
                         </bladeGraphic>
@@ -162,7 +162,7 @@
                     </li>
                     <li>
                         <bladeGraphic>
-                            <texPath>Things/Vehicles/FCP_Vertibird_Gunship_Propeller_b</texPath>
+                            <texPath>Things/Vehicles/FCP_Vertibird_Light_Propeller</texPath>
                             <graphicClass>Graphic_Single</graphicClass>
                             <drawSize>(6,6)</drawSize>
                         </bladeGraphic>
