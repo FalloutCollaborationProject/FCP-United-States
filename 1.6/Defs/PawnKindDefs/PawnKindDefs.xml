@@ -709,6 +709,11 @@
         <apparelTags>
             <li>FCP_USA_Army_Armor</li>
         </apparelTags>
+        <apparelDisallowTags>
+            <li>IndustrialBasic</li>
+            <li>Neolithic</li>
+        </apparelDisallowTags>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
         <weaponMoney>9999</weaponMoney>
         <weaponTags>
             <li>FCP_Weapon_USA_Alloy_Steel_Assault_Rifle</li>

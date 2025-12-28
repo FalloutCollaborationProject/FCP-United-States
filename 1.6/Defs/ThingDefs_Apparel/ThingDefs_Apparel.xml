@@ -65,15 +65,24 @@
         <apparel>
             <wornGraphicPath>Things/Apparel/US_Army_Winterized_Combat_Armor/FCP_Winterized_Combat_Armor</wornGraphicPath>
             <tags>
-                <li>FCP_USA_Army_Armor_Winterized</li>
+                <li>FCP_USA_Army_Armor</li>
             </tags>
             <defaultOutfitTags inherit="false">
-                <li>FCP_USA_Combat_Armor_Winterized</li>
+                <li>FCP_USA_Combat_Armor</li>
             </defaultOutfitTags>
+            <layers>
+                <li>OnSkin</li>
+                <li>Middle</li>
+                <li>Shell</li>
+            </layers>
         </apparel>
         <comps>
             <li Class="FCP.Core.CompProperties_LabelColored">
                 <rarity>Rare</rarity>
+            </li>
+            <li Class="FCP.Core.TemperatureApparelPreference.CompProperties_TemperatureApparelPreference">
+              <forceBelowTempC>5</forceBelowTempC>
+              <avoidAboveTempC>15</avoidAboveTempC>
             </li>
         </comps>
         <tradeTags>
@@ -92,7 +101,7 @@
         <thingCategories>
             <li>ApparelArmor</li>
         </thingCategories>
-        <recipeMaker Inherit="false">
+        <recipeMaker Inherit= "false">
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>8</Crafting>
@@ -227,6 +236,8 @@
 
     <!-- US Marine Light Vest -->
 
+
+
     <!--__ US General Uniform __-->
 
     <!--_ Standard _-->
@@ -268,8 +279,7 @@
             <EquipDelay>3</EquipDelay>
         </statBases>
         <equippedStatOffsets>
-            <SocialImpact>0.5</SocialImpact>
-            <!-- Charisma +2 -->
+            <SocialImpact>0.5</SocialImpact>            <!-- Charisma +2 -->
         </equippedStatOffsets>
         <apparel>
             <bodyPartGroups>
@@ -341,8 +351,7 @@
             <EquipDelay>3</EquipDelay>
         </statBases>
         <equippedStatOffsets>
-            <SocialImpact>0.5</SocialImpact>
-            <!-- Charisma +2 -->
+            <SocialImpact>0.5</SocialImpact>            <!-- Charisma +2 -->
         </equippedStatOffsets>
         <apparel>
             <bodyPartGroups>
@@ -355,17 +364,22 @@
             <layers>
                 <li>OnSkin</li>
                 <li>Middle</li>
+                <li>Shell</li>
             </layers>
             <tags>
-                <li>FCP_USA_General_Winterized</li>
+                <li>FCP_USA_General</li>
             </tags>
             <defaultOutfitTags>
-                <li>FCP_USA_General_Winterized</li>
+                <li>FCP_USA_General</li>
             </defaultOutfitTags>
         </apparel>
         <comps>
             <li Class="FCP.Core.CompProperties_LabelColored">
                 <rarity>Rare</rarity>
+            </li>
+            <li Class="FCP.Core.TemperatureApparelPreference.CompProperties_TemperatureApparelPreference">
+              <forceBelowTempC>5</forceBelowTempC>
+              <avoidAboveTempC>15</avoidAboveTempC>
             </li>
         </comps>
         <tradeTags>
@@ -381,7 +395,6 @@
 
     <ThingDef ParentName="ApparelMakeableBase">
         <defName>FCP_Apparel_USA_Presidents_Suit</defName>
-        <useHitPoints>false</useHitPoints>
         <label>President's suit</label>
         <description>An elegant formal suit worn by the President of the United States. Made from the finest materials with exquisite tailoring, it represents the dignity and authority of the highest office in the nation. The suit is both comfortable and imposing, suitable for state functions and diplomatic meetings.</description>
         <recipeMaker>
@@ -417,7 +430,6 @@
             <Insulation_Cold>12</Insulation_Cold>
             <Insulation_Heat>8</Insulation_Heat>
             <EquipDelay>3</EquipDelay>
-            <DeteriorationRate>0</DeteriorationRate>
         </statBases>
         <equippedStatOffsets>
             <SocialImpact>0.50</SocialImpact>
@@ -454,5 +466,5 @@
             <li>FCP_Trade_Tag_USA_Apparel</li>
         </tradeTags>
     </ThingDef>
-    
+
 </Defs>

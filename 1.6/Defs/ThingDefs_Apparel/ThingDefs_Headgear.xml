@@ -30,8 +30,11 @@
         <apparel>
             <wornGraphicPath>Things/Apparel/US_Army_Combat_Armor/FCP_US_Army_Combat_Helmet</wornGraphicPath>
             <tags>
-                <li>FCP_USA_Combat_Armor</li>
+                <li>FCP_USA_Army_Armor</li>
             </tags>
+            <defaultOutfitTags inherit="false">
+                <li>FCP_USA_Combat_Armor</li>
+            </defaultOutfitTags>
         </apparel>
         <comps>
             <li Class="FCP.Core.CompProperties_LabelColored">
@@ -66,12 +69,19 @@
         <apparel>
             <wornGraphicPath>Things/Apparel/US_Army_Winterized_Combat_Armor/FCP_Winterized_Combat_Helmet</wornGraphicPath>
             <tags>
-                <li>FCP_USA_Combat_Armor_Winterized</li>
+                <li>FCP_USA_Army_Armor</li>
             </tags>
+            <defaultOutfitTags inherit="false">
+                <li>FCP_USA_Combat_Armor</li>
+            </defaultOutfitTags>
         </apparel>
         <comps>
             <li Class="FCP.Core.CompProperties_LabelColored">
                 <rarity>Rare</rarity>
+            </li>
+            <li Class="FCP.Core.TemperatureApparelPreference.CompProperties_TemperatureApparelPreference">
+              <forceBelowTempC>5</forceBelowTempC>
+              <avoidAboveTempC>15</avoidAboveTempC>
             </li>
         </comps>
     </ThingDef>
@@ -235,6 +245,10 @@
         <comps>
             <li Class="FCP.Core.CompProperties_LabelColored">
                 <rarity>Rare</rarity>
+            </li>
+            <li Class="FCP.Core.TemperatureApparelPreference.CompProperties_TemperatureApparelPreference">
+              <forceBelowTempC>5</forceBelowTempC>
+              <avoidAboveTempC>15</avoidAboveTempC>
             </li>
         </comps>
     </ThingDef>
