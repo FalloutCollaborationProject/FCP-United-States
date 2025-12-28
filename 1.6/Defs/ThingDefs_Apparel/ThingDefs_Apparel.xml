@@ -92,7 +92,7 @@
         <thingCategories>
             <li>ApparelArmor</li>
         </thingCategories>
-        <recipeMaker Inherit= "false">
+        <recipeMaker Inherit="false">
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>8</Crafting>
@@ -227,8 +227,6 @@
 
     <!-- US Marine Light Vest -->
 
-
-
     <!--__ US General Uniform __-->
 
     <!--_ Standard _-->
@@ -270,7 +268,8 @@
             <EquipDelay>3</EquipDelay>
         </statBases>
         <equippedStatOffsets>
-            <SocialImpact>0.5</SocialImpact>            <!-- Charisma +2 -->
+            <SocialImpact>0.5</SocialImpact>
+            <!-- Charisma +2 -->
         </equippedStatOffsets>
         <apparel>
             <bodyPartGroups>
@@ -342,7 +341,8 @@
             <EquipDelay>3</EquipDelay>
         </statBases>
         <equippedStatOffsets>
-            <SocialImpact>0.5</SocialImpact>            <!-- Charisma +2 -->
+            <SocialImpact>0.5</SocialImpact>
+            <!-- Charisma +2 -->
         </equippedStatOffsets>
         <apparel>
             <bodyPartGroups>
@@ -381,6 +381,7 @@
 
     <ThingDef ParentName="ApparelMakeableBase">
         <defName>FCP_Apparel_USA_Presidents_Suit</defName>
+        <useHitPoints>false</useHitPoints>
         <label>President's suit</label>
         <description>An elegant formal suit worn by the President of the United States. Made from the finest materials with exquisite tailoring, it represents the dignity and authority of the highest office in the nation. The suit is both comfortable and imposing, suitable for state functions and diplomatic meetings.</description>
         <recipeMaker>
@@ -416,6 +417,7 @@
             <Insulation_Cold>12</Insulation_Cold>
             <Insulation_Heat>8</Insulation_Heat>
             <EquipDelay>3</EquipDelay>
+            <DeteriorationRate>0</DeteriorationRate>
         </statBases>
         <equippedStatOffsets>
             <SocialImpact>0.50</SocialImpact>
@@ -452,5 +454,5 @@
             <li>FCP_Trade_Tag_USA_Apparel</li>
         </tradeTags>
     </ThingDef>
-
+    
 </Defs>
