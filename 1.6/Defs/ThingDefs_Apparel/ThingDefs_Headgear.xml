@@ -118,6 +118,7 @@
             <ToxicResistance>0.75</ToxicResistance>
         </equippedStatOffsets>
         <apparel>
+            <wornGraphicPath>Things/Apparel/US_Marine_Armor/FCP_US_Marine_Helmet</wornGraphicPath>
             <tags>
                 <li>FCP_USA_Marine_Armor</li>
             </tags>
@@ -164,7 +165,7 @@
                 <li>UpperHead</li>
                 <li>FullHead</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/Apparel/US_Marine_Armor/FCP_Marine_Wetsuit_Helmet</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/US_Marine_Wetsuit/FCP_Marine_Wetsuit_Helmet</wornGraphicPath>
             <layers>
                 <li>Overhead</li>
             </layers>

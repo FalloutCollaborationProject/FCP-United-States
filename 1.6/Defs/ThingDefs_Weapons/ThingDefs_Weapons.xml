@@ -41,7 +41,7 @@
             <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
         </statBases>
         <weaponTags>
-            <li>FCP_USA_Alloy_Steel_Assault_Rifle</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_Assault_Rifle</li>
         </weaponTags>
         <costList>
             <Steel>65</Steel>
@@ -293,7 +293,7 @@
             <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
         </statBases>
         <weaponTags>
-            <li>FCP_Alloy_Steel_10mm_Pistol</li>
+            <li>FCP_Weapon_USA_Alloy_Steel_10mm_Pistol</li>
         </weaponTags>
         <costList>
             <Steel>28</Steel>

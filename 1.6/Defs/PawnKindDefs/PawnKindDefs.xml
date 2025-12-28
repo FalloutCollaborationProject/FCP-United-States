@@ -960,6 +960,11 @@
         <apparelTags>
             <li>FCP_USA_Marine_Armor</li>
         </apparelTags>
+        <apparelRequired>
+            <li>FCP_Apparel_USA_Marine_Light_Armor</li>
+            <li>FCP_Apparel_USA_Marine_Diving_Helmet</li>
+            <li>FCP_Apparel_USA_Marine_Wetsuit</li>
+        </apparelRequired>
         <apparelMoney>9999</apparelMoney>
         <weaponMoney>9999</weaponMoney>
         <weaponTags>

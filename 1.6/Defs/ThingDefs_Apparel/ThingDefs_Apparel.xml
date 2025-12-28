@@ -205,6 +205,7 @@
             <EquipDelay>0.8</EquipDelay>
         </statBases>
         <apparel>
+            <wornGraphicPath>Things/Apparel/US_Marine_Wetsuit/FCP_Marine_Wetsuit</wornGraphicPath>
             <bodyPartGroups>
                 <li>Torso</li>
                 <li>Shoulders</li>
@@ -232,11 +233,45 @@
         </tradeTags>
     </ThingDef>
 
-    <!--_ Standard _-->
+    <!--_ Light _-->
 
-    <!-- US Marine Light Vest -->
+    <!-- US Marine Light Armor -->
 
-
+    <ThingDef ParentName="FCP_Apparel_USA_Marine_Armor_Base">
+        <defName>FCP_Apparel_USA_Marine_Light_Armor</defName>
+        <description>A lighter variant of the US Marine Corps armor, sacrificing some protection for improved mobility and reduced weight. Designed for rapid deployment scenarios and extended field operations where agility is paramount. Still provides substantial ballistic protection while allowing marines to operate with greater speed and endurance.</description>
+        <label>US Marine Light Armor</label>
+        <graphicData>
+            <texPath>Things/Apparel/US_Light_Marine_Vest/FCP_US_Light_Marine_Vest</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <color>(72,77,62)</color>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>320</MaxHitPoints>
+            <MarketValue>1400</MarketValue>
+            <Mass>5.5</Mass>
+            <ArmorRating_Sharp>1.60</ArmorRating_Sharp>
+            <ArmorRating_Blunt>1.40</ArmorRating_Blunt>
+            <ArmorRating_Heat>1.05</ArmorRating_Heat>
+            <Insulation_Cold>6</Insulation_Cold>
+            <Insulation_Heat>4</Insulation_Heat>
+            <EquipDelay>1.3</EquipDelay>
+        </statBases>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/US_Light_Marine_Vest/FCP_US_Light_Marine_Vest</wornGraphicPath>
+            <tags>
+                <li>FCP_USA_Marine_Armor</li>
+            </tags>
+            <defaultOutfitTags inherit="false">
+                <li>FCP_USA_Marine_Armor</li>
+            </defaultOutfitTags>
+        </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
 
     <!--__ US General Uniform __-->
 
