@@ -120,9 +120,9 @@
             <MaxHitPoints>400</MaxHitPoints>
             <MarketValue>1800</MarketValue>
             <Mass>8.0</Mass>
-            <ArmorRating_Sharp>2.10</ArmorRating_Sharp>
-            <ArmorRating_Blunt>1.85</ArmorRating_Blunt>
-            <ArmorRating_Heat>1.40</ArmorRating_Heat>
+            <ArmorRating_Sharp>1.75</ArmorRating_Sharp>
+            <ArmorRating_Blunt>1.55</ArmorRating_Blunt>
+            <ArmorRating_Heat>1.20</ArmorRating_Heat>
             <Insulation_Cold>8</Insulation_Cold>
             <Insulation_Heat>5</Insulation_Heat>
             <EquipDelay>1.8</EquipDelay>
