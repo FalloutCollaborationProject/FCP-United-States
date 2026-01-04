@@ -101,21 +101,6 @@
         <thingCategories>
             <li>ApparelArmor</li>
         </thingCategories>
-        <recipeMaker Inherit= "false">
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
-            <skillRequirements>
-                <Crafting>8</Crafting>
-            </skillRequirements>
-            <researchPrerequisite>FCP_Research_USA_Marine_Corps_Equipment</researchPrerequisite>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
-        </recipeMaker>
-        <costList>
-            <Cloth>25</Cloth>
-            <Steel>60</Steel>
-            <ComponentIndustrial>2</ComponentIndustrial>
-        </costList>
         <statBases>
             <MaxHitPoints>400</MaxHitPoints>
             <MarketValue>1800</MarketValue>

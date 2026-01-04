@@ -122,6 +122,9 @@
             <tags>
                 <li>FCP_USA_Marine_Armor</li>
             </tags>
+            <defaultOutfitTags>
+                <li>FCP_USA_Marine_Armor</li>
+            </defaultOutfitTags>
         </apparel>
         <comps>
             <li Class="FCP.Core.CompProperties_LabelColored">
