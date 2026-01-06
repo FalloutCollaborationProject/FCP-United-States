@@ -10,7 +10,7 @@
         <label>US Food Supply Crate</label>
         <description>A crate of food from the United States of America, standard issue.</description>
         <graphicData>
-            <texPath>Things/Items/USA_Crates/USA_Food_Crate/FCP_USA_Food_Crate</texPath>
+            <texPath>Things/Items/USA_Crates/FCP_USA_Food_Crate</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>1.25</drawSize>
         </graphicData>
@@ -43,52 +43,9 @@
                 </guaranteedDrops>
                 <weightedDrops>
                     <li>
-                        <thingDef>FCP_Item_USA_MRE_Box</thingDef>
-                        <countRange>3</countRange>
+                        <thingDef>FCP_Item_USA_MRE</thingDef>
+                        <countRange>4~10</countRange>
                     </li>
-                </weightedDrops>
-            </li>
-            <li Class="CompProperties_UseEffectDestroySelf"/>
-        </comps>
-    </ThingDef>
-
-    <ThingDef ParentName="ResourceBase">
-        <defName>FCP_Item_USA_MRE_Box</defName>
-        <label>US MRE Box</label>
-        <description>A box of Meals Ready-to-Eat from the United States of America, standard issue.</description>
-        <graphicData>
-            <texPath>Things/Items/USA_Crates/USA_Food_Crate/FCP_USA_MRE_Box</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>1.25</drawSize>
-        </graphicData>
-        <size>(1,1)</size>
-        <resourceReadoutPriority>Middle</resourceReadoutPriority>
-        <soundInteract>Metal_Drop</soundInteract>
-        <soundDrop>Metal_Drop</soundDrop>
-        <stackLimit>1</stackLimit>
-        <useHitPoints>true</useHitPoints>
-        <statBases>
-            <MarketValue>100</MarketValue>
-            <MaxHitPoints>100</MaxHitPoints>
-            <Mass>2</Mass>
-            <Flammability>0.2</Flammability>
-        </statBases>
-        <thingCategories>
-            <li>ItemsMisc</li>
-        </thingCategories>
-        <drawGUIOverlay>false</drawGUIOverlay>
-        <tradeability>Sellable</tradeability>
-        <techLevel>Industrial</techLevel>
-        <comps>
-            <li Class="CompProperties_Usable">
-                <useJob>UseItem</useJob>
-                <useLabel>Open {0}</useLabel>
-            </li>
-            <li Class="FCP.Core.CompProperties_UseEffectItemBox">
-                <numWeightedDrops>5</numWeightedDrops>
-                <guaranteedDrops>
-                </guaranteedDrops>
-                <weightedDrops>
                 </weightedDrops>
             </li>
             <li Class="CompProperties_UseEffectDestroySelf"/>
@@ -104,7 +61,7 @@
         <label>US Weapon Supply Crate</label>
         <description>A crate of weapons from the United States of America, standard issue.</description>
         <graphicData>
-            <texPath>Things/Items/USA_Crates/USA_Weapon_Crate/FCP_USA_Weapon_Crate</texPath>
+            <texPath>Things/Items/USA_Crates/FCP_USA_Weapon_Crate</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>1.45</drawSize>
         </graphicData>
@@ -155,7 +112,7 @@
         <label>US Army Uniform Supply Crate</label>
         <description>A crate of uniforms from the United States Army, standard issue.</description>
         <graphicData>
-            <texPath>Things/Items/USA_Crates/USA_Uniform_Crate/FCP_USA_Uniform_Crate</texPath>
+            <texPath>Things/Items/USA_Crates/FCP_USA_Weapon_Crate</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>2</drawSize>
         </graphicData>
@@ -212,7 +169,7 @@
         <label>US Army Armor Supply Crate</label>
         <description>A crate of armor from the United States Army, standard issue.</description>
         <graphicData>
-            <texPath>Things/Items/USA_Crates/USA_Uniform_Crate/FCP_USA_Uniform_Crate</texPath>
+            <texPath>Things/Items/USA_Crates/FCP_USA_Weapon_Crate</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>2</drawSize>
         </graphicData>
@@ -273,7 +230,7 @@
         <label>US Marine Uniform Supply Crate</label>
         <description>A crate of uniforms from the United States Marine Corps, standard issue.</description>
         <graphicData>
-            <texPath>Things/Items/USA_Crates/USA_Uniform_Crate/FCP_USA_Uniform_Crate</texPath>
+            <texPath>Things/Items/USA_Crates/FCP_USA_Weapon_Crate</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>2</drawSize>
         </graphicData>
@@ -318,7 +275,7 @@
         <label>US Marine Armor Supply Crate</label>
         <description>A crate of armor from the United States Marine Corps, standard issue.</description>
         <graphicData>
-            <texPath>Things/Items/USA_Crates/FCP_USA_Uniform_Crate/FCP_USA_Uniform_Crate</texPath>
+            <texPath>Things/Items/USA_Crates/FCP_USA_Weapon_Crate</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>2</drawSize>
         </graphicData>

@@ -20,6 +20,12 @@
     <loadAfter>
         <li>Rick.FCP.Core.Tools</li>
         <li>Rick.FCP.PowerArmor</li>
+        <li>Rick.FCP.BallisticWeapons</li>
+        <li>Rick.FCP.EnergyWeapons</li>
+        <li>Rick.FCP.ExplosiveWeapons</li>
+        <li>Rick.FCP.MeleeWeapons</li>
+        <li>Rick.FCP.UnarmedWeapons</li>
+        <li>Rick.FCP.Wastelanders</li>
     </loadAfter>
 
 </ModMetaData>

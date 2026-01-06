@@ -16,7 +16,6 @@
         <heldByFactionCategoryTags>
             <li>FCP_Faction_USA</li>
         </heldByFactionCategoryTags>
-        <tab>FCP_Faction_Research</tab>
         <modExtensions>
             <li Class="FCP.Core.TechprintExtension">
                 <baseLabel>FCP_Techprint_Label</baseLabel>
@@ -33,15 +32,15 @@
 
     <ResearchProjectDef>
         <defName>FCP_Research_USA_Civilian_Clothing</defName>
-        <label>Civilian Clothing</label>
+        <label>Pre-War American Fashion</label>
         <description>Design and produce civilian attire reflecting the prosperity and diversity of American society, from business suits to workwear and leisure fashions seen across the nation.</description>
         <baseCost>500</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>
             <li>ComplexClothing</li>
         </prerequisites>
-        <researchViewX>6.00</researchViewX>
-        <researchViewY>0.50</researchViewY>
+        <researchViewX>5.00</researchViewX>
+        <researchViewY>1.00</researchViewY>
         <tab>FCP_Faction_Research</tab>
     </ResearchProjectDef>
 
@@ -49,15 +48,15 @@
 
     <ResearchProjectDef>
         <defName>FCP_Research_USA_Presidential_Suite</defName>
-        <label>Presidential Suite</label>
+        <label>Presidential Regalia</label>
         <description>Develop formal wear befitting the President of the United States, suitable for state functions, diplomatic meetings, and public addresses in the White House.</description>
         <baseCost>500</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites>
             <li>FCP_Research_USA_Civilian_Clothing</li>
         </prerequisites>
-        <researchViewX>7.50</researchViewX>
-        <researchViewY>0.50</researchViewY>
+        <researchViewX>5.00</researchViewX>
+        <researchViewY>1.50</researchViewY>
         <tab>FCP_Faction_Research</tab>
     </ResearchProjectDef>
 
@@ -72,8 +71,8 @@
         <label>Holotape File: Standard Infantry Gear</label>
         <description>Equip the United States Army with regulation uniforms gear and weapons, ensuring every soldier is prepared for service at home and abroad in defense of American interests.</description>
         <baseCost>1000</baseCost>
-        <researchViewX>6.00</researchViewX>
-        <researchViewY>1.50</researchViewY>
+        <researchViewX>0.00</researchViewX>
+        <researchViewY>5.00</researchViewY>
     </ResearchProjectDef>
 
     <!-- Infantry Variations -->
@@ -83,8 +82,11 @@
         <label>Holotape File: Infantry Variations</label>
         <description>Create specialized uniforms and equipment for Army units, including winter warfare, engineers, and medics, tailored to the diverse needs of the U.S. military.</description>
         <baseCost>1000</baseCost>
-        <researchViewX>7.50</researchViewX>
-        <researchViewY>1.50</researchViewY>
+        <prerequisites>
+            <li>FCP_Research_USA_Standard_Infantry_Gear</li>
+        </prerequisites>
+        <researchViewX>1.50</researchViewX>
+        <researchViewY>5.00</researchViewY>
     </ResearchProjectDef>
 
     <!-- Standard Marine Corps -->
@@ -94,8 +96,11 @@
         <label>Holotape File: Marine Corps Equipment</label>
         <description>Create specialized uniforms and equipment for Marine Corps units, ensuring they are prepared for amphibious and expeditionary warfare.</description>
         <baseCost>1000</baseCost>
-        <researchViewX>9.00</researchViewX>
-        <researchViewY>1.50</researchViewY>
+        <prerequisites>
+            <li>FCP_Research_USA_Standard_Infantry_Gear</li>
+        </prerequisites>
+        <researchViewX>3.00</researchViewX>
+        <researchViewY>5.00</researchViewY>
     </ResearchProjectDef>
 
     <!-- Mechanized Infantry -->
@@ -105,8 +110,11 @@
         <label>Holotape File: Mechanized Infantry Regiment</label>
         <description>Modernize the U.S. Army with mechanized divisions, integrating power armor to enhance mobility and battlefield dominance.</description>
         <baseCost>1000</baseCost>
-        <researchViewX>6.50</researchViewX>
-        <researchViewY>2.50</researchViewY>
+        <prerequisites>
+            <li>FCP_Research_USA_Infantry_Variations</li>
+        </prerequisites>
+        <researchViewX>1.50</researchViewX>
+        <researchViewY>5.50</researchViewY>
     </ResearchProjectDef>
 
     <!-- Officer Corps -->
@@ -119,10 +127,12 @@
         <techLevel>Industrial</techLevel>
         <prerequisites>
             <li>FCP_Research_USA_Infantry_Variations</li>
+            <li>FCP_Research_USA_Marine_Corps_Equipment</li>
         </prerequisites>
-        <researchViewX>8.00</researchViewX>
-        <researchViewY>2.50</researchViewY>
+        <researchViewX>6.00</researchViewX>
+        <researchViewY>1.00</researchViewY>
         <tab>FCP_Faction_Research</tab>
     </ResearchProjectDef>
 
 </Defs>
+
