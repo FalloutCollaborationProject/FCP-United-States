@@ -81,8 +81,8 @@
                 <rarity>Rare</rarity>
             </li>
             <li Class="FCP.Core.TemperatureApparelPreference.CompProperties_TemperatureApparelPreference">
-              <forceBelowTempC>5</forceBelowTempC>
-              <avoidAboveTempC>15</avoidAboveTempC>
+              <forceBelowTempC>4</forceBelowTempC>
+              <avoidAboveTempC>5</avoidAboveTempC>
             </li>
         </comps>
         <tradeTags>
@@ -269,7 +269,7 @@
         <label>US General Uniform</label>
         <description>A distinguished uniform issued to generals of the United States Army, symbolizing command and tradition. Its immaculate condition and ornate details reflect the prestige and authority of America's military leadership.</description>
         <recipeMaker>
-            <researchPrerequisite>FCP_Research_USA_Officer_Corps</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_MilitaryUniforms</researchPrerequisite>
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>4</Crafting>
@@ -308,7 +308,7 @@
                 <li>Arms</li>
                 <li>Legs</li>
             </bodyPartGroups>
-            <wornGraphicPath>Apparel/US_Army_Generals_Outfit/FCP_US_Army_General_Outfit</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/US_Army_Generals_Outfit/FCP_US_Army_General_Outfit</wornGraphicPath>
             <layers>
                 <li>OnSkin</li>
                 <li>Middle</li>
@@ -341,7 +341,7 @@
         <label>Winterized US General Uniform</label>
         <description>A winterized uniform issued to generals of the United States Army, symbolizing command and tradition. Enhanced with insulated lining and weatherproof materials, it provides warmth and protection in cold climates while maintaining the prestige and authority of America's military leadership.</description>
         <recipeMaker>
-            <researchPrerequisite>FCP_Research_USA_Officer_Corps</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_MilitaryUniforms</researchPrerequisite>
             <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>4</Crafting>
@@ -380,7 +380,7 @@
                 <li>Arms</li>
                 <li>Legs</li>
             </bodyPartGroups>
-            <wornGraphicPath>Apparel/US_Army_Winter_Generals_Outfit/FCP_US_Army_Winter_General_Outfit</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/US_Army_Winter_Generals_Outfit/FCP_US_Army_Winter_General_Outfit</wornGraphicPath>
             <layers>
                 <li>OnSkin</li>
                 <li>Middle</li>
@@ -398,8 +398,8 @@
                 <rarity>Rare</rarity>
             </li>
             <li Class="FCP.Core.TemperatureApparelPreference.CompProperties_TemperatureApparelPreference">
-              <forceBelowTempC>5</forceBelowTempC>
-              <avoidAboveTempC>15</avoidAboveTempC>
+              <forceBelowTempC>4</forceBelowTempC>
+              <avoidAboveTempC>5</avoidAboveTempC>
             </li>
         </comps>
         <tradeTags>

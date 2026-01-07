@@ -24,13 +24,13 @@
         <iconPath>World_Icon/United_States_Icon/FCP_United_States_World_Icon</iconPath>
         <styleItemTags>
             <li>
-                <tag>Urban</tag>
+                <tag>Pre_War</tag>
                 <baseWeight>1</baseWeight>
                 <weightFactor>1</weightFactor>
             </li>
             <li>
-                <tag>Rural</tag>
-                <baseWeight>1</baseWeight>
+                <tag>Military</tag>
+                <baseWeight>0.8</baseWeight>
                 <weightFactor>1</weightFactor>
             </li>
             <li>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ United States of America __________-->
+
+    <!--_____ Politicians _____-->
+
+    <!-- President Richardson -->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_USA_President_Richardson</defName>
+        <pawnKind>FCP_Pawnkind_USA_President_Richardson</pawnKind>
+        <faction>FCP_Faction_USA</faction>
+        <xenotype>Baseliner</xenotype>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>1000</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <!-- Bio -->
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Dick</firstName>
+                <lastName>Richardson</lastName>
+                <nickname>Richardson</nickname>
+                <gender>Male</gender>
+                <age>55</age>
+            </li>
+            <!-- Appearance -->
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(80, 80, 80)</hairColor>
+                <hairDef>Mop</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <skinColorOverride>(239, 189, 163)</skinColorOverride>
+                <headTypeDef>Male_AverageNormal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+            <!-- Unique Apparels -->
+            <li Class="FCP.Core.CharacterUniqueItemDefinition">
+                <uniqueItem>FCP_Apparel_USA_Presidents_Suit</uniqueItem>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+</Defs>

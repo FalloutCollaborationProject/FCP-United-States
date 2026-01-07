@@ -26,40 +26,6 @@
         </modExtensions>
     </ResearchProjectDef>
 
-    <!--_____ USA Civilian _____-->
-
-    <!-- Civilian Clothes -->
-
-    <ResearchProjectDef>
-        <defName>FCP_Research_USA_Civilian_Clothing</defName>
-        <label>Pre-War American Fashion</label>
-        <description>Design and produce civilian attire reflecting the prosperity and diversity of American society, from business suits to workwear and leisure fashions seen across the nation.</description>
-        <baseCost>500</baseCost>
-        <techLevel>Industrial</techLevel>
-        <prerequisites>
-            <li>ComplexClothing</li>
-        </prerequisites>
-        <researchViewX>5.00</researchViewX>
-        <researchViewY>1.00</researchViewY>
-        <tab>FCP_Faction_Research</tab>
-    </ResearchProjectDef>
-
-    <!-- President Clothes -->
-
-    <ResearchProjectDef>
-        <defName>FCP_Research_USA_Presidential_Suite</defName>
-        <label>Presidential Regalia</label>
-        <description>Develop formal wear befitting the President of the United States, suitable for state functions, diplomatic meetings, and public addresses in the White House.</description>
-        <baseCost>500</baseCost>
-        <techLevel>Industrial</techLevel>
-        <prerequisites>
-            <li>FCP_Research_USA_Civilian_Clothing</li>
-        </prerequisites>
-        <researchViewX>5.00</researchViewX>
-        <researchViewY>1.50</researchViewY>
-        <tab>FCP_Faction_Research</tab>
-    </ResearchProjectDef>
-
     <!--_____ USA Army _____-->
 
     <!-- Standard Infantry -->
@@ -71,8 +37,8 @@
         <label>Holotape File: Standard Infantry Gear</label>
         <description>Equip the United States Army with regulation uniforms gear and weapons, ensuring every soldier is prepared for service at home and abroad in defense of American interests.</description>
         <baseCost>1000</baseCost>
-        <researchViewX>0.00</researchViewX>
-        <researchViewY>5.00</researchViewY>
+        <researchViewX>2.00</researchViewX>
+        <researchViewY>1.00</researchViewY>
     </ResearchProjectDef>
 
     <!-- Infantry Variations -->
@@ -85,8 +51,8 @@
         <prerequisites>
             <li>FCP_Research_USA_Standard_Infantry_Gear</li>
         </prerequisites>
-        <researchViewX>1.50</researchViewX>
-        <researchViewY>5.00</researchViewY>
+        <researchViewX>3.00</researchViewX>
+        <researchViewY>1.00</researchViewY>
     </ResearchProjectDef>
 
     <!-- Standard Marine Corps -->
@@ -99,8 +65,8 @@
         <prerequisites>
             <li>FCP_Research_USA_Standard_Infantry_Gear</li>
         </prerequisites>
-        <researchViewX>3.00</researchViewX>
-        <researchViewY>5.00</researchViewY>
+        <researchViewX>4.00</researchViewX>
+        <researchViewY>1.00</researchViewY>
     </ResearchProjectDef>
 
     <!-- Mechanized Infantry -->
@@ -111,27 +77,11 @@
         <description>Modernize the U.S. Army with mechanized divisions, integrating power armor to enhance mobility and battlefield dominance.</description>
         <baseCost>1000</baseCost>
         <prerequisites>
+            <li>FCP_Research_Power_Armor_Training</li>
             <li>FCP_Research_USA_Infantry_Variations</li>
-        </prerequisites>
-        <researchViewX>1.50</researchViewX>
-        <researchViewY>5.50</researchViewY>
-    </ResearchProjectDef>
-
-    <!-- Officer Corps -->
-
-    <ResearchProjectDef>
-        <defName>FCP_Research_USA_Officer_Corps</defName>
-        <label>Officer Corps</label>
-        <description>Outfit the Officer Corps with distinguished uniforms and advanced equipment, symbolizing leadership and readiness for command in the armed forces.</description>
-        <baseCost>1000</baseCost>
-        <techLevel>Industrial</techLevel>
-        <prerequisites>
-            <li>FCP_Research_USA_Infantry_Variations</li>
-            <li>FCP_Research_USA_Marine_Corps_Equipment</li>
         </prerequisites>
         <researchViewX>6.00</researchViewX>
         <researchViewY>1.00</researchViewY>
-        <tab>FCP_Faction_Research</tab>
     </ResearchProjectDef>
 
 </Defs>

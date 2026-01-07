@@ -154,6 +154,7 @@
                 <disallowedStrategies />
                 <options>
                     <FCP_Pawnkind_USA_Marine_USS_Democracy_Combat_Armor>10</FCP_Pawnkind_USA_Marine_USS_Democracy_Combat_Armor>
+                    <FCP_Pawnkind_USA_Marine_USS_Democracy_Combat_Armor>10</FCP_Pawnkind_USA_Marine_USS_Democracy_Combat_Armor>
                 </options>
             </li>
 
@@ -192,8 +193,7 @@
                     <li>EmergeFromWater</li>
                 </disallowedStrategies>
                 <options>
-
-                    <FCP_Pawnkind_USA_Army_General>1</FCP_Pawnkind_USA_Army_General>
+                
                 </options>
             </li>
 
@@ -205,6 +205,7 @@
 
                 </options>
                 <characterDefs>
+                    <li>FCP_Character_USA_President_Richardson</li>
                 </characterDefs>
                 <characterChance>0.35</characterChance>
             </li>

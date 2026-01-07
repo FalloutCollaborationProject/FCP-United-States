@@ -80,8 +80,8 @@
                 <rarity>Rare</rarity>
             </li>
             <li Class="FCP.Core.TemperatureApparelPreference.CompProperties_TemperatureApparelPreference">
-              <forceBelowTempC>5</forceBelowTempC>
-              <avoidAboveTempC>15</avoidAboveTempC>
+              <forceBelowTempC>4</forceBelowTempC>
+              <avoidAboveTempC>5</avoidAboveTempC>
             </li>
         </comps>
     </ThingDef>
@@ -200,7 +200,7 @@
         <label>US Army General Cap</label>
         <description>A distinguished cap issued to generals of the United States Army, symbolizing command and tradition. Its immaculate condition and ornate details reflect the prestige and authority of America's military leadership.</description>
         <recipeMaker>
-            <researchPrerequisite>FCP_Research_USA_Officer_Corps</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_MilitaryUniforms</researchPrerequisite>
         </recipeMaker>
         <graphicData>
             <texPath>Things/Apparel/US_Army_Generals_Outfit/FCP_US_Army_General_Hat</texPath>
@@ -209,7 +209,7 @@
             <ShootingAccuracyPawn>0.50</ShootingAccuracyPawn>            <!-- +1 Perception -->
         </equippedStatOffsets>
         <apparel>
-            <wornGraphicPath>Apparel/US_Army_Generals_Outfit/FCP_US_Army_General_Hat</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/US_Army_Generals_Outfit/FCP_US_Army_General_Hat</wornGraphicPath>
             <tags>
                 <li>FCP_USA_General</li>
                 <li>FCP_USA_Officer</li>
@@ -231,7 +231,7 @@
         <label>Winterized US Army General Cap</label>
         <description>A white variant of the US Army General Cap, issued  for winter use. It retains the same distinguished appearance and authority as the standard cap, with no additional insulation or weatherproofing.</description>
         <recipeMaker>
-            <researchPrerequisite>FCP_Research_USA_Officer_Corps</researchPrerequisite>
+            <researchPrerequisite>FCP_Research_MilitaryUniforms</researchPrerequisite>
         </recipeMaker>
         <graphicData>
             <texPath>Things/Apparel/US_Army_Winter_Generals_Outfit/FCP_US_Army_General_Hat_Winter</texPath>
@@ -240,7 +240,7 @@
             <ShootingAccuracyPawn>0.50</ShootingAccuracyPawn>            <!-- +1 Perception -->
         </equippedStatOffsets>
         <apparel>
-            <wornGraphicPath>Apparel/US_Army_Winter_Generals_Outfit/FCP_US_Army_General_Hat_Winter</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/US_Army_Winter_Generals_Outfit/FCP_US_Army_General_Hat_Winter</wornGraphicPath>
             <tags>
                 <li>FCP_USA_General</li>
                 <li>FCP_USA_Officer</li>
@@ -251,8 +251,8 @@
                 <rarity>Rare</rarity>
             </li>
             <li Class="FCP.Core.TemperatureApparelPreference.CompProperties_TemperatureApparelPreference">
-              <forceBelowTempC>5</forceBelowTempC>
-              <avoidAboveTempC>15</avoidAboveTempC>
+              <forceBelowTempC>4</forceBelowTempC>
+              <avoidAboveTempC>5</avoidAboveTempC>
             </li>
         </comps>
     </ThingDef>

@@ -921,7 +921,7 @@
     <PawnKindDef ParentName="FCP_USAkindBase">
         <defName>FCP_Pawnkind_USA_Army_General</defName>
         <label>US Army General</label>
-        <combatPower>190</combatPower>
+        <combatPower>90</combatPower>
         <apparelMoney>9999</apparelMoney>
         <factionLeader>true</factionLeader>
         <apparelTags>
@@ -1028,49 +1028,6 @@
                 </categoriesChildhood>
                 <categoriesAdulthood>
                     <li>FCP_Backstory_USMC_Marine_USS_Democracy</li>
-                </categoriesAdulthood>
-            </li>
-        </backstoryFiltersOverride>
-        <pawnGroupDevelopmentStage>Adult</pawnGroupDevelopmentStage>
-    </PawnKindDef>
-
-    <!-- US Army Alaskan Campaign Trooper -->
-
-    <PawnKindDef ParentName="FCP_USAkindBase">
-        <defName>FCP_Pawnkind_USA_Army_Alaskan_Campaign_Trooper</defName>
-        <label>US Army Alaskan Campaign Trooper</label>
-        <combatPower>85</combatPower>
-        <gearHealthRange>0.5~1.8</gearHealthRange>
-        <apparelMoney>1</apparelMoney>
-        <apparelRequired>
-            <li>FCP_Apparel_USA_Winterized_Army_Combat_Armor</li>
-            <li>FCP_Apparel_USA_Winterized_Army_Combat_Helmet</li>
-        </apparelRequired>
-        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
-        <weaponMoney>9999</weaponMoney>
-        <weaponTags>
-            <li>FCP_Weapon_USA_Alloy_Steel_Assault_Rifle</li>
-        </weaponTags>
-        <disallowedTraits>
-            <li>Brawler</li>
-        </disallowedTraits>
-        <requiredWorkTags>
-            <li>Violent</li>
-        </requiredWorkTags>
-        <techHediffsMoney>50~50</techHediffsMoney>
-        <techHediffsTags>
-            <li>Poor</li>
-        </techHediffsTags>
-        <techHediffsChance>0.03</techHediffsChance>
-        <initialWillRange>1~3</initialWillRange>
-        <initialResistanceRange>17~25</initialResistanceRange>
-        <backstoryFiltersOverride>
-            <li>
-                <categoriesChildhood>
-                    <li>FCP_Backstory_USA_Child</li>
-                </categoriesChildhood>
-                <categoriesAdulthood>
-                    <li>FCP_Backstory_USA_Ranger</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>

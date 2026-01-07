@@ -1523,4 +1523,31 @@
         </spawnCategories>
     </BackstoryDef>
 
+    <!--_ President Richardson _-->
+
+    <!-- President of the United States -->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_President_Richardson_Leader</defName>
+        <identifier>FCP_Backstory_USA_President_Richardson_Leader</identifier>
+        <slot>Adulthood</slot>
+        <title>President of the United States</title>
+        <titleShort>President</titleShort>
+        <description>Rose through the ranks of government to become President, leading with charisma and unwavering conviction. Devoted to the dream of restoring America to its former glory, no matter the cost. A master of rhetoric and political maneuvering.</description>
+        <skillGains>
+            <Social>8</Social>
+            <Intellectual>5</Intellectual>
+        </skillGains>
+        <workDisables>
+            <li>ManualDumb</li>
+            <li>ManualSkilled</li>
+        </workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_President_Richardson</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+    </BackstoryDef>
+
 </Defs>
