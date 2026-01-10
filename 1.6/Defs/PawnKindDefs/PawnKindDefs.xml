@@ -9,7 +9,7 @@
     <!--___ Characters ___-->
     <!-- Character Military Base -->
     
-<PawnKindDef Name="FCP_USA_CharacterkindBase" ParentName="FCP_USAkindBase" Abstract="true">
+    <PawnKindDef Name="FCP_USA_CharacterkindBase" ParentName="FCP_USAkindBase" Abstract="true">
         <apparelMoney>9999</apparelMoney>
         <gearHealthRange>10</gearHealthRange>
         <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
@@ -35,7 +35,7 @@
 
     <!-- President Richardson -->
     
-<PawnKindDef ParentName="FCP_USAkindBase">
+    <PawnKindDef ParentName="FCP_USAkindBase">
         <defName>FCP_Pawnkind_USA_President_Richardson</defName>
         <label>President</label>
         <factionLeader>true</factionLeader>
@@ -63,7 +63,7 @@
 
     <!-- Secretary of Agriculture Thomas Eckhart -->
     
-<PawnKindDef ParentName="FCP_USAkindBase">
+    <PawnKindDef ParentName="FCP_USAkindBase">
         <defName>FCP_Pawnkind_USA_Secretary_Eckhart</defName>
         <label>Secretary of Agriculture</label>
         <combatPower>50</combatPower>
@@ -91,7 +91,7 @@
 
     <!-- General Constantine Chase -->
     
-<PawnKindDef ParentName="FCP_USAkindBase">
+    <PawnKindDef ParentName="FCP_USAkindBase">
         <defName>FCP_Pawnkind_USA_General_Chase</defName>
         <label>General</label>
         <combatPower>50</combatPower>
@@ -119,7 +119,7 @@
 
     <!-- General Braxton -->
     
-<PawnKindDef ParentName="FCP_USAkindBase">
+    <PawnKindDef ParentName="FCP_USAkindBase">
         <defName>FCP_Pawnkind_USA_General_Braxton</defName>
         <label>General</label>
         <combatPower>50</combatPower>
@@ -147,7 +147,7 @@
 
     <!-- General Rawlings -->
     
-<PawnKindDef ParentName="FCP_USAkindBase">
+    <PawnKindDef ParentName="FCP_USAkindBase">
         <defName>FCP_Pawnkind_USA_General_Rawlings</defName>
         <label>General</label>
         <combatPower>50</combatPower>
@@ -175,7 +175,7 @@
 
     <!-- General Ellen Blackwell -->
     
-<PawnKindDef ParentName="FCP_USAkindBase">
+    <PawnKindDef ParentName="FCP_USAkindBase">
         <defName>FCP_Pawnkind_USA_General_Blackwell</defName>
         <label>General</label>
         <combatPower>50</combatPower>
@@ -203,7 +203,7 @@
 
     <!-- General Baker -->
     
-<PawnKindDef ParentName="FCP_USAkindBase">
+    <PawnKindDef ParentName="FCP_USAkindBase">
         <defName>FCP_Pawnkind_USA_General_Baker</defName>
         <label>General</label>
         <combatPower>50</combatPower>
@@ -231,7 +231,7 @@
 
     <!-- General Williams -->
     
-<PawnKindDef ParentName="FCP_USAkindBase">
+    <PawnKindDef ParentName="FCP_USAkindBase">
         <defName>FCP_Pawnkind_USA_General_Williams</defName>
         <label>General</label>
         <combatPower>50</combatPower>
@@ -259,7 +259,7 @@
 
     <!-- General Kelly -->
     
-<PawnKindDef ParentName="FCP_USAkindBase">
+    <PawnKindDef ParentName="FCP_USAkindBase">
         <defName>FCP_Pawnkind_USA_General_Kelly</defName>
         <label>General</label>
         <combatPower>50</combatPower>
@@ -287,7 +287,7 @@
 
     <!-- General McGowan -->
     
-<PawnKindDef ParentName="FCP_USAkindBase">
+    <PawnKindDef ParentName="FCP_USAkindBase">
         <defName>FCP_Pawnkind_USA_General_McGowan</defName>
         <label>General</label>
         <combatPower>50</combatPower>
@@ -315,7 +315,7 @@
 
     <!-- General Staggs -->
     
-<PawnKindDef ParentName="FCP_USAkindBase">
+    <PawnKindDef ParentName="FCP_USAkindBase">
         <defName>FCP_Pawnkind_USA_General_Staggs</defName>
         <label>General</label>
         <combatPower>50</combatPower>
@@ -343,7 +343,7 @@
 
     <!-- General Wood -->
     
-<PawnKindDef ParentName="FCP_USAkindBase">
+    <PawnKindDef ParentName="FCP_USAkindBase">
         <defName>FCP_Pawnkind_USA_General_Wood</defName>
         <label>General</label>
         <combatPower>50</combatPower>
@@ -371,7 +371,7 @@
 
     <!-- Colonel Ellen Santiago -->
     
-<PawnKindDef ParentName="FCP_USAkindBase">
+    <PawnKindDef ParentName="FCP_USAkindBase">
         <defName>FCP_Pawnkind_USA_Colonel_Santiago</defName>
         <label>Colonel</label>
         <combatPower>50</combatPower>
@@ -399,7 +399,7 @@
 
     <!-- Major Darion Jones -->
     
-<PawnKindDef ParentName="FCP_USAkindBase">
+    <PawnKindDef ParentName="FCP_USAkindBase">
         <defName>FCP_Pawnkind_USA_Major_Jones</defName>
         <label>Major</label>
         <combatPower>50</combatPower>
@@ -427,7 +427,7 @@
 
     <!-- Captain Roger Maxon -->
     
-<PawnKindDef ParentName="FCP_USAkindBase">
+    <PawnKindDef ParentName="FCP_USAkindBase">
         <defName>FCP_Pawnkind_USA_Captain_Maxon</defName>
         <label>Captain</label>
         <combatPower>50</combatPower>
@@ -456,7 +456,7 @@
     <!--___ Civilians ___-->
     <!-- Engineer -->
     
-<PawnKindDef ParentName="FCP_USAkindBase">
+    <PawnKindDef ParentName="FCP_USAkindBase">
         <defName>FCP_Pawnkind_USA_Engineer</defName>
         <label>US Army Engineer</label>
         <combatPower>25</combatPower>
@@ -490,7 +490,7 @@
 
     <!-- USA Citizen -->
     
-<PawnKindDef MayRequire="Rick.FCP.Wastelanders" ParentName="FCP_USAkindBase">
+    <PawnKindDef MayRequire="Rick.FCP.Wastelanders" ParentName="FCP_USAkindBase">
         <defName>FCP_Pawnkind_USA_Citizen</defName>
         <label>US Citizen</label>
         <combatPower>55</combatPower>
@@ -528,7 +528,7 @@
 
     <!-- Chinese POW -->
     
-<PawnKindDef MayRequire="Rick.FCP.China" ParentName="FCP_PRCkindBase">
+    <PawnKindDef MayRequire="Rick.FCP.China" ParentName="FCP_PRCkindBase">
         <defName>FCP_Pawnkind_USA_POW</defName>
         <label>Chinese POW</label>
         <combatPower>25</combatPower>
@@ -567,7 +567,7 @@
     <!--___ Traders ___-->
     <!-- USA Quartermaster -->
     
-<PawnKindDef ParentName="FCP_USAkindBase">
+    <PawnKindDef ParentName="FCP_USAkindBase">
         <defName>FCP_Pawnkind_USA_Quartermaster</defName>
         <label>US Quartermaster</label>
         <trader>true</trader>
@@ -604,7 +604,7 @@
 
     <!-- USA Warden -->
     
-<PawnKindDef ParentName="FCP_USAkindBase">
+    <PawnKindDef ParentName="FCP_USAkindBase">
         <defName>FCP_Pawnkind_USA_USA_Warden</defName>
         <label>US Warden</label>
         <trader>true</trader>
@@ -641,7 +641,7 @@
     <!--___ Politicians ___-->
     <!-- Tax Collector -->
     
-<PawnKindDef ParentName="FCP_USAkindBase">
+    <PawnKindDef ParentName="FCP_USAkindBase">
         <defName>FCP_Pawnkind_USA_Tax_Collector</defName>
         <label>US Tax Collector</label>
         <trader>true</trader>
@@ -666,6 +666,7 @@
     </PawnKindDef>
 
     <!-- President -->
+
     <!-- <PawnKindDef ParentName="FCP_USAkindBase">
         <defName>FCP_USA_President</defName>
         <label>US President</label>
@@ -693,7 +694,7 @@
     <!--___ Military ___-->
     <!-- US Infantry -->
     
-<PawnKindDef ParentName="FCP_USAkindBase">
+    <PawnKindDef ParentName="FCP_USAkindBase">
         <defName>FCP_Pawnkind_USA_Army_Infantry</defName>
         <label>US Army Infantry</label>
         <combatPower>65</combatPower>
@@ -762,7 +763,7 @@
 
     <!-- US Army Support -->
     
-<PawnKindDef ParentName="FCP_USAkindBase">
+    <PawnKindDef ParentName="FCP_USAkindBase">
         <defName>FCP_Pawnkind_USA_Army_Support</defName>
         <label>US Army Support</label>
         <combatPower>65</combatPower>
@@ -826,7 +827,7 @@
 
     <!-- US Army Mechanized Infantry -->
     
-<PawnKindDef ParentName="FCP_USAkindBase">
+    <PawnKindDef ParentName="FCP_USAkindBase">
         <defName>FCP_Pawnkind_USA_Army_Mechanized_Infantry</defName>
         <label>US Army Mechanized Infantry</label>
         <combatPower>90</combatPower>
@@ -890,7 +891,7 @@
 
     <!-- US Army Pilot -->
     
-<PawnKindDef ParentName="FCP_USAkindBase">
+    <PawnKindDef ParentName="FCP_USAkindBase">
         <defName>FCP_Pawnkind_USA_Army_Pilot</defName>
         <label>US Army Pilot</label>
         <combatPower>75</combatPower>
@@ -934,7 +935,7 @@
 
     <!-- US Army Officer -->
     
-<PawnKindDef ParentName="FCP_USAkindBase">
+    <PawnKindDef ParentName="FCP_USAkindBase">
         <defName>FCP_Pawnkind_USA_Army_Officer</defName>
         <label>US Army Officer</label>
         <combatPower>95</combatPower>
@@ -997,7 +998,7 @@
 
     <!-- US Army General -->
     
-<PawnKindDef ParentName="FCP_USAkindBase">
+    <PawnKindDef ParentName="FCP_USAkindBase">
         <defName>FCP_Pawnkind_USA_Army_General</defName>
         <label>US Army General</label>
         <combatPower>90</combatPower>
@@ -1052,7 +1053,7 @@
 
     <!-- US Marine Infantry -->
     
-<PawnKindDef ParentName="FCP_USAkindBase">
+    <PawnKindDef ParentName="FCP_USAkindBase">
         <defName>FCP_Pawnkind_USA_Marine_Infantry</defName>
         <label>US Marine Infantry</label>
         <combatPower>75</combatPower>
@@ -1092,7 +1093,7 @@
 
     <!-- US Marine USS Democracy -->
     
-<PawnKindDef ParentName="FCP_USAkindBase">
+    <PawnKindDef ParentName="FCP_USAkindBase">
         <defName>FCP_Pawnkind_USA_Marine_USS_Democracy_Combat_Armor</defName>
         <label>US Marine</label>
         <combatPower>80</combatPower>

@@ -35,7 +35,7 @@
 
     <!-- RobCo Technician -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Citizen_RobCo_Technician</defName>
         <identifier>FCP_Backstory_USA_Citizen_RobCo_Technician</identifier>
         <slot>Adulthood</slot>
@@ -57,6 +57,7 @@
     </BackstoryDef>
 
     <!-- Nuka-Cola Salesperson -->
+
     <BackstoryDef>
         <defName>FCP_Backstory_USA_Citizen_Nuka_Cola_Salesperson</defName>
         <identifier>FCP_Backstory_USA_Citizen_Nuka_Cola_Salesperson</identifier>
@@ -79,7 +80,7 @@
 
     <!-- Atomic Age Homemaker -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Citizen_Homemaker</defName>
         <identifier>FCP_Backstory_USA_Citizen_Homemaker</identifier>
         <slot>Adulthood</slot>
@@ -102,7 +103,7 @@
 
     <!-- Vault Lottery Hopeful -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Citizen_Vault_Dweller_Wannabe</defName>
         <identifier>FCP_Backstory_USA_Citizen_Vault_Dweller_Wannabe</identifier>
         <slot>Adulthood</slot>
@@ -125,7 +126,7 @@
 
     <!-- Red Menace Comic Artist -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Citizen_RedMenace_Artist</defName>
         <identifier>FCP_Backstory_USA_Citizen_RedMenace_Artist</identifier>
         <slot>Adulthood</slot>
@@ -148,7 +149,7 @@
 
     <!-- Police Officer -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Citizen_Police</defName>
         <identifier>FCP_Backstory_USA_Citizen_Police</identifier>
         <slot>Adulthood</slot>
@@ -171,7 +172,7 @@
 
     <!-- Elementary School Teacher -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Citizen_Teacher</defName>
         <identifier>FCP_Backstory_USA_Citizen_Teacher</identifier>
         <slot>Adulthood</slot>
@@ -194,7 +195,7 @@
 
     <!-- Doctor -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Citizen_Doctor</defName>
         <identifier>FCP_Backstory_USA_Citizen_Doctor</identifier>
         <slot>Adulthood</slot>
@@ -217,7 +218,7 @@
 
     <!-- College Student -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Citizen_College_Student</defName>
         <identifier>FCP_Backstory_USA_Citizen_College_Student</identifier>
         <slot>Adulthood</slot>
@@ -239,7 +240,7 @@
 
     <!-- Giddyup Buttercup Factory Worker -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Citizen_Giddy_up_Buttercup_Worker</defName>
         <identifier>FCP_Backstory_USA_Citizen_Giddy_up_Buttercup_Worker</identifier>
         <slot>Adulthood</slot>
@@ -262,7 +263,7 @@
 
     <!-- Silver Shroud Radio Host -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Citizen_Silver_Shroud_Radio_Host</defName>
         <identifier>FCP_Backstory_USA_Citizen_Silver_Shroud_Radio_Host</identifier>
         <slot>Adulthood</slot>
@@ -285,7 +286,7 @@
 
     <!-- Red Rocket Attendant -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Citizen_Red_Rocket_Attendant</defName>
         <identifier>FCP_Backstory_USA_Citizen_Red_Rocket_Attendant</identifier>
         <slot>Adulthood</slot>
@@ -307,6 +308,7 @@
     </BackstoryDef>
 
     <!-- Vault-Tec Public Relations Specialist -->
+
     <BackstoryDef>
         <defName>FCP_Backstory_USA_Citizen_Vault_Tec_PR_Specialist</defName>
         <identifier>FCP_Backstory_USA_Citizen_Vault_Tec_PR_Specialist</identifier>
@@ -330,7 +332,7 @@
 
     <!-- Suburban Gardener -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Citizen_Suburban_Gardener</defName>
         <identifier>FCP_Backstory_USA_Citizen_Suburban_Gardener</identifier>
         <slot>Adulthood</slot>
@@ -353,7 +355,7 @@
 
     <!-- Red Rocket Grease Monkey -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Citizen_Red_Rocket_Grease_Monkey</defName>
         <identifier>FCP_Backstory_USA_Citizen_Red_Rocket_Grease_Monkey</identifier>
         <slot>Adulthood</slot>
@@ -376,7 +378,7 @@
 
     <!-- Hubris Comics Writer -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Citizen_Hubris_Comics_Writer</defName>
         <identifier>FCP_Backstory_USA_Citizen_Hubris_Comics_Writer</identifier>
         <slot>Adulthood</slot>
@@ -399,7 +401,7 @@
 
     <!-- Poseidon Energy Technician -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Citizen_Poseidon_Energy_Tech</defName>
         <identifier>FCP_Backstory_USA_Citizen_Poseidon_Energy_Tech</identifier>
         <slot>Adulthood</slot>
@@ -422,7 +424,7 @@
 
     <!-- Super Duper Mart Clerk -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Citizen_Super_Duper_Mart_Clerk</defName>
         <identifier>FCP_Backstory_USA_Citizen_Super_Duper_Mart_Clerk</identifier>
         <slot>Adulthood</slot>
@@ -445,7 +447,7 @@
 
     <!-- Radio News Anchor -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Citizen_Radio_News_Anchor</defName>
         <identifier>FCP_Backstory_USA_Citizen_Radio_News_Anchor</identifier>
         <slot>Adulthood</slot>
@@ -468,7 +470,7 @@
 
     <!-- Chryslus Motors Assembly Line Worker -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Citizen_Chryslus_Assembly_Worker</defName>
         <identifier>FCP_Backstory_USA_Citizen_Chryslus_Assembly_Worker</identifier>
         <slot>Adulthood</slot>
@@ -491,7 +493,7 @@
 
     <!-- Red Menace Voice Actor -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Citizen_Red_Menace_Voice_Actor</defName>
         <identifier>FCP_Backstory_USA_Citizen_Red_Menace_Voice_Actor</identifier>
         <slot>Adulthood</slot>
@@ -514,7 +516,7 @@
 
     <!-- Red Menace Propaganda Writer -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Citizen_Red_Menace_Propaganda_Writer</defName>
         <identifier>FCP_Backstory_USA_Citizen_Red_Menace_Propaganda_Writer</identifier>
         <slot>Adulthood</slot>
@@ -536,6 +538,7 @@
     </BackstoryDef>
 
     <!-- Nuka-World Entertainer -->
+
     <BackstoryDef>
         <defName>FCP_Backstory_USA_Citizen_Nuka_World_Entertainer</defName>
         <identifier>FCP_Backstory_USA_Citizen_NukaWorld_Entertainer</identifier>
@@ -559,7 +562,7 @@
 
     <!-- Suburban Scout Leader -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Citizen_Suburban_Scout_Leader</defName>
         <identifier>FCP_Backstory_USA_Citizen_Suburban_Scout_Leader</identifier>
         <slot>Adulthood</slot>
@@ -583,7 +586,7 @@
     <!--_ US Army _-->
     <!-- U.S. Army Infantry -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Army_Infantry</defName>
         <identifier>FCP_Backstory_USA_Army_Infantry</identifier>
         <slot>Adulthood</slot>
@@ -609,7 +612,7 @@
 
     <!-- U.S. Army Infantry Veteran -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Army_Infantry_Veteran</defName>
         <identifier>FCP_Backstory_USA_Army_Infantry_Veteran</identifier>
         <slot>Adulthood</slot>
@@ -637,7 +640,7 @@
 
     <!-- U.S. Army Infantry Conscriptee -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Army_Infantry_Conscriptee</defName>
         <identifier>FCP_Backstory_USA_Army_Infantry_Conscriptee</identifier>
         <slot>Adulthood</slot>
@@ -663,7 +666,7 @@
 
     <!-- U.S. Army Infantry Scout -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Army_Infantry_Scout</defName>
         <identifier>FCP_Backstory_USA_Army_Infantry_Scout</identifier>
         <slot>Adulthood</slot>
@@ -689,7 +692,7 @@
 
     <!-- U.S. Army Infantry Radio Operator -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Army_Infantry_Radio_Operator</defName>
         <identifier>FCP_Backstory_USA_Army_Infantry_Radio_Operator</identifier>
         <slot>Adulthood</slot>
@@ -713,7 +716,7 @@
 
     <!-- U.S. Army Logistics Specialist -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Army_Logistics_Specialist</defName>
         <identifier>FCP_Backstory_USA_Army_Logistics_Specialist</identifier>
         <slot>Adulthood</slot>
@@ -736,7 +739,7 @@
 
     <!-- U.S. Army Mechanic -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Army_Mechanic</defName>
         <identifier>FCP_Backstory_USA_Army_Mechanic</identifier>
         <slot>Adulthood</slot>
@@ -759,7 +762,7 @@
 
     <!-- U.S. Army Cook -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Army_Cook</defName>
         <identifier>FCP_Backstory_USA_Army_Cook</identifier>
         <slot>Adulthood</slot>
@@ -785,7 +788,7 @@
 
     <!-- U.S. Army Medic -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Army_Medic</defName>
         <identifier>FCP_Backstory_USA_Army_Medic</identifier>
         <slot>Adulthood</slot>
@@ -811,7 +814,7 @@
 
     <!-- U.S. Army Communications Technician -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Army_Communications_Tech</defName>
         <identifier>FCP_Backstory_USA_Army_Communications_Tech</identifier>
         <slot>Adulthood</slot>
@@ -837,7 +840,7 @@
 
     <!-- U.S. Army Vertibird Pilot -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Army_Vertibird_Pilot</defName>
         <identifier>FCP_Backstory_USA_Army_Vertibird_Pilot</identifier>
         <slot>Adulthood</slot>
@@ -863,7 +866,7 @@
 
     <!-- U.S. Army Aviation Mechanic -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Army_Aviation_Mechanic</defName>
         <identifier>FCP_Backstory_USA_Army_Aviation_Mechanic</identifier>
         <slot>Adulthood</slot>
@@ -886,7 +889,7 @@
 
     <!-- U.S. Army Jet Pilot -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Army_Jet_Pilot</defName>
         <identifier>FCP_Backstory_USA_Army_Jet_Pilot</identifier>
         <slot>Adulthood</slot>
@@ -909,7 +912,7 @@
 
     <!-- U.S. Army Bomber Pilot -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Army_Bomber_Pilot</defName>
         <identifier>FCP_Backstory_USA_Army_Bomber_Pilot</identifier>
         <slot>Adulthood</slot>
@@ -932,7 +935,7 @@
 
     <!-- U.S. Army Lieutenant -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Army_Lieutenant</defName>
         <identifier>FCP_Backstory_USA_Army_Lieutenant</identifier>
         <slot>Adulthood</slot>
@@ -959,7 +962,7 @@
 
     <!-- U.S. Army Captain -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Army_Captain</defName>
         <identifier>FCP_Backstory_USA_Army_Captain</identifier>
         <slot>Adulthood</slot>
@@ -986,7 +989,7 @@
 
     <!-- U.S. Army Major -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Army_Major</defName>
         <identifier>FCP_Backstory_USA_Army_Major</identifier>
         <slot>Adulthood</slot>
@@ -1009,7 +1012,7 @@
 
     <!-- U.S. Army Colonel -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Army_Colonel</defName>
         <identifier>FCP_Backstory_USA_Army_Colonel</identifier>
         <slot>Adulthood</slot>
@@ -1035,7 +1038,7 @@
 
     <!-- U.S. Army General -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Army_General</defName>
         <identifier>FCP_Backstory_USA_Army_General</identifier>
         <slot>Adulthood</slot>
@@ -1058,7 +1061,7 @@
 
     <!-- U.S. Army Alaskan Winter Warfare Specialist -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Army_Alaska_Winter_Warfare_Specialist</defName>
         <identifier>FCP_Backstory_USA_Army_Alaska_Winter_Warfare_Specialist</identifier>
         <slot>Adulthood</slot>
@@ -1086,7 +1089,7 @@
 
     <!-- U.S. Army Alaskan Recon Scout -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Army_Alaska_Scout</defName>
         <identifier>FCP_Backstory_USA_Army_Alaska_Scout</identifier>
         <slot>Adulthood</slot>
@@ -1113,7 +1116,7 @@
     <!--_ US Marine Corps _-->
     <!-- U.S.M.C. Marine Rifleman -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USMC_Marine_Rifleman</defName>
         <identifier>FCP_Backstory_USMC_Marine_Rifleman</identifier>
         <slot>Adulthood</slot>
@@ -1139,7 +1142,7 @@
 
     <!-- U.S.M.C. Marine USS Democracy -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USMC_Marine_USS_Democracy</defName>
         <identifier>FCP_Backstory_USMC_Marine_USS_Democracy</identifier>
         <slot>Adulthood</slot>
@@ -1166,7 +1169,7 @@
 
     <!-- U.S.M.C. Marine Demolitions Specialist -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USMC_Marine_Demolitions</defName>
         <identifier>FCP_Backstory_USMC_Marine_Demolitions</identifier>
         <slot>Adulthood</slot>
@@ -1190,7 +1193,7 @@
 
     <!-- U.S. Navy Marine Corpsman -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_US_Navy_Marine_Corpsman</defName>
         <identifier>FCP_Backstory_US_Navy_Marine_Corpsman</identifier>
         <slot>Adulthood</slot>
@@ -1214,7 +1217,7 @@
     <!--__ Children __-->
     <!-- Suburban Scout -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Child_Suburban_Scout</defName>
         <identifier>FCP_Backstory_USA_Child_Suburban_Scout</identifier>
         <slot>Childhood</slot>
@@ -1231,6 +1234,7 @@
     </BackstoryDef>
 
     <!-- Nuka-Cola Junior Taster -->
+
     <BackstoryDef>
         <defName>FCP_Backstory_USA_Child_Nuka_Cola_Junior_Taster</defName>
         <identifier>FCP_Backstory_USA_Child_Nuka_Cola_Junior_Taster</identifier>
@@ -1248,7 +1252,7 @@
 
     <!-- Red Menace Fan -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Child_Red_Menace_Fan</defName>
         <identifier>FCP_Backstory_USA_Child_Red_Menace_Fan</identifier>
         <slot>Childhood</slot>
@@ -1265,7 +1269,7 @@
 
     <!-- Sugar Bombs Enthusiast -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Child_Sugar_Bombs_Enthusiast</defName>
         <identifier>FCP_Backstory_USA_Child_Sugar_Bombs_Enthusiast</identifier>
         <slot>Childhood</slot>
@@ -1283,7 +1287,7 @@
 
     <!-- RobCo Junior Tinkerer -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Child_RobCo_Junior_Tinkerer</defName>
         <identifier>FCP_Backstory_USA_Child_RobCo_Junior_Tinkerer</identifier>
         <slot>Childhood</slot>
@@ -1300,6 +1304,7 @@
     </BackstoryDef>
 
     <!-- Vault-Tec Lottery Kid -->
+
     <BackstoryDef>
         <defName>FCP_Backstory_USA_Child_Vault_Tec_Lottery_Kid</defName>
         <identifier>FCP_Backstory_USA_Child_Vault_Tec_Lottery_Kid</identifier>
@@ -1318,7 +1323,7 @@
 
     <!-- Suburban Gardener -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Child_Suburban_Gardener</defName>
         <identifier>FCP_Backstory_USA_Child_Suburban_Gardener</identifier>
         <slot>Childhood</slot>
@@ -1335,7 +1340,7 @@
 
     <!-- Silver Shroud Fan -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Child_Silver_Shroud_Fan</defName>
         <identifier>FCP_Backstory_USA_Child_Silver_Shroud_Fan</identifier>
         <slot>Childhood</slot>
@@ -1353,7 +1358,7 @@
 
     <!-- Super Duper Mart Helper -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Child_Super_Duper_Mart_Helper</defName>
         <identifier>FCP_Backstory_USA_Child_Super_Duper_Mart_Helper</identifier>
         <slot>Childhood</slot>
@@ -1370,7 +1375,7 @@
 
     <!-- Prewar Schoolkid -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Child_Prewar_Schoolkid</defName>
         <identifier>FCP_Backstory_USA_Child_Prewar_Schoolkid</identifier>
         <slot>Childhood</slot>
@@ -1388,7 +1393,7 @@
 
     <!-- Giddyup Buttercup Collector -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Child_Giddyup_Buttercup_Collector</defName>
         <identifier>FCP_Backstory_USA_Child_Giddyup_Buttercup_Collector</identifier>
         <slot>Childhood</slot>
@@ -1405,6 +1410,7 @@
     </BackstoryDef>
 
     <!-- Nuka-World Junior Explorer -->
+
     <BackstoryDef>
         <defName>FCP_Backstory_USA_Child_NukaWorld_Junior_Explorer</defName>
         <identifier>FCP_Backstory_USA_Child_NukaWorld_Junior_Explorer</identifier>
@@ -1423,7 +1429,7 @@
 
     <!-- Hubris Comics Superfan -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Child_Hubris_Comics_Superfan</defName>
         <identifier>FCP_Backstory_USA_Child_Hubris_Comics_Superfan</identifier>
         <slot>Childhood</slot>
@@ -1441,7 +1447,7 @@
 
     <!-- Red Rocket Junior Mechanic -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Child_Red_Rocket_Junior_Mechanic</defName>
         <identifier>FCP_Backstory_USA_Child_Red_Rocket_Junior_Mechanic</identifier>
         <slot>Childhood</slot>
@@ -1458,7 +1464,7 @@
 
     <!-- Poseidon Energy Science Fair Kid -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Child_Poseidon_Energy_Science_Fair_Kid</defName>
         <identifier>FCP_Backstory_USA_Child_Poseidon_Energy_Science_Fair_Kid</identifier>
         <slot>Childhood</slot>
@@ -1475,7 +1481,7 @@
 
     <!-- Red Menace Cartoon Fan -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Child_Red_Menace_Cartoon_Fan</defName>
         <identifier>FCP_Backstory_USA_Child_Red_Menace_Cartoon_Fan</identifier>
         <slot>Childhood</slot>
@@ -1493,7 +1499,7 @@
 
     <!-- Sugar Bombs Prize Winner -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Child_Sugar_Bombs_Prize_Winner</defName>
         <identifier>FCP_Backstory_USA_Child_Sugar_Bombs_Prize_Winner</identifier>
         <slot>Childhood</slot>
@@ -1509,6 +1515,7 @@
     </BackstoryDef>
 
     <!-- Vault-Tec Science Club Member -->
+
     <BackstoryDef>
         <defName>FCP_Backstory_USA_Child_Vault_Tec_Science_Club</defName>
         <identifier>FCP_Backstory_USA_Child_Vault_Tec_Science_Club</identifier>
@@ -1525,6 +1532,7 @@
     </BackstoryDef>
 
     <!-- Nuka-World Arcade Champion -->
+
     <BackstoryDef>
         <defName>FCP_Backstory_USA_Child_Nuka_World_Arcade_Champion</defName>
         <identifier>FCP_Backstory_USA_Child_Nuka_World_Arcade_Champion</identifier>
@@ -1543,7 +1551,7 @@
 
     <!-- Hubris Comics Drawing Contestant -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_Child_Hubris_Comics_Drawing_Contestant</defName>
         <identifier>FCP_Backstory_USA_Child_Hubris_Comics_Drawing_Contestant</identifier>
         <slot>Childhood</slot>
@@ -1561,7 +1569,7 @@
     <!--_ President Richardson _-->
     <!-- President of the United States -->
     
-<BackstoryDef>
+    <BackstoryDef>
         <defName>FCP_Backstory_USA_President_Richardson_Leader</defName>
         <identifier>FCP_Backstory_USA_President_Richardson_Leader</identifier>
         <slot>Adulthood</slot>
