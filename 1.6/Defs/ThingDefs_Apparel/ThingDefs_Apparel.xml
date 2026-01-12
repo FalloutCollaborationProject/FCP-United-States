@@ -81,8 +81,8 @@
                 <rarity>Rare</rarity>
             </li>
             <li Class="FCP.Core.TemperatureApparelPreference.CompProperties_TemperatureApparelPreference">
-              <forceBelowTempC>4</forceBelowTempC>
-              <avoidAboveTempC>5</avoidAboveTempC>
+                <forceBelowTempC>4</forceBelowTempC>
+                <avoidAboveTempC>5</avoidAboveTempC>
             </li>
         </comps>
         <tradeTags>
@@ -170,9 +170,6 @@
         <description>A specialized wetsuit worn by United States Marine Corps divers and amphibious assault teams. Made from advanced neoprene composite, it provides thermal insulation and environmental protection while maintaining flexibility for underwater operations. Designed to be worn under marine armor during amphibious missions.</description>
         <label>US Marine Wetsuit</label>
         <smeltable>false</smeltable>
-        <thingCategories>
-            <li>Apparel</li>
-        </thingCategories>
         <graphicData>
             <texPath>Things/Apparel/US_Marine_Wetsuit/FCP_Marine_Wetsuit</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -287,9 +284,6 @@
         <costList>
             <Cloth>150</Cloth>
         </costList>
-        <thingCategories>
-            <li>Apparel</li>
-        </thingCategories>
         <statBases>
             <MaxHitPoints>120</MaxHitPoints>
             <WorkToMake>10000</WorkToMake>
@@ -359,9 +353,6 @@
         <costList>
             <Cloth>150</Cloth>
         </costList>
-        <thingCategories>
-            <li>Apparel</li>
-        </thingCategories>
         <statBases>
             <MaxHitPoints>120</MaxHitPoints>
             <WorkToMake>10000</WorkToMake>
@@ -398,8 +389,8 @@
                 <rarity>Rare</rarity>
             </li>
             <li Class="FCP.Core.TemperatureApparelPreference.CompProperties_TemperatureApparelPreference">
-              <forceBelowTempC>4</forceBelowTempC>
-              <avoidAboveTempC>5</avoidAboveTempC>
+                <forceBelowTempC>4</forceBelowTempC>
+                <avoidAboveTempC>5</avoidAboveTempC>
             </li>
         </comps>
         <tradeTags>
@@ -436,9 +427,6 @@
         <stuffCategories>
             <li>Fabric</li>
         </stuffCategories>
-        <thingCategories>
-            <li>Apparel</li>
-        </thingCategories>
         <statBases>
             <MaxHitPoints>100</MaxHitPoints>
             <WorkToMake>16000</WorkToMake>

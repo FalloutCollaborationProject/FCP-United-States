@@ -692,6 +692,7 @@
     </PawnKindDef> -->
 
     <!--___ Military ___-->
+    
     <!-- US Infantry -->
     
     <PawnKindDef ParentName="FCP_USAkindBase">
