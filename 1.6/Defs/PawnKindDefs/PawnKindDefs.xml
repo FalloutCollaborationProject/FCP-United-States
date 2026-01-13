@@ -13,6 +13,7 @@
         <apparelMoney>9999</apparelMoney>
         <gearHealthRange>10</gearHealthRange>
         <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
         <requiredWorkTags>
             <li>Violent</li>
         </requiredWorkTags>
