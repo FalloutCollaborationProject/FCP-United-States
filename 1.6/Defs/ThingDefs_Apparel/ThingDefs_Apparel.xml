@@ -452,7 +452,7 @@
                 <li>Arms</li>
                 <li>Legs</li>
             </bodyPartGroups>
-            <wornGraphicPath>Things/Apparel/US_Presidential/FCP_US_Presidents_Suit</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/US_Presidents_Suit/FCP_USA_Presidents_Suit</wornGraphicPath>
             <layers>
                 <li>OnSkin</li>
             </layers>
