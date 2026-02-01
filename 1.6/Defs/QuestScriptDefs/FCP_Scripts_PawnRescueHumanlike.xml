@@ -32,12 +32,12 @@
         </questDescriptionRules>
         <root Class="QuestNode_Sequence">
             <nodes>
-                <li Class="FCP_RadiantQuests.QuestNode_GetLeaderOfFaction">
+                <li Class="FCP.Core.RadiantQuests.QuestNode_GetLeaderOfFaction">
                     <storeAs>asker</storeAs>
                     <!--The faction def that issues the quest-->
                     <factionDef>FCP_Faction_USA</factionDef>
                 </li>
-                <li Class="FCP_RadiantQuests.QuestNode_GetFactionFromList">
+                <li Class="FCP.Core.RadiantQuests.QuestNode_GetFactionFromList">
                     <storeAs>enemyFaction</storeAs>
                     <!--The faction def that will be guarding-->
                     <factionDefs>
@@ -45,14 +45,14 @@
                         <li MayRequire="Rick.FCP.PRC">FCP_Faction_PRC</li>
                     </factionDefs>
                 </li>
-                <li Class="FCP_RadiantQuests.QuestNode_GetFactionFromList">
+                <li Class="FCP.Core.RadiantQuests.QuestNode_GetFactionFromList">
                     <storeAs>prisonerFaction</storeAs>
                     <!--The faction def that will be the prisoner-->
                     <factionDefs>
                         <li>FCP_Faction_USA</li>
                     </factionDefs>
                 </li>
-                <li Class="FCP_RadiantQuests.QuestNode_GetPawnKind">
+                <li Class="FCP.Core.RadiantQuests.QuestNode_GetPawnKind">
                     <!--Dont change storeAs its hardcoded in C#-->
                     <storeAs>prisonerPawnKind</storeAs>
                     <pawnKindDef MayRequire="Rick.FCP.Wastelanders">FCP_Pawnkind_USA_Citizen</pawnKindDef>
@@ -180,12 +180,12 @@
         </questDescriptionRules>
         <root Class="QuestNode_Sequence">
             <nodes>
-                <li Class="FCP_RadiantQuests.QuestNode_GetLeaderOfFaction">
+                <li Class="FCP.Core.RadiantQuests.QuestNode_GetLeaderOfFaction">
                     <storeAs>asker</storeAs>
                     <!--The faction def that issues the quest-->
                     <factionDef>FCP_Faction_USA</factionDef>
                 </li>
-                <li Class="FCP_RadiantQuests.QuestNode_GetFactionFromList">
+                <li Class="FCP.Core.RadiantQuests.QuestNode_GetFactionFromList">
                     <storeAs>enemyFaction</storeAs>
                     <!--The faction def that will be guarding-->
                     <factionDefs>
@@ -193,14 +193,14 @@
                         <li MayRequire="Rick.FCP.PRC">FCP_Faction_PRC</li>
                     </factionDefs>
                 </li>
-                <li Class="FCP_RadiantQuests.QuestNode_GetFactionFromList">
+                <li Class="FCP.Core.RadiantQuests.QuestNode_GetFactionFromList">
                     <storeAs>prisonerFaction</storeAs>
                     <!--The faction def that will be the prisoner-->
                     <factionDefs>
                         <li>FCP_Faction_USA</li>
                     </factionDefs>
                 </li>
-                <li Class="FCP_RadiantQuests.QuestNode_GetPawnKind">
+                <li Class="FCP.Core.RadiantQuests.QuestNode_GetPawnKind">
                     <!--Dont change storeAs its hardcoded in C#-->
                     <storeAs>prisonerPawnKind</storeAs>
                     <pawnKindDef>FCP_Pawnkind_USA_Infantry</pawnKindDef>
@@ -303,3 +303,4 @@
     </QuestScriptDef>
 
 </Defs>
+
