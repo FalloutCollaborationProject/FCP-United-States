@@ -34,7 +34,7 @@
 			<favorCost>6</favorCost>
 		</royalAid>
 		<modExtensions>
-			<li Class="FCP.Factions.MaxTitlePermitExtension">
+			<li Class="FCP.Factions.PermitExtension_MaxFactionTitle">
 				<maxTitle>FCP_Title_USA_Army_COL</maxTitle>
 			</li>
 		</modExtensions>
@@ -60,7 +60,7 @@
 			<favorCost>6</favorCost>
 		</royalAid>
 		<modExtensions>
-			<li Class="FCP.Factions.MaxTitlePermitExtension">
+			<li Class="FCP.Factions.PermitExtension_MaxFactionTitle">
 				<maxTitle>FCP_Title_USA_Army_COL</maxTitle>
 			</li>
 		</modExtensions>
@@ -86,7 +86,7 @@
 			<favorCost>6</favorCost>
 		</royalAid>
 		<modExtensions>
-			<li Class="FCP.Factions.MaxTitlePermitExtension">
+			<li Class="FCP.Factions.PermitExtension_MaxFactionTitle">
 				<maxTitle>FCP_Title_USA_Army_COL</maxTitle>
 			</li>
 		</modExtensions>
@@ -110,7 +110,7 @@
 			<favorCost>6</favorCost>
 		</royalAid>
 		<modExtensions>
-			<li Class="FCP.Factions.MaxTitlePermitExtension">
+			<li Class="FCP.Factions.PermitExtension_MaxFactionTitle">
 				<maxTitle>FCP_Title_USA_Marine_Colonel</maxTitle>
 			</li>
 		</modExtensions>
@@ -135,7 +135,7 @@
 			<favorCost>6</favorCost>
 		</royalAid>
 		<modExtensions>
-			<li Class="FCP.Factions.MaxTitlePermitExtension">
+			<li Class="FCP.Factions.PermitExtension_MaxFactionTitle">
 				<maxTitle>FCP_Title_USA_Marine_Colonel</maxTitle>
 			</li>
 		</modExtensions>
