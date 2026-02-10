@@ -278,7 +278,7 @@
         <modExtensions Inherit="False">
             <!-- Faction tab label override -->
             <li Class="FCP.Factions.FactionExtension_FactionTabLabelOverride">
-                <newLabel>U.S. Government</newLabel>
+                <newLabel>U.S. Pre-War Army</newLabel>
             </li>
             <!-- USA Dollars -->
             <li Class="FCP.Currencies.CurrencyReplacement">
