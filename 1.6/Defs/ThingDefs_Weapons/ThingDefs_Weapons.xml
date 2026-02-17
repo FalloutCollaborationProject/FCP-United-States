@@ -7,7 +7,7 @@
 
     <!-- Alloy Steel Assault Rifle -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_USA_Alloy_Steel_Assault_Rifle</defName>
         <label>Alloy Steel Assault Rifle</label>
         <description>Built from hardened alloy steel and precision-machined components, this assault rifle delivers consistent, high-velocity fire under harsh conditions. Balanced ergonomics and a tuned gas system keep recoil manageable, making rapid follow-up shots practical even in heavy combat. Favored by hardened units for its durability and ability to punch through field-grade armor.</description>
@@ -24,9 +24,6 @@
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -91,7 +88,7 @@
 
     <!-- Alloy Steel 10mm SMG -->
 
-    <!-- <ThingDef ParentName="BaseHumanMakeableGun">
+    <!-- <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_USA_Alloy_Steel_10mm_SMG</defName>
         <label>Alloy Steel 10mm SMG</label>
         <description>Constructed from hardened alloy steel and precision‑machined components, this compact 10mm SMG combines a high rate of fire with enhanced durability and improved armor penetration compared to field‑grade designs. Ideal for close‑quarters combat, it remains rugged under sustained use but sacrifices accuracy at longer ranges.</description>
@@ -107,9 +104,6 @@
             <skillRequirements>
                 <Crafting>7</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -174,7 +168,7 @@
 
     <!-- Alloy Steel Combat Shotgun -->
 
-    <!-- <ThingDef ParentName="BaseHumanMakeableGun">
+    <!-- <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_Alloy_Steel_Combat_Shotgun</defName>
         <label>Alloy Steel Combat Shotgun</label>
         <description>Constructed from hardened alloy steel and precision‑machined components, this semi-automatic, magazine-fed combat shotgun delivers exceptional durability and reliable performance in close-quarters engagements. Built for military and law-enforcement use, it pairs a high rate of fire with improved armor penetration and ruggedness favored by hardened units.</description>
@@ -190,9 +184,6 @@
             <skillRequirements>
                 <Crafting>9</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -260,7 +251,7 @@
 
     <!-- Alloy Steel 10mm Pistol -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_Alloy_Steel_10mm_Pistol</defName>
         <label>Alloy Steel 10mm Pistol</label>
         <description>Constructed from hardened alloy steel and precision-machined components, this 10mm pistol combines reliability and enhanced stopping power with improved durability and armor penetration compared to field-grade sidearms. Favored by security forces.</description>
@@ -276,9 +267,6 @@
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
