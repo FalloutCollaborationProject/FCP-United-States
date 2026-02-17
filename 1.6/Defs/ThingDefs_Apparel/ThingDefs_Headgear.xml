@@ -151,7 +151,6 @@
             <texPath>Things/Apparel/US_Marine_Wetsuit/FCP_Marine_Wetsuit_Helmet</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <techLevel>Industrial</techLevel>
         <statBases>
             <MaxHitPoints>80</MaxHitPoints>
             <MarketValue>180</MarketValue>
