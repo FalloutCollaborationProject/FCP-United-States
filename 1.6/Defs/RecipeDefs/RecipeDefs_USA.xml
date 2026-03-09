@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ United States Secret Service Recipes __________-->
+
+    <!--_____ Secret Service Underarmor _____-->
+
+    <!-- Secret Service Underarmor -->
+
+    <RecipeDef>
+        <defName>FCP_Recipe_Make_USA_Secret_Service_Underarmor</defName>
+        <label>make Secret Service Underarmor</label>
+        <description>Craft Secret Service Underarmor using classified schematics. Requires positive relations with the United States.</description>
+        <jobString>Making Secret Service Underarmor.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Tailor</effectWorking>
+        <soundWorking>Recipe_Tailor</soundWorking>
+        <workAmount>12000</workAmount>
+        <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Cloth</li>
+                    </thingDefs>
+                </filter>
+                <count>60</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>30</count>
+            </li>
+        </ingredients>
+        <products>
+            <FCP_Apparel_USA_Secret_Service_Underarmor>1</FCP_Apparel_USA_Secret_Service_Underarmor>
+        </products>
+        <skillRequirements>
+            <Crafting>6</Crafting>
+        </skillRequirements>
+        <recipeUsers>
+            <li>FCP_Production_Tailoring_Workbench</li>
+        </recipeUsers>
+        <researchPrerequisite>FCP_Research_USA_Infantry_Variations</researchPrerequisite>
+        <modExtensions>
+            <li Class="FCP.Factions.RecipeExtension_FactionGoodwillCheck">
+                <requireFaction>FCP_Faction_USA</requireFaction>
+                <minimumGoodwill>70</minimumGoodwill>
+                <uncraftableIfFactionDefeated>true</uncraftableIfFactionDefeated>
+            </li>
+        </modExtensions>
+    </RecipeDef>
+
+    <!--_____ Secret Service Armor _____-->
+
+    <!-- Secret Service Armor -->
+
+    <RecipeDef>
+        <defName>FCP_Recipe_Make_USA_Secret_Service_Armor</defName>
+        <label>make Secret Service Armor</label>
+        <description>Craft Secret Service Armor using classified schematics. Requires positive relations with the United States.</description>
+        <jobString>Making Secret Service Armor.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <workAmount>18000</workAmount>
+        <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Cloth</li>
+                    </thingDefs>
+                </filter>
+                <count>25</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>60</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentIndustrial</li>
+                    </thingDefs>
+                </filter>
+                <count>2</count>
+            </li>
+        </ingredients>
+        <products>
+            <FCP_Apparel_USA_Secret_Service_Armor>1</FCP_Apparel_USA_Secret_Service_Armor>
+        </products>
+        <skillRequirements>
+            <Crafting>4</Crafting>
+        </skillRequirements>
+        <recipeUsers>
+            <li>FCP_Production_Armor_Workbench</li>
+        </recipeUsers>
+        <researchPrerequisite>FCP_Research_USA_Infantry_Variations</researchPrerequisite>
+        <modExtensions>
+            <li Class="FCP.Factions.RecipeExtension_FactionGoodwillCheck">
+                <requireFaction>FCP_Faction_USA</requireFaction>
+                <minimumGoodwill>70</minimumGoodwill>
+                <uncraftableIfFactionDefeated>true</uncraftableIfFactionDefeated>
+            </li>
+        </modExtensions>
+    </RecipeDef>
+
+    <!--_____ Secret Service Helmet _____-->
+
+    <!-- Secret Service Helmet -->
+
+    <RecipeDef>
+        <defName>FCP_Recipe_Make_USA_Secret_Service_Helmet</defName>
+        <label>make Secret Service Helmet</label>
+        <description>Craft a Secret Service Helmet using classified schematics. Requires positive relations with the United States.</description>
+        <jobString>Making Secret Service Helmet.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <workAmount>12000</workAmount>
+        <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>50</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentIndustrial</li>
+                    </thingDefs>
+                </filter>
+                <count>3</count>
+            </li>
+        </ingredients>
+        <products>
+            <FCP_Apparel_USA_Secret_Service_Helmet>1</FCP_Apparel_USA_Secret_Service_Helmet>
+        </products>
+        <skillRequirements>
+            <Crafting>6</Crafting>
+        </skillRequirements>
+        <recipeUsers>
+            <li>FCP_Production_Armor_Workbench</li>
+        </recipeUsers>
+        <researchPrerequisite>FCP_Research_USA_Infantry_Variations</researchPrerequisite>
+        <modExtensions>
+            <li Class="FCP.Factions.RecipeExtension_FactionGoodwillCheck">
+                <requireFaction>FCP_Faction_USA</requireFaction>
+                <minimumGoodwill>70</minimumGoodwill>
+                <uncraftableIfFactionDefeated>true</uncraftableIfFactionDefeated>
+            </li>
+        </modExtensions>
+    </RecipeDef>
+
+    <!--_____ T-65 Secret Service Power Armor _____-->
+
+    <!-- T-65 Secret Service Power Armor -->
+
+    <RecipeDef MayRequire="Rick.FCP.PowerArmor">
+        <defName>FCP_Recipe_Make_USA_T65_Power_Armor</defName>
+        <label>make T-65 Secret Service Power Armor</label>
+        <description>Craft a suit of T-65 Secret Service Power Armor using top-secret military schematics. The pinnacle of American power armor technology. Requires excellent relations with the United States.</description>
+        <jobString>Making T-65 Secret Service Power Armor.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <workAmount>45000</workAmount>
+        <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>140</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>100</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentIndustrial</li>
+                    </thingDefs>
+                </filter>
+                <count>12</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentSpacer</li>
+                    </thingDefs>
+                </filter>
+                <count>5</count>
+            </li>
+        </ingredients>
+        <products>
+            <FCP_Apparel_USA_T65_Power_Armor>1</FCP_Apparel_USA_T65_Power_Armor>
+        </products>
+        <skillRequirements>
+            <Crafting>14</Crafting>
+        </skillRequirements>
+        <recipeUsers>
+            <li>FCP_Production_Armor_Workbench</li>
+        </recipeUsers>
+        <researchPrerequisite>FCP_Research_USA_Mechanized_Infantry_Corps</researchPrerequisite>
+        <modExtensions>
+            <li Class="FCP.Factions.RecipeExtension_FactionGoodwillCheck">
+                <requireFaction>FCP_Faction_USA</requireFaction>
+                <minimumGoodwill>90</minimumGoodwill>
+                <uncraftableIfFactionDefeated>true</uncraftableIfFactionDefeated>
+            </li>
+        </modExtensions>
+    </RecipeDef>
+
+    <!--_____ T-65 Power Armor Helmet _____-->
+
+    <!-- T-65 Secret Service Power Armor Helmet -->
+
+    <RecipeDef MayRequire="Rick.FCP.PowerArmor">
+        <defName>FCP_Recipe_Make_USA_T65_Power_Armor_Helmet</defName>
+        <label>make T-65 Power Armor Helmet</label>
+        <description>Craft a T-65 Secret Service Power Armor Helmet using top-secret military schematics. The most advanced power armor helmet ever created. Requires excellent relations with the United States.</description>
+        <jobString>Making T-65 Power Armor Helmet.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Machining</soundWorking>
+        <workAmount>25000</workAmount>
+        <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>60</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Plasteel</li>
+                    </thingDefs>
+                </filter>
+                <count>45</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentIndustrial</li>
+                    </thingDefs>
+                </filter>
+                <count>5</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentSpacer</li>
+                    </thingDefs>
+                </filter>
+                <count>2</count>
+            </li>
+        </ingredients>
+        <products>
+            <FCP_Apparel_USA_T65_Power_Armor_Helmet>1</FCP_Apparel_USA_T65_Power_Armor_Helmet>
+        </products>
+        <skillRequirements>
+            <Crafting>12</Crafting>
+        </skillRequirements>
+        <recipeUsers>
+            <li>FCP_Production_Armor_Workbench</li>
+        </recipeUsers>
+        <researchPrerequisite>FCP_Research_USA_Mechanized_Infantry_Corps</researchPrerequisite>
+        <modExtensions>
+            <li Class="FCP.Factions.RecipeExtension_FactionGoodwillCheck">
+                <requireFaction>FCP_Faction_USA</requireFaction>
+                <minimumGoodwill>90</minimumGoodwill>
+                <uncraftableIfFactionDefeated>true</uncraftableIfFactionDefeated>
+            </li>
+        </modExtensions>
+    </RecipeDef>
+
+    <!--_____ US Army T-51 Power Armor _____-->
+
+    <!-- US Army T-51 Power Armor -->
+
+    <RecipeDef MayRequire="Rick.FCP.PowerArmor">
+        <defName>FCP_Recipe_Paint_USA_Army_T51_Power_Armor</defName>
+        <label>paint T-51 power armor (US Army)</label>
+        <description>Paint a T-51 power armor in official United States Army colors and insignia. Requires military clearance.</description>
+        <jobString>Painting T-51 power armor.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <workAmount>2500</workAmount>
+        <workSkill>Crafting</workSkill>
+        <skillRequirements>
+            <Crafting>8</Crafting>
+        </skillRequirements>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>FCP_Apparel_Power_Armor_T51Armor</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <FCP_Apparel_USA_Army_T51_Power_Armor>1</FCP_Apparel_USA_Army_T51_Power_Armor>
+        </products>
+        <researchPrerequisite>FCP_Research_USA_Mechanized_Infantry_Corps</researchPrerequisite>
+        <recipeUsers>
+            <li>FCP_Production_Armor_Workbench</li>
+        </recipeUsers>
+        <modExtensions>
+            <li Class="FCP.Factions.RecipeExtension_FactionGoodwillCheck">
+                <requireFaction>FCP_Faction_USA</requireFaction>
+                <minimumGoodwill>50</minimumGoodwill>
+                <uncraftableIfFactionDefeated>true</uncraftableIfFactionDefeated>
+            </li>
+        </modExtensions>
+    </RecipeDef>
+
+    <!--_____ US Army T-51 Power Armor Helmet _____-->
+
+    <!-- US Army T-51 Power Armor Helmet -->
+
+    <RecipeDef MayRequire="Rick.FCP.PowerArmor">
+        <defName>FCP_Recipe_Paint_USA_Army_T51_Power_Armor_Helmet</defName>
+        <label>paint T-51 power armor helmet (US Army)</label>
+        <description>Paint a T-51 power armor helmet in official United States Army colors and insignia. Requires military clearance.</description>
+        <jobString>Painting T-51 power armor helmet.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <workAmount>1200</workAmount>
+        <workSkill>Crafting</workSkill>
+        <skillRequirements>
+            <Crafting>6</Crafting>
+        </skillRequirements>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>FCP_Apparel_Power_Armor_T51_Helmet</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <FCP_Apparel_USA_Army_T51_Power_Armor_Helmet>1</FCP_Apparel_USA_Army_T51_Power_Armor_Helmet>
+        </products>
+        <researchPrerequisite>FCP_Research_USA_Mechanized_Infantry_Corps</researchPrerequisite>
+        <recipeUsers>
+            <li>FCP_Production_Armor_Workbench</li>
+        </recipeUsers>
+        <modExtensions>
+            <li Class="FCP.Factions.RecipeExtension_FactionGoodwillCheck">
+                <requireFaction>FCP_Faction_USA</requireFaction>
+                <minimumGoodwill>50</minimumGoodwill>
+                <uncraftableIfFactionDefeated>true</uncraftableIfFactionDefeated>
+            </li>
+        </modExtensions>
+    </RecipeDef>
+
+    <!--_____ US Army T-60 Power Armor _____-->
+
+    <!-- US Army T-60 Power Armor -->
+
+    <RecipeDef MayRequire="Rick.FCP.PowerArmor">
+        <defName>FCP_Recipe_Paint_USA_Army_T60_Power_Armor</defName>
+        <label>paint T-60 power armor (US Army)</label>
+        <description>Paint a T-60 power armor in official United States Army colors and insignia. The most advanced military power armor paint scheme available. Requires excellent military clearance.</description>
+        <jobString>Painting T-60 power armor.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <workAmount>2500</workAmount>
+        <workSkill>Crafting</workSkill>
+        <skillRequirements>
+            <Crafting>9</Crafting>
+        </skillRequirements>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>FCP_Apparel_Power_Armor_T60Armor</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <FCP_Apparel_USA_Army_T60_Power_Armor>1</FCP_Apparel_USA_Army_T60_Power_Armor>
+        </products>
+        <researchPrerequisite>FCP_Research_USA_Mechanized_Infantry_Corps</researchPrerequisite>
+        <recipeUsers>
+            <li>FCP_Production_Armor_Workbench</li>
+        </recipeUsers>
+        <modExtensions>
+            <li Class="FCP.Factions.RecipeExtension_FactionGoodwillCheck">
+                <requireFaction>FCP_Faction_USA</requireFaction>
+                <minimumGoodwill>60</minimumGoodwill>
+                <uncraftableIfFactionDefeated>true</uncraftableIfFactionDefeated>
+            </li>
+        </modExtensions>
+    </RecipeDef>
+
+    <!--_____ US Army T-60 Power Armor Helmet _____-->
+
+    <!-- US Army T-60 Power Armor Helmet -->
+
+    <RecipeDef MayRequire="Rick.FCP.PowerArmor">
+        <defName>FCP_Recipe_Paint_USA_Army_T60_Power_Armor_Helmet</defName>
+        <label>paint T-60 power armor helmet (US Army)</label>
+        <description>Paint a T-60 power armor helmet in official United States Army colors and insignia. The most advanced military power armor helmet paint scheme available. Requires excellent military clearance.</description>
+        <jobString>Painting T-60 power armor helmet.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <workAmount>1200</workAmount>
+        <workSkill>Crafting</workSkill>
+        <skillRequirements>
+            <Crafting>7</Crafting>
+        </skillRequirements>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>FCP_Apparel_Power_Armor_T60_Helmet</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <FCP_Apparel_USA_Army_T60_Power_Armor_Helmet>1</FCP_Apparel_USA_Army_T60_Power_Armor_Helmet>
+        </products>
+        <researchPrerequisite>FCP_Research_USA_Mechanized_Infantry_Corps</researchPrerequisite>
+        <recipeUsers>
+            <li>FCP_Production_Armor_Workbench</li>
+        </recipeUsers>
+        <modExtensions>
+            <li Class="FCP.Factions.RecipeExtension_FactionGoodwillCheck">
+                <requireFaction>FCP_Faction_USA</requireFaction>
+                <minimumGoodwill>60</minimumGoodwill>
+                <uncraftableIfFactionDefeated>true</uncraftableIfFactionDefeated>
+            </li>
+        </modExtensions>
+    </RecipeDef>
+
+</Defs>

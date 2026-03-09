@@ -257,4 +257,169 @@
         </comps>
     </ThingDef>
 
+    <!--___ Secret Service ___-->
+
+    <!--__ Secret Service Helmet __-->
+
+    <!-- Secret Service Helmet -->
+
+    <ThingDef ParentName="FCP_Apparel_Combat_Helmet_Base">
+        <defName>FCP_Apparel_USA_Secret_Service_Helmet</defName>
+        <label>Secret Service Helmet</label>
+        <description>An advanced tactical helmet issued to United States Secret Service agents. Featuring reinforced composite construction, integrated communication systems, and ballistic face protection, this helmet provides comprehensive head protection while maintaining situational awareness. The sleek matte-black finish and professional appearance allow agents to remain imposing yet discreet during protective operations.</description>
+        <graphicData>
+            <texPath>Things/Apparel/US_Secret_Service_Armor/FCP_US_Secret_Service_Helmet</texPath>
+        </graphicData>
+        <costList>
+            <Steel>50</Steel>
+            <ComponentIndustrial>3</ComponentIndustrial>
+        </costList>
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <MarketValue>780</MarketValue>
+            <Mass>2.8</Mass>
+            <ArmorRating_Sharp>1.95</ArmorRating_Sharp>
+            <ArmorRating_Blunt>1.72</ArmorRating_Blunt>
+            <ArmorRating_Heat>1.30</ArmorRating_Heat>
+            <Insulation_Cold>5</Insulation_Cold>
+            <Insulation_Heat>3</Insulation_Heat>
+            <EquipDelay>1.2</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <ToxicResistance>0.80</ToxicResistance>
+        </equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/US_Secret_Service_Armor/FCP_US_Secret_Service_Helmet</wornGraphicPath>
+            <tags>
+                <li>FCP_USA_Secret_Service</li>
+            </tags>
+            <defaultOutfitTags inherit="false">
+                <li>FCP_USA_Secret_Service</li>
+            </defaultOutfitTags>
+        </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!--__ T-65 Power Armor Helmet __-->
+
+    <!-- T-65 Secret Service Power Armor Helmet -->
+
+    <ThingDef ParentName="FCP_Apparel_Power_Armor_Helmet_Base" MayRequire="Rick.FCP.PowerArmor">
+        <defName>FCP_Apparel_USA_T65_Power_Armor_Helmet</defName>
+        <label>T-65 Power Armor Helmet</label>
+        <description>The helmet component of the legendary T-65 Secret Service Power Armor. This masterwork of engineering incorporates the most advanced heads-up display systems, threat detection arrays, and life support equipment ever fielded by the United States. The multi-layered composite construction provides superior protection against all known threats while maintaining perfect environmental sealing and combat awareness.</description>
+        <techLevel>Industrial</techLevel>
+        <graphicData>
+            <texPath>Things/Apparel/US_T65_Power_Armor/FCP_US_T65_Power_Armor_Helmet_south</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <smeltable>false</smeltable>
+        <statBases>
+            <MaxHitPoints>120</MaxHitPoints>
+            <Mass>1.2</Mass>
+            <MarketValue>1400</MarketValue>
+            <ArmorRating_Sharp>3.20</ArmorRating_Sharp>
+            <ArmorRating_Blunt>3.00</ArmorRating_Blunt>
+            <ArmorRating_Heat>2.60</ArmorRating_Heat>
+            <Insulation_Heat>4</Insulation_Heat>
+            <EquipDelay>3.0</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <ToxicEnvironmentResistance>1.0</ToxicEnvironmentResistance>
+            <MoveSpeed>-0.1</MoveSpeed>
+            <AimingDelayFactor>-0.03</AimingDelayFactor>
+        </equippedStatOffsets>
+        <apparel>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+                <li>FullHead</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Apparel/US_T65_Power_Armor/FCP_US_T65_Power_Armor_Helmet</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>FCP_USA_Secret_Service_Heavy</li>
+                <li>FCP_Power_Armor_Helmet</li>
+            </tags>
+            <useDeflectMetalEffect>true</useDeflectMetalEffect>
+            <developmentalStageFilter>Adult</developmentalStageFilter>
+        </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+            <li Class="FCP.Core.PowerArmor.CompProperties_ApparelRequirement">
+                <requiredApparels>
+                    <li>FCP_Apparel_Power_Armor_Frame</li>
+                </requiredApparels>
+            </li>
+            <li Class="FCP.Core.PowerArmor.CompProperties_RepairableAtStation">
+                <repairResourcesPerHP>
+                    <Plasteel>1.5</Plasteel>
+                    <ComponentIndustrial>0.08</ComponentIndustrial>
+                </repairResourcesPerHP>
+                <repairTimeCostPerHP>75</repairTimeCostPerHP>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!--__ US Army T-51 Power Armor Helmet __-->
+
+    <!-- US Army T-51 Power Armor Helmet -->
+
+    <ThingDef ParentName="FCP_Apparel_T51_Helmet_Paintjob_Base" MayRequire="Rick.FCP.PowerArmor">
+        <defName>FCP_Apparel_USA_Army_T51_Power_Armor_Helmet</defName>
+        <label>US Army T-51 Power Armor Helmet</label>
+        <description>A United States Army variant of the T-51 power armor helmet. Painted in military olive drab with Army insignia, this helmet provides the legendary protection of the T-51 system while marking its wearer as a member of the pre-war American mechanized infantry.</description>
+        <graphicData>
+            <texPath>Things/Apparel/US_T51_Power_Armor/FCP_US_T51_Power_Armor_Helmet_south</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>1200</MarketValue>
+        </statBases>
+        <equippedStatOffsets>
+            <ShootingAccuracyPawn>0.03</ShootingAccuracyPawn>
+        </equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/US_T51_Power_Armor/FCP_US_T51_Power_Armor_Helmet</wornGraphicPath>
+            <tags>
+                <li>FCP_USA_Army_Power_Armor</li>
+                <li>FCP_Power_Armor_Helmet</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
+    <!--__ US Army T-60 Power Armor Helmet __-->
+
+    <!-- US Army T-60 Power Armor Helmet -->
+
+    <ThingDef ParentName="FCP_Apparel_T60_Helmet_Paintjob_Base" MayRequire="Rick.FCP.PowerArmor">
+        <defName>FCP_Apparel_USA_Army_T60_Power_Armor_Helmet</defName>
+        <label>US Army T-60 Power Armor Helmet</label>
+        <description>The helmet component of the United States Army's T-60 power armor. Bearing the colors and insignia of the pre-war military, this advanced helmet combines cutting-edge heads-up display technology with maximum protection, representing the peak of American power armor engineering before the Great War.</description>
+        <graphicData>
+            <texPath>Things/Apparel/US_T60_Power_Armor/FCP_US_T60_Power_Armor_Helmet_south</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>1400</MarketValue>
+        </statBases>
+        <equippedStatOffsets>
+            <ShootingAccuracyPawn>0.04</ShootingAccuracyPawn>
+        </equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/US_T60_Power_Armor/FCP_US_T60_Power_Armor_Helmet</wornGraphicPath>
+            <tags>
+                <li>FCP_USA_Army_Power_Armor_Elite</li>
+                <li>FCP_Power_Armor_Helmet</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
 </Defs>

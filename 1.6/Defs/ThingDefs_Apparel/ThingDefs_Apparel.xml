@@ -475,4 +475,246 @@
         </tradeTags>
     </ThingDef>
 
+    <!--___ Secret Service ___-->
+
+    <!--__ Secret Service Underarmor __-->
+
+    <!-- Secret Service Underarmor -->
+
+    <ThingDef ParentName="ApparelMakeableBase">
+        <defName>FCP_Apparel_USA_Secret_Service_Underarmor</defName>
+        <label>Secret Service Underarmor</label>
+        <description>A specialized tactical underarmor worn by United States Secret Service agents beneath their armor plating. Constructed from advanced ballistic weave and moisture-wicking fibers, it provides a baseline layer of protection and climate control. The carefully designed cut ensures full range of motion while maintaining professional appearance under formal attire when needed.</description>
+        <graphicData>
+            <texPath>Things/Apparel/US_Secret_Service_Underarmor/FCP_US_Secret_Service_Underarmor</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <techLevel>Industrial</techLevel>
+        <costList>
+            <Cloth>60</Cloth>
+            <Steel>30</Steel>
+        </costList>
+        <statBases>
+            <MaxHitPoints>150</MaxHitPoints>
+            <WorkToMake>12000</WorkToMake>
+            <Mass>1.5</Mass>
+            <MarketValue>450</MarketValue>
+            <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.18</ArmorRating_Heat>
+            <Insulation_Cold>8</Insulation_Cold>
+            <Insulation_Heat>4</Insulation_Heat>
+            <EquipDelay>0.8</EquipDelay>
+        </statBases>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Legs</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Apparel/US_Secret_Service_Underarmor/FCP_US_Secret_Service_Underarmor</wornGraphicPath>
+            <layers>
+                <li>OnSkin</li>
+            </layers>
+            <tags>
+                <li>FCP_USA_Secret_Service</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>FCP_USA_Secret_Service</li>
+            </defaultOutfitTags>
+        </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+        <tradeTags>
+            <li>FCP_Trade_Tag_USA_Apparel</li>
+        </tradeTags>
+    </ThingDef>
+
+    <!--__ Secret Service Armor __-->
+
+    <!-- Secret Service Armor -->
+
+    <ThingDef ParentName="FCP_Apparel_Combat_Armor_Base">
+        <defName>FCP_Apparel_USA_Secret_Service_Armor</defName>
+        <label>Secret Service Armor</label>
+        <description>Advanced tactical armor issued to elite United States Secret Service agents tasked with protecting the highest levels of government. Engineered from composite alloys and reinforced plating, this armor provides exceptional ballistic and energy protection without sacrificing mobility. The low-profile design allows agents to blend into formal settings while remaining combat-ready at a moment's notice.</description>
+        <graphicData>
+            <texPath>Things/Apparel/US_Secret_Service_Armor/FCP_US_Secret_Service_Armor</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>360</MaxHitPoints>
+            <MarketValue>1650</MarketValue>
+            <Mass>7.0</Mass>
+            <ArmorRating_Sharp>1.90</ArmorRating_Sharp>
+            <ArmorRating_Blunt>1.65</ArmorRating_Blunt>
+            <ArmorRating_Heat>1.28</ArmorRating_Heat>
+            <Insulation_Cold>12</Insulation_Cold>
+            <Insulation_Heat>8</Insulation_Heat>
+            <EquipDelay>1.6</EquipDelay>
+        </statBases>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/US_Secret_Service_Armor/FCP_US_Secret_Service_Armor</wornGraphicPath>
+            <tags>
+                <li>FCP_USA_Secret_Service</li>
+            </tags>
+            <defaultOutfitTags inherit="false">
+                <li>FCP_USA_Secret_Service</li>
+            </defaultOutfitTags>
+        </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+        <tradeTags>
+            <li>FCP_Trade_Tag_USA_Apparel</li>
+        </tradeTags>
+    </ThingDef>
+
+    <!--__ T-65 Power Armor __-->
+
+    <!-- T-65 Secret Service Power Armor -->
+
+    <ThingDef ParentName="FCP_Apparel_Power_Armor_Base" MayRequire="Rick.FCP.PowerArmor">
+        <defName>FCP_Apparel_USA_T65_Power_Armor</defName>
+        <label>T-65 Secret Service Power Armor</label>
+        <description>The pinnacle of pre-war American power armor technology, the T-65 was developed exclusively for elite Secret Service operatives assigned to the most critical national security operations. Incorporating cutting-edge materials science and engineering far beyond standard military issue, this armor provides unmatched protection and strength enhancement. Its distinctive profile is instantly recognizable to those familiar with the inner workings of the United States government.</description>
+        <graphicData>
+            <texPath>Things/Apparel/US_T65_Power_Armor/FCP_US_T65_Power_Armor</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1</drawSize>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>450</MaxHitPoints>
+            <WorkToMake>45000</WorkToMake>
+            <Mass>22.0</Mass>
+            <MarketValue>5500</MarketValue>
+            <ArmorRating_Sharp>3.20</ArmorRating_Sharp>
+            <ArmorRating_Blunt>3.00</ArmorRating_Blunt>
+            <ArmorRating_Heat>2.60</ArmorRating_Heat>
+            <Insulation_Cold>40</Insulation_Cold>
+            <Insulation_Heat>28</Insulation_Heat>
+            <EquipDelay>4.5</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <ToxicEnvironmentResistance>1.0</ToxicEnvironmentResistance>
+            <CarryingCapacity>30</CarryingCapacity>
+            <MoveSpeed>-0.2</MoveSpeed>
+        </equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/US_T65_Power_Armor/FCP_US_T65_Power_Armor</wornGraphicPath>
+            <tags>
+                <li>FCP_USA_Secret_Service_Heavy</li>
+                <li>FCP_Power_Armor</li>
+            </tags>
+            <defaultOutfitTags inherit="false">
+                <li>FCP_USA_Secret_Service_Heavy</li>
+            </defaultOutfitTags>
+        </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+            <li Class="FCP.Core.PowerArmor.CompProperties_RepairableAtStation">
+                <repairResourcesPerHP>
+                    <Plasteel>2.5</Plasteel>
+                    <ComponentIndustrial>0.15</ComponentIndustrial>
+                </repairResourcesPerHP>
+                <repairTimeCostPerHP>75</repairTimeCostPerHP>
+            </li>
+            <li Class="FCP.Core.PowerArmor.CompProperties_ApparelRequirement">
+                <requiredApparels>
+                    <li>FCP_Apparel_Power_Armor_Frame</li>
+                </requiredApparels>
+            </li>
+        </comps>
+        <tradeTags>
+            <li>FCP_Trade_Tag_USA_Apparel</li>
+            <li>FCP_Power_Armor_Advanced</li>
+        </tradeTags>
+        <modExtensions>
+            <li Class="FCP.ApparelExtensions.ApparelExtension">
+                <shouldHideBody>True</shouldHideBody>
+                <displayBodyType>Hulk</displayBodyType>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!--__ US Army T-51 Power Armor __-->
+
+    <!-- US Army T-51 Power Armor -->
+
+    <ThingDef ParentName="FCP_Apparel_T51_Paintjob_Base" MayRequire="Rick.FCP.PowerArmor">
+        <defName>FCP_Apparel_USA_Army_T51_Power_Armor</defName>
+        <label>US Army T-51 Power Armor</label>
+        <description>A United States Army variant of the legendary T-51 power armor. Painted in military olive drab and bearing the insignia of the US Armed Forces, this suit represents the standard issue for Army mechanized infantry units. The T-51's titanium composite shell and advanced servos provided unmatched battlefield superiority during the Resource Wars, making its wearers nearly unstoppable forces of pre-war military might.</description>
+        <graphicData>
+            <texPath>Things/Apparel/US_T51_Power_Armor/FCP_US_T51_Power_Armor_Hulk_south</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>4000</MarketValue>
+        </statBases>
+        <equippedStatOffsets>
+            <ShootingAccuracyPawn>0.02</ShootingAccuracyPawn>
+            <AimingDelayFactor>-0.01</AimingDelayFactor>
+        </equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/US_T51_Power_Armor/FCP_US_T51_Power_Armor</wornGraphicPath>
+            <tags>
+                <li>FCP_USA_Army_Power_Armor</li>
+                <li>FCP_Power_Armor</li>
+            </tags>
+            <defaultOutfitTags inherit="false">
+                <li>FCP_USA_Army_Power_Armor</li>
+            </defaultOutfitTags>
+        </apparel>
+        <tradeTags>
+            <li>FCP_Trade_Tag_USA_Apparel</li>
+            <li>FCP_Power_Armor_Advanced</li>
+        </tradeTags>
+    </ThingDef>
+
+    <!--__ US Army T-60 Power Armor __-->
+
+    <!-- US Army T-60 Power Armor -->
+
+    <ThingDef ParentName="FCP_Apparel_T60_Paintjob_Base" MayRequire="Rick.FCP.PowerArmor">
+        <defName>FCP_Apparel_USA_Army_T60_Power_Armor</defName>
+        <label>US Army T-60 Power Armor</label>
+        <description>The ultimate expression of United States Army power armor technology before the Great War. This T-60 variant bears the proud colors and markings of the US military, issued only to the most elite mechanized infantry divisions. Combining superior protection with advanced environmental systems and intimidating presence, the T-60 represented the cutting edge of American military engineering and the backbone of armored operations during the final days of the old world.</description>
+        <graphicData>
+            <texPath>Things/Apparel/US_T60_Power_Armor/FCP_US_T60_Power_Armor_Hulk_south</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1</drawSize>
+        </graphicData>
+        <statBases>
+            <MarketValue>4400</MarketValue>
+        </statBases>
+        <equippedStatOffsets>
+            <ShootingAccuracyPawn>0.03</ShootingAccuracyPawn>
+            <AimingDelayFactor>-0.02</AimingDelayFactor>
+        </equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/US_T60_Power_Armor/FCP_US_T60_Power_Armor</wornGraphicPath>
+            <tags>
+                <li>FCP_USA_Army_Power_Armor_Elite</li>
+                <li>FCP_Power_Armor</li>
+            </tags>
+            <defaultOutfitTags inherit="false">
+                <li>FCP_USA_Army_Power_Armor_Elite</li>
+            </defaultOutfitTags>
+        </apparel>
+        <tradeTags>
+            <li>FCP_Trade_Tag_USA_Apparel</li>
+            <li>FCP_Power_Armor_Advanced</li>
+        </tradeTags>
+    </ThingDef>
+
 </Defs>

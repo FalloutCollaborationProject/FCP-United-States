@@ -1591,4 +1591,60 @@
         <bodyTypeFemale>Female</bodyTypeFemale>
         <bodyTypeMale>Male</bodyTypeMale>
     </BackstoryDef>
+
+    <!-- Secret Service Agent -->
+    
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Secret_Service_Agent</defName>
+        <identifier>FCP_Backstory_USA_Secret_Service_Agent</identifier>
+        <slot>Adulthood</slot>
+        <title>U.S. Secret Service Agent</title>
+        <titleShort>Secret Service</titleShort>
+        <description>Selected from among the nation's finest law enforcement personnel, this agent was trained in presidential protection, counterterrorism, and threat assessment. Their duties demanded constant vigilance, split-second decision-making, and the willingness to take a bullet for their assigned protectee. Cold professionalism defined their every action.</description>
+        <skillGains>
+            <Social>4</Social>
+            <Shooting>5</Shooting>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Secret_Service_Agent</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
+        <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <!-- Secret Service T-65 Operative -->
+    
+    <BackstoryDef>
+        <defName>FCP_Backstory_USA_Secret_Service_T65_Operative</defName>
+        <identifier>FCP_Backstory_USA_Secret_Service_T65_Operative</identifier>
+        <slot>Adulthood</slot>
+        <title>Secret Service T-65 Operative</title>
+        <titleShort>T-65 Operative</titleShort>
+        <description>Handpicked from the Secret Service's most elite agents, this operative was trained to pilot the experimental T-65 power armor. Their missions involved critical national security operations that required overwhelming force and absolute discretion. Only the best of the best ever saw the inside of a T-65 suit, and they were expected to succeed where entire platoons would fail.</description>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Melee>4</Melee>
+            <Social>2</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>Violent</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_USA_Secret_Service_T65_Operative</li>
+        </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Hulk</bodyTypeMale>
+        <possessions />
+        <forcedTraits>
+            <FCP_Trait_Sharpshooter>0</FCP_Trait_Sharpshooter>
+            <FCP_Trait_Tough>0</FCP_Trait_Tough>
+        </forcedTraits>
+    </BackstoryDef>
 </Defs>

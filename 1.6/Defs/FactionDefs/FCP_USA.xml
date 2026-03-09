@@ -210,6 +210,23 @@
                 <characterChance>0.35</characterChance>
             </li>
 
+            <!-- USA Secret Service Presidential Guard -->
+
+            <li Class="FCP.Core.GroupMakerWithCustomChar">
+                <kindDef>Combat</kindDef>
+                <disallowedStrategies>
+                    <li>EmergeFromWater</li>
+                </disallowedStrategies>
+                <options>
+                    <FCP_Pawnkind_USA_Secret_Service_Agent>15</FCP_Pawnkind_USA_Secret_Service_Agent>
+                    <FCP_Pawnkind_USA_Secret_Service_Heavy_Agent>5</FCP_Pawnkind_USA_Secret_Service_Heavy_Agent>
+                </options>
+                <characterDefs>
+                    <li>FCP_Character_USA_President_Richardson</li>
+                </characterDefs>
+                <characterChance>0.75</characterChance>
+            </li>
+
             <!--__________ USA Traders __________-->
 
             <!-- USA Quartermaster -->
