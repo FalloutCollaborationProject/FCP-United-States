@@ -79,7 +79,7 @@
             <li Class="FCP.Core.CompProperties_LabelColored">
                 <rarity>Rare</rarity>
             </li>
-            <li Class="FCP.Core.TemperatureApparelPreference.CompProperties_TemperatureApparelPreference">
+            <li Class="FCP.Core.CompProperties_TemperatureApparelPreference">
               <forceBelowTempC>4</forceBelowTempC>
               <avoidAboveTempC>5</avoidAboveTempC>
             </li>
@@ -250,7 +250,7 @@
             <li Class="FCP.Core.CompProperties_LabelColored">
                 <rarity>Rare</rarity>
             </li>
-            <li Class="FCP.Core.TemperatureApparelPreference.CompProperties_TemperatureApparelPreference">
+            <li Class="FCP.Core.CompProperties_TemperatureApparelPreference">
               <forceBelowTempC>4</forceBelowTempC>
               <avoidAboveTempC>5</avoidAboveTempC>
             </li>

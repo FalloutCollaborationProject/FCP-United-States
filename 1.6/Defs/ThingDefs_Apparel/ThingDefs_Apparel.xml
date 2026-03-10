@@ -80,7 +80,7 @@
             <li Class="FCP.Core.CompProperties_LabelColored">
                 <rarity>Rare</rarity>
             </li>
-            <li Class="FCP.Core.TemperatureApparelPreference.CompProperties_TemperatureApparelPreference">
+            <li Class="FCP.Core.CompProperties_TemperatureApparelPreference">
                 <forceBelowTempC>4</forceBelowTempC>
                 <avoidAboveTempC>5</avoidAboveTempC>
             </li>
@@ -388,7 +388,7 @@
             <li Class="FCP.Core.CompProperties_LabelColored">
                 <rarity>Rare</rarity>
             </li>
-            <li Class="FCP.Core.TemperatureApparelPreference.CompProperties_TemperatureApparelPreference">
+            <li Class="FCP.Core.CompProperties_TemperatureApparelPreference">
                 <forceBelowTempC>4</forceBelowTempC>
                 <avoidAboveTempC>5</avoidAboveTempC>
             </li>
@@ -559,6 +559,10 @@
         </statBases>
         <apparel>
             <wornGraphicPath>Things/Apparel/US_Secret_Service_Armor/FCP_US_Secret_Service_Armor</wornGraphicPath>
+            <layers Inherit="False">
+                <li>Middle</li>
+                <li>Shell</li>
+            </layers>
             <tags>
                 <li>FCP_USA_Secret_Service</li>
             </tags>

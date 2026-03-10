@@ -304,7 +304,7 @@
             <!-- Make them hostile to the PRC -->
             <li Class="FCP.Factions.FactionExtension_PermanentlyHostileTo">
                 <hostileFactionDefs>
-                    <li MayRequire="Rick.FCP.PRC">FCP_Faction_Peoples_Republic_of_China</li>
+                    <li MayRequire="Rick.FCP.PRC">FCP_Faction_PRC</li>
                 </hostileFactionDefs>
             </li>
             <!-- Make them unable to use drop pods -->

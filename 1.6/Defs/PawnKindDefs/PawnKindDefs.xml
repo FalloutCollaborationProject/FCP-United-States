@@ -1209,9 +1209,9 @@
         <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
         <apparelRequired>
             <li>FCP_Apparel_USA_Secret_Service_Underarmor</li>
-            <li>FCP_Apparel_Power_Armor_Frame</li>
-            <li>FCP_Apparel_USA_T65_Power_Armor</li>
-            <li>FCP_Apparel_USA_T65_Power_Armor_Helmet</li>
+            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
+            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_USA_T65_Power_Armor</li>
+            <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_USA_T65_Power_Armor_Helmet</li>
         </apparelRequired>
         <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
         <weaponMoney>9999</weaponMoney>
