@@ -96,7 +96,7 @@
 
     <!-- US Marine Armor Base -->
 
-    <ThingDef Name="FCP_Apparel_USA_Marine_Armor_Base" Abstract="True" ParentName="ApparelBase">
+    <ThingDef Name="FCP_Apparel_USA_Marine_Armor_Base" Abstract="True" ParentName="FCP_Apparel_Base">
         <smeltable>false</smeltable>
         <thingCategories>
             <li>ApparelArmor</li>
@@ -165,7 +165,7 @@
 
     <!-- US Marine Wetsuit -->
 
-    <ThingDef ParentName="ApparelBase">
+    <ThingDef ParentName="FCP_Apparel_Base">
         <defName>FCP_Apparel_USA_Marine_Wetsuit</defName>
         <description>A specialized wetsuit worn by United States Marine Corps divers and amphibious assault teams. Made from advanced neoprene composite, it provides thermal insulation and environmental protection while maintaining flexibility for underwater operations. Designed to be worn under marine armor during amphibious missions.</description>
         <label>US Marine Wetsuit</label>
@@ -174,7 +174,6 @@
             <texPath>Things/Apparel/US_Marine_Wetsuit/FCP_Marine_Wetsuit</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <techLevel>Industrial</techLevel>
         <statBases>
             <MaxHitPoints>120</MaxHitPoints>
             <MarketValue>280</MarketValue>
@@ -261,26 +260,21 @@
 
     <!-- US General Uniform-->
 
-    <ThingDef ParentName="ApparelMakeableBase">
+    <ThingDef ParentName="FCP_Apparel_Makeable_Base">
         <defName>FCP_Apparel_US_Generals_Uniform</defName>
         <label>US General Uniform</label>
         <description>A distinguished uniform issued to generals of the United States Army, symbolizing command and tradition. Its immaculate condition and ornate details reflect the prestige and authority of America's military leadership.</description>
         <recipeMaker>
             <researchPrerequisite>FCP_Research_MilitaryUniforms</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <graphicData>
             <texPath>Things/Apparel/US_Army_Generals_Outfit/FCP_US_Army_General_Outfit</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <techLevel>Industrial</techLevel>
         <costList>
             <Cloth>150</Cloth>
         </costList>
@@ -330,26 +324,21 @@
 
     <!-- Winterized US General Uniform-->
 
-    <ThingDef ParentName="ApparelMakeableBase">
+    <ThingDef ParentName="FCP_Apparel_Makeable_Base">
         <defName>FCP_Apparel_US_Winterized_Generals_Uniform</defName>
         <label>Winterized US General Uniform</label>
         <description>A winterized uniform issued to generals of the United States Army, symbolizing command and tradition. Enhanced with insulated lining and weatherproof materials, it provides warmth and protection in cold climates while maintaining the prestige and authority of America's military leadership.</description>
         <recipeMaker>
             <researchPrerequisite>FCP_Research_MilitaryUniforms</researchPrerequisite>
-            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Tailoring_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <graphicData>
             <texPath>Things/Apparel/US_Army_Winter_Generals_Outfit/FCP_US_Army_Winter_General_Outfit</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>0.90</drawSize>
         </graphicData>
-        <techLevel>Industrial</techLevel>
         <costList>
             <Cloth>150</Cloth>
         </costList>
