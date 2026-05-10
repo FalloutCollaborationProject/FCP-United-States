@@ -252,7 +252,7 @@
             </li>
         </comps>
         <modExtensions>
-            <li Class="IgnoreConfigErrors.Ignore_ForcedMissRadius" />
+            <li Class="FCP.Core.Ignore_ForcedMissRadius" />
         </modExtensions>
     </ThingDef> -->
 

@@ -642,7 +642,7 @@
             <li>FCP_Power_Armor_Advanced</li>
         </tradeTags>
         <modExtensions>
-            <li Class="FCP.ApparelExtensions.ApparelExtension">
+            <li Class="FCP.Core.ApparelExtension">
                 <shouldHideBody>True</shouldHideBody>
                 <displayBodyType>Hulk</displayBodyType>
             </li>
