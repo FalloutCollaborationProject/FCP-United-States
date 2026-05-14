@@ -84,6 +84,11 @@
             <li Class="FCP.Core.CompProperties_LabelColored">
                 <rarity>Rare</rarity>
             </li>
+            <li Class="FCP.Core.WeaponCondition.CompProperties_WeaponCondition">
+                <conditionLossPerShot>0.12</conditionLossPerShot>
+                <jamThreshold>30</jamThreshold>
+                <maxJamChance>0.15</maxJamChance>
+            </li>
         </comps>
     </ThingDef>
 
@@ -335,6 +340,11 @@
         <comps>
             <li Class="FCP.Core.CompProperties_LabelColored">
                 <rarity>Rare</rarity>
+            </li>
+            <li Class="FCP.Core.WeaponCondition.CompProperties_WeaponCondition">
+                <conditionLossPerShot>0.12</conditionLossPerShot>
+                <jamThreshold>30</jamThreshold>
+                <maxJamChance>0.15</maxJamChance>
             </li>
         </comps>
     </ThingDef>
